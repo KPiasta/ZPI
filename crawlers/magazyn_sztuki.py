@@ -33,7 +33,7 @@ def run_list_artists(manager,phrase):
     pages = set()
     file = open("files_stuff/result/result.txt", "w", encoding='utf-8')
     url = 'http://www.magazynsztuki.pl/page/1/?s=' + to_find
-    check_pages_list(manager,url,phrase,pages,file)
+    check_pages_list(manager,url,phrase,pages,file,[],[])
 
 
 def check_pages(manager,pageUrl,phrase,pages):
@@ -63,34 +63,42 @@ def check_pages(manager,pageUrl,phrase,pages):
     except:
         return
 
-def check_pages_list(manager,pageUrl,phrase,pages,file):
+def check_pages_list(manager,pageUrl,phrase,pages,file,l1,l2):
     html = urlopen(pageUrl)
     bs = BeautifulSoup(html, 'html.parser')
     posts = bs.find_all('div', {'class': 'post'})
-
+    listLink =l1
+    listNames = l2
     for post in posts:
         try:
             if "malarze" in post.h5.a['href']:
-                file.write(post.h4.text+" "+post.h4.a['href']+"\n")
-                #painter.new_crawler_data_list(post.h4.a['href'], "link")
-                #painter.new_crawler_data_list(post.h4.text,"imie")
+                #file.write(post.h4.text+" "+post.h4.a['href']+"\n")
+                listLink.append(post.h4.a['href'])
+                listNames.append(post.h4.text)
 
                 #manager.add_temp_painter(painter)
 
         except:
             continue
 
+
     link = bs.find('a', href=re.compile('http://www.magazynsztuki.pl/page/.*/?s='))
-    try:
-        if 'href' in link.attrs:
-             if link.attrs['href'] not in pages:
-                newPage = link.attrs['href']
-                pages.add(newPage)
-                check_pages_list(manager,newPage, phrase, pages)
-    except:
-        file.close()
-        manager.add_temp_painter(painter)
-        return
+
+    if 'href' in link.attrs:
+        if link.attrs['href'] not in pages:
+            print(link.attrs['href'])
+
+            newPage = link.attrs['href']
+            pages.add(newPage)
+            check_pages_list(manager,newPage, phrase, pages,file,listLink,listNames)
+        else:
+            file.close()
+            print(listLink)
+            print(listNames)
+            painter.new_crawler_data_list(listLink, "link")
+            painter.new_crawler_data_list(listNames, "imie")
+            manager.add_temp_painter(painter)
+            return
 
 
 def retrive_info(link):

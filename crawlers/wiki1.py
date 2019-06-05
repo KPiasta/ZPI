@@ -15,10 +15,26 @@ months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca
 def get_list(*names):
     dict = {}
     print(names)
-    url = "https://pl.wikipedia.org/w/index.php?search="
+    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=500&offset=0&profile=default&search="
     for name in names:
 
         url += name+ "+"
+    url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
+    print(url)
+
+    source_code = requests.get(url).text
+    soup = BeautifulSoup(source_code, features="html.parser")
+    component = soup.find_all('li', class_="mw-search-result")
+    wiki_prefix = "https://pl.wikipedia.org"
+    for c in component:
+        x = wiki_prefix+c.find('a')['href']
+        check_if_painter(x, dict)
+    return dict
+
+def get_list_kategory(name):
+    dict = {}
+    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
+    url += name+ "+"+"malarz"
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
     print(url)
 
@@ -47,6 +63,17 @@ def convert_phrase(phrase):
     phrase = phrase.replace('%C3%B3', 'ó')
     phrase = phrase.replace('%C4%99', 'ę')
     phrase = phrase.replace('%C5%9B', 'ś')
+    phrase = phrase.replace('%C3%A1','á')
+    phrase = phrase.replace('%C3%A9', 'é')
+    phrase = phrase.replace('%C3%AD', 'í')
+    phrase = phrase.replace('%C3%B1', 'ñ')
+    phrase = phrase.replace('%C3%BC', 'ü')
+    phrase = phrase.replace('%C3%81', 'Á')
+    phrase = phrase.replace('%C3%89', 'É')
+    phrase = phrase.replace('%C5%BB', 'Ż')
+    phrase = phrase.replace('%C5%B9', 'Ź')
+    phrase = phrase.replace('%C5%81', 'Ł')
+
     return phrase
 
 def check_if_painter(url, dict):
@@ -63,6 +90,8 @@ def check_if_painter(url, dict):
 
 
             name = name[:-1]
+            if '(malarz)' in name:
+                name = name.replace(' (malarz)','')
             dict[name] = url
 
 def get_raw_text(soup):
