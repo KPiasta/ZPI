@@ -1,8 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
 from manager.Painter import Painter
-from manager.Manager import Manager
-
 
 
 key_words =['Malarze', 'malarze']
@@ -12,13 +10,11 @@ months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca
 
 
 
-def get_list(*names):
-    dict = {}
-    print(names)
-    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=500&offset=0&profile=default&search="
-    for name in names:
 
-        url += name+ "+"
+def get_list(names):
+    array = []
+    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
+    url += names
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
     print(url)
 
@@ -27,12 +23,12 @@ def get_list(*names):
     component = soup.find_all('li', class_="mw-search-result")
     wiki_prefix = "https://pl.wikipedia.org"
     for c in component:
-        x = wiki_prefix+c.find('a')['href']
-        check_if_painter(x, dict)
-    return dict
+        x = wiki_prefix + c.find('a')['href']
+        check_if_painter(x, array)
+    return array
 
 def get_list_kategory(name):
-    dict = {}
+    array = []
     url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
     url += name+ "+"+"malarz"
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
@@ -44,8 +40,8 @@ def get_list_kategory(name):
     wiki_prefix = "https://pl.wikipedia.org"
     for c in component:
         x = wiki_prefix+c.find('a')['href']
-        check_if_painter(x, dict)
-    return dict
+        check_if_painter(x, array)
+    return array
 
 def check_if_category_contains_key_word(category):
     for key in key_words:
@@ -76,7 +72,7 @@ def convert_phrase(phrase):
 
     return phrase
 
-def check_if_painter(url, dict):
+def check_if_painter(url, array):
 
     source_code = requests.get(url).text
     soup = BeautifulSoup(source_code, features="html.parser")
@@ -92,7 +88,8 @@ def check_if_painter(url, dict):
             name = name[:-1]
             if '(malarz)' in name:
                 name = name.replace(' (malarz)','')
-            dict[name] = url
+            array.append(name)
+    return array
 
 def get_raw_text(soup):
 
@@ -159,10 +156,28 @@ def find_work_of_arts(soup):
                                 paintings.append(i.find('a').getText())
     return paintings
 
-def run(manager, url):
 
+def format(args):
+    i = 0
+    wiki_request_format = ''
+    for n in args.split(' '):
+        wiki_request_format += n
+        if i != len(args) - 1:
+            wiki_request_format += '_'
+        i = i + 1
+    wiki_request_format = wiki_request_format[:-1]
+    return wiki_request_format
+
+def set_up_url(name):
+    painter = format(name)
+    url = 'https://pl.wikipedia.org/wiki/' + painter
     source_code = requests.get(url).text
-    soup = BeautifulSoup(source_code, features="html.parser")
+    return BeautifulSoup(source_code, features="html.parser")
+
+def run(manager, name):
+
+
+    soup = set_up_url(name)
 
     painter = Painter("wikipedia")
     painter.new_temp_text(get_raw_text(soup))
@@ -218,7 +233,7 @@ def run(manager, url):
 
 
 
-# manager = Manager("Edward", "Mesjasz")
-# url = get_list("Edward Mesjasz").get("Edward Mesjasz")
+#print(get_list_kategory("Leonardo da Vinci"))
+#
 # run(manager, url)
 
