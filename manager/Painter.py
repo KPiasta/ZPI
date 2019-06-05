@@ -45,6 +45,16 @@ class Painter:
 
         self.crawler_name = crawler_name
 
+    def dump_names(self):
+        to_return = ""
+
+        if bool(self.name_dict) is False:
+            to_return += "<no data>" + "\n"
+        else:
+            for keys, values in self.name_dict.items():
+                to_return += str(keys)+"\n"
+        return to_return
+
     def set_queries(self, name_query, surname_query):
         self.name_query = name_query
         self.surname_query = surname_query

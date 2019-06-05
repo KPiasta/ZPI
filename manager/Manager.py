@@ -20,10 +20,10 @@ class Manager:
         self.main_painter.sort_dictionaries()
         self.saver.save_final_file(self.main_painter.text_dump(),path)
 
-    def  run_list(self,path):
+    def run_list(self,path):
         self.merge_painters()
         self.main_painter.sort_dictionaries()
-        self.saver.save_final_file(self.main_painter.text_dump(),path)
+        self.saver.save_final_file(self.main_painter.dump_names(),path)
 
     def add_temp_painter(self, painter):
         self.temp_painters_list.append(painter)
