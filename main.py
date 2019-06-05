@@ -5,8 +5,8 @@ import sys
 
 def main():
 
-    name = "Zdzisław"
-    surname = "Beksiński"
+    name = ""
+    surname = ""
     param = 0
     path =""
     query=''
@@ -25,6 +25,7 @@ def main():
                 name = query_list[0].strip()
                 surname = query[len(name):].strip()
             else:
+                name = ""
                 surname = query
         manager = Manager(name, surname)
         ms.run_individual(manager, surname)
@@ -40,6 +41,7 @@ def main():
                 name = query_list[0].strip()
                 surname = query[len(name):].strip()
             else:
+                name = ""
                 surname = query
         manager = Manager(name, surname)
         ms.run_list_artists(manager, surname)

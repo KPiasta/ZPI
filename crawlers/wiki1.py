@@ -14,7 +14,7 @@ months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca
 def get_list(manager, names):
     array = []
     painter = Painter("wikipedia")
-    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=20&offset=0&profile=default&search="
+    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
     url += names
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
     print(url)
@@ -26,6 +26,7 @@ def get_list(manager, names):
     for c in component:
         x = wiki_prefix + c.find('a')['href']
         check_if_painter(x, array)
+    print(array)
     painter.new_crawler_data_list(array, "imie")
     manager.add_temp_painter(painter)
     return array

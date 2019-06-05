@@ -38,6 +38,9 @@ def run_list_artists(manager,phrase):
 def check_pages(manager,pageUrl,phrase,pages):
     html = urlopen(pageUrl)
     bs = BeautifulSoup(html, 'html.parser')
+    search = bs.find('div', {'class': 'left-content'})
+    if(search.h2.text=="No posts found. Try a different search?" or phrase==""):
+        return
     posts = bs.find_all('div', {'class': 'post'})
     for post in posts:
         try:
@@ -65,6 +68,9 @@ def check_pages(manager,pageUrl,phrase,pages):
 def check_pages_list(manager,pageUrl,phrase,pages,l1,l2):
     html = urlopen(pageUrl)
     bs = BeautifulSoup(html, 'html.parser')
+    search = bs.find('div', {'class': 'left-content'})
+    if (search.h2.text == "No posts found. Try a different search?" or phrase == ""):
+        return
     posts = bs.find_all('div', {'class': 'post'})
     listLink =l1
     listNames = l2
@@ -145,13 +151,27 @@ def get_category(url):
 
 
 def convert_phrase(phrase):
-    phrase = phrase.replace('ł','%C5%82')
-    phrase = phrase.replace('ą','%C4%85')
-    phrase = phrase.replace('ż', '%C5%BC')
-    phrase = phrase.replace('ź', '%C5%BA')
-    phrase = phrase.replace('ć', '%C4%87')
-    phrase = phrase.replace('ń', '%C5%84')
-    phrase = phrase.replace('ó', '%C3%B3')
-    phrase = phrase.replace('ę', '%C4%99')
-    phrase = phrase.replace('ś', '%C5%9B')
+    phrase = phrase.replace('%C5%82','ł')
+    phrase = phrase.replace('%C4%85','ą')
+    phrase = phrase.replace('%C5%BC','ż')
+    phrase = phrase.replace('%C5%BA', 'ź')
+    phrase = phrase.replace('%C4%87', 'ć')
+    phrase = phrase.replace('%C5%84','ń')
+    phrase = phrase.replace('%C3%B3', 'ó')
+    phrase = phrase.replace('%C4%99', 'ę')
+    phrase = phrase.replace('%C5%9B', 'ś')
+    phrase = phrase.replace('%C3%A1','á')
+    phrase = phrase.replace('%C3%A9', 'é')
+    phrase = phrase.replace('%C3%AD', 'í')
+    phrase = phrase.replace('%C3%B1', 'ñ')
+    phrase = phrase.replace('%C3%BC', 'ü')
+    phrase = phrase.replace('%C3%81', 'Á')
+    phrase = phrase.replace('%C3%89', 'É')
+    phrase = phrase.replace('%C5%BB', 'Ż')
+    phrase = phrase.replace('%C5%B9', 'Ź')
+    phrase = phrase.replace('%C5%81', 'Ł')
+    phrase = phrase.replace('%C3%93', 'Ó')
+    phrase = phrase.replace('%C5%9A', 'Ś')
+    phrase = phrase.replace('%C5%99', 'ř')
+
     return phrase
