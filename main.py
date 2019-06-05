@@ -13,8 +13,9 @@ def main():
     path = sys.argv[2]
     param = sys.argv[3]
 
-    if param == 0:
 
+    if param == '0':
+        
         if query is not None:
             query_list = query.split(" ")
             if len(query_list) >= 2:
@@ -25,7 +26,7 @@ def main():
 
         manager.run(path)
 
-    elif param == 1:
+    elif param == '1':
 
         if query is not None:
             query_list = query.split(" ")
@@ -37,9 +38,9 @@ def main():
 
         manager.run_list(path)
 
-    elif param == 2:
-        
-        manager = Manager(name, surname)
+    elif param == '2':
+
+        manager = Manager("", "")
         ms.run_list_artists(manager, query)
 
         manager.run_list(path)
