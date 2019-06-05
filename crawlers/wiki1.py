@@ -13,6 +13,9 @@ months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca
 
 def get_list(manager, names):
     array = []
+    if names == '':
+        return array
+
     painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
     url += names
@@ -32,6 +35,9 @@ def get_list(manager, names):
 
 def get_list_kategory(manager, name):
     array = []
+    if name == '':
+        return array
+
     painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
     url += name+ "+"+"malarz"
@@ -239,7 +245,7 @@ def run(manager, name):
 
 
 
-#print(get_list_kategory("Leonardo da Vinci"))
+print(get_list_kategory(""))
 #
-# run(manager, url)
+#run(manager, url)
 
