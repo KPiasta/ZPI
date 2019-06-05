@@ -11,7 +11,7 @@ from urllib.parse import quote
 
 
 Saver = Saver()
-painter = Painter("magzyn_sztuki")
+painter = Painter("magazyn_sztuki")
 
 
 #start method
@@ -31,9 +31,8 @@ def run_list_artists(manager,phrase):
     phrase=unidecode(phrase)
     phrase= phrase.lower()
     pages = set()
-    file = open("files_stuff/result/result.txt", "w", encoding='utf-8')
     url = 'http://www.magazynsztuki.pl/page/1/?s=' + to_find
-    check_pages_list(manager,url,phrase,pages,file,[],[])
+    check_pages_list(manager,url,phrase,pages,[],[])
 
 
 def check_pages(manager,pageUrl,phrase,pages):
@@ -63,7 +62,7 @@ def check_pages(manager,pageUrl,phrase,pages):
     except:
         return
 
-def check_pages_list(manager,pageUrl,phrase,pages,file,l1,l2):
+def check_pages_list(manager,pageUrl,phrase,pages,l1,l2):
     html = urlopen(pageUrl)
     bs = BeautifulSoup(html, 'html.parser')
     posts = bs.find_all('div', {'class': 'post'})
@@ -86,15 +85,11 @@ def check_pages_list(manager,pageUrl,phrase,pages,file,l1,l2):
 
     if 'href' in link.attrs:
         if link.attrs['href'] not in pages:
-            print(link.attrs['href'])
 
             newPage = link.attrs['href']
             pages.add(newPage)
-            check_pages_list(manager,newPage, phrase, pages,file,listLink,listNames)
+            check_pages_list(manager,newPage, phrase, pages,listLink,listNames)
         else:
-            file.close()
-            print(listLink)
-            print(listNames)
             painter.new_crawler_data_list(listLink, "link")
             painter.new_crawler_data_list(listNames, "imie")
             manager.add_temp_painter(painter)
@@ -135,7 +130,6 @@ def get_category(url):
     categories = bs.find_all('a',{'rel': 'category tag'})
     for category in categories:
         if len(lista)==0 or lista[0]!=category.get_text():
-            print(category.get_text())
             lista.append(category.get_text())
     painter.new_crawler_data_list(lista,"kategoria")
     #f.close
