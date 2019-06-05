@@ -17,7 +17,7 @@ def get_list(manager, names):
         return array
 
     painter = Painter("wikipedia")
-    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
+    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=20offset=0&profile=default&search="
     url += names
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
     print(url)
@@ -246,7 +246,7 @@ def run(manager, name):
 
 
 
-print(get_list_kategory(""))
+#print(get_list_kategory(""))
 #
 #run(manager, url)
 

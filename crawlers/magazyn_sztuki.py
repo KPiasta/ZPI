@@ -39,8 +39,10 @@ def check_pages(manager,pageUrl,phrase,pages):
     html = urlopen(pageUrl)
     bs = BeautifulSoup(html, 'html.parser')
     search = bs.find('div', {'class': 'left-content'})
+    
     if(search.h2.text=="No posts found. Try a different search?" or phrase==""):
         return
+        
     posts = bs.find_all('div', {'class': 'post'})
     for post in posts:
         try:
