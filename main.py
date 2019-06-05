@@ -7,22 +7,42 @@ def main():
 
     name = "Zdzisław"
     surname = "Beksiński"
+    param = 0
 
+    query = sys.argv[1]
+    path = sys.argv[2]
+    param = sys.argv[3]
 
-    query = None
-    if len(sys.argv) >= 2:
-        query = sys.argv[1]
-        path = sys.argv[2]
+    if param == 0:
 
-    if query is not None:
-        query_list = query.split(" ")
-        if len(query_list) >= 2:
-            name = query_list[0].strip()
-            surname = query[len(name):].strip()
+        if query is not None:
+            query_list = query.split(" ")
+            if len(query_list) >= 2:
+                name = query_list[0].strip()
+                surname = query[len(name):].strip()
+        manager = Manager(name, surname)
+        ms.run_individual(manager, surname)
 
+        manager.run(path)
 
+    elif param == 1:
 
-    manager = Manager(name, surname)
+        if query is not None:
+            query_list = query.split(" ")
+            if len(query_list) >= 2:
+                name = query_list[0].strip()
+                surname = query[len(name):].strip()
+        manager = Manager(name, surname)
+        ms.run_list_artists(manager, surname)
+
+        manager.run_list(path)
+
+    elif param == 2:
+        
+        manager = Manager(name, surname)
+        ms.run_list_artists(manager, query)
+
+        manager.run_list(path)
 
     #print(name +" "+ surname)
 
@@ -39,11 +59,12 @@ def main():
 
     #manager.run()
 
-    ms.run_individual(manager,surname)
-    wiki1.run(manager, name, surname)
-    manager.run(path)
+   # ms.run_individual(manager,surname)
+    #wiki1.run(manager, name, surname)
+   # manager.run(path)
 
     #print(wiki1.get_list_kategory("romantyzm"))
+
 
 if __name__ == "__main__":
     main()

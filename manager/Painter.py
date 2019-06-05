@@ -45,6 +45,16 @@ class Painter:
 
         self.crawler_name = crawler_name
 
+    def dump_names(self):
+        to_return = ""
+
+        if bool(self.name_dict) is False:
+            to_return += "<no data>" + "\n"
+        else:
+            for keys, values in self.name_dict.items():
+                to_return += str(keys)+"\n"
+        return to_return
+
     def set_queries(self, name_query, surname_query):
         self.name_query = name_query
         self.surname_query = surname_query
@@ -80,31 +90,14 @@ class Painter:
         to_print += self.print_dictionary("[Education]:", self.education_dict)
 
         to_print += end_line + end_line
-        to_print += "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + end_line
-        to_print += "RAW TEXTS" + end_line
-        to_print += "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + end_line + end_line
 
         for crawler, text in self.raw_texts.items():
-            to_print += "~~~~~~~~~~~~~" + end_line
-            to_print += "SOURCE ["+crawler+"]"+end_line
-            to_print += "~~~~~~~~~~~~~" + end_line
+            to_print += end_line
+            to_print += "["+crawler+"]:"+end_line
             to_print += text
             to_print += end_line + end_line
 
-        to_print += "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + end_line
-        to_print += self.print_dictionary("GALLERY:", self.link_dict)
-
-        return to_print
-
-    def text_dump_many(self):
-        to_print = ""
-        to_print += self.print_dictionary(self.name_dict)
-
-    def text_dump_list(self):
-        end_line = "\n"
-
-        to_print = self.print_dictionary("[Name]:", self.name_dict)
-        to_print += self.print_dictionary("GALLERY:", self.link_dict)
+        to_print += self.print_dictionary("[GALLERY]:", self.link_dict)
 
         return to_print
 
