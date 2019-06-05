@@ -8,21 +8,27 @@ def main():
     name = "Zdzisław"
     surname = "Beksiński"
     param = 0
+    path =""
+    query=''
 
-    query = sys.argv[1]
-    path = sys.argv[2]
-    param = sys.argv[3]
+    if len(sys.argv)==4:
+        query = sys.argv[1]
+        path = sys.argv[2]
+        param = sys.argv[3]
 
 
     if param == '0':
-        
+
         if query is not None:
             query_list = query.split(" ")
             if len(query_list) >= 2:
                 name = query_list[0].strip()
                 surname = query[len(name):].strip()
+            else:
+                surname = query
         manager = Manager(name, surname)
         ms.run_individual(manager, surname)
+        wiki1.run(manager,query)
 
         manager.run(path)
 
@@ -33,8 +39,11 @@ def main():
             if len(query_list) >= 2:
                 name = query_list[0].strip()
                 surname = query[len(name):].strip()
+            else:
+                surname = query
         manager = Manager(name, surname)
         ms.run_list_artists(manager, surname)
+        wiki1.get_list(manager, query)
 
         manager.run_list(path)
 
@@ -42,7 +51,7 @@ def main():
 
         manager = Manager("", "")
         ms.run_list_artists(manager, query)
-
+        wiki1.get_list_kategory(manager, query)
         manager.run_list(path)
 
     #print(name +" "+ surname)
