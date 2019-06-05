@@ -83,17 +83,25 @@ def check_pages_list(manager,pageUrl,phrase,pages,l1,l2):
 
     link = bs.find('a', href=re.compile('http://www.magazynsztuki.pl/page/.*/?s='))
 
-    if 'href' in link.attrs:
-        if link.attrs['href'] not in pages:
 
-            newPage = link.attrs['href']
-            pages.add(newPage)
-            check_pages_list(manager,newPage, phrase, pages,listLink,listNames)
-        else:
-            painter.new_crawler_data_list(listLink, "link")
-            painter.new_crawler_data_list(listNames, "imie")
-            manager.add_temp_painter(painter)
-            return
+    try:
+        if 'href' in link.attrs:
+            if link.attrs['href'] not in pages:
+
+                newPage = link.attrs['href']
+                pages.add(newPage)
+                check_pages_list(manager,newPage, phrase, pages,listLink,listNames)
+            else:
+                painter.new_crawler_data_list(listLink, "link")
+                painter.new_crawler_data_list(listNames, "imie")
+                manager.add_temp_painter(painter)
+                return
+    except:
+        painter.new_crawler_data_list(listLink, "link")
+        painter.new_crawler_data_list(listNames, "imie")
+        manager.add_temp_painter(painter)
+        return
+
 
 
 def retrive_info(link):
