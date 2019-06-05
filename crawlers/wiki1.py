@@ -11,8 +11,9 @@ months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca
 
 
 
-def get_list(names):
+def get_list(manager, names):
     array = []
+    painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
     url += names
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
@@ -25,10 +26,13 @@ def get_list(names):
     for c in component:
         x = wiki_prefix + c.find('a')['href']
         check_if_painter(x, array)
+    painter.new_crawler_data_list(array, "imie")
+    manager.add_temp_painter(painter)
     return array
 
-def get_list_kategory(name):
+def get_list_kategory(manager, name):
     array = []
+    painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
     url += name+ "+"+"malarz"
     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
@@ -41,6 +45,8 @@ def get_list_kategory(name):
     for c in component:
         x = wiki_prefix+c.find('a')['href']
         check_if_painter(x, array)
+    painter.new_crawler_data_list(array, "imie")
+    manager.add_temp_painter(painter)
     return array
 
 def check_if_category_contains_key_word(category):
