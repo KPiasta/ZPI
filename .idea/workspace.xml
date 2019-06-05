@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9851bbf8-66ba-4aa3-bb6c-7408a18abc9e" name="Default Changelist" comment="" />
+    <list default="true" id="9851bbf8-66ba-4aa3-bb6c-7408a18abc9e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlers/generic.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/generic.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawlers/wiki.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/wiki.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,17 +15,17 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/ZPI$touchofart.coverage" NAME="touchofart Coverage Results" MODIFIED="1559161597663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
     <SUITE FILE_PATH="coverage/ZPI$wiki1.coverage" NAME="wiki1 Coverage Results" MODIFIED="1559213274800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
-    <SUITE FILE_PATH="coverage/ZPI$wiki.coverage" NAME="wiki Coverage Results" MODIFIED="1559150554131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
+    <SUITE FILE_PATH="coverage/ZPI$wiki.coverage" NAME="wiki Coverage Results" MODIFIED="1559396246184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
     <SUITE FILE_PATH="coverage/ZPI$test.coverage" NAME="test Coverage Results" MODIFIED="1558302724611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
-    <SUITE FILE_PATH="coverage/ZPI$generic.coverage" NAME="generic Coverage Results" MODIFIED="1559150801046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
+    <SUITE FILE_PATH="coverage/ZPI$generic.coverage" NAME="generic Coverage Results" MODIFIED="1559395225360" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawlers" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/crawlers/wiki.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2618">
-              <caret line="190" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="28" />
+            <state relative-caret-position="17">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -56,10 +60,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawlers/magazyn_sztuki.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
+            <state relative-caret-position="1300">
               <caret line="96" column="14" selection-start-line="94" selection-end-line="104" selection-end-column="17" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/crawlers/generic.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="569">
+              <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1559394665510" expanded="true" signature="2323:2493" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,6 +107,13 @@
       <find>class</find>
       <find>get_raw</find>
       <find>dict</find>
+      <find>class=&quot;r&quot;</find>
+      <find>Chmielowiec Adam -</find>
+      <find>&quot;&quot;</find>
+      <find>https://culture.pl/pl/tworca/laura-pawela&amp;sa=U&amp;ved=2ahUKEwim19fUisjiAhWGRBUIHUSUANYQFjAAegQIAhAB&amp;usg=AOvVaw2E-lpDQ7l3zS6DK0PqCG9E</find>
+      <find>div class =</find>
+      <find>id</find>
+      <find>replł</find>
     </findStrings>
     <dirStrings>
       <dir>C:\Users\kpiasta\Desktop\ZPI</dir>
@@ -104,18 +128,18 @@
         <option value="$PROJECT_DIR$/crawlers/magazyn_sztuki.py" />
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/crawlers/generic.py" />
         <option value="$PROJECT_DIR$/crawlers/touchofart.py" />
         <option value="$PROJECT_DIR$/crawlers/wiki1.py" />
+        <option value="$PROJECT_DIR$/crawlers/generic.py" />
         <option value="$PROJECT_DIR$/crawlers/wiki.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1871" />
-    <option name="y" value="69" />
-    <option name="width" value="1939" />
-    <option name="height" value="1099" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
+    <option name="height" value="1097" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -166,7 +190,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.wiki1">
+  <component name="RunManager" selected="Python.wiki">
     <configuration name="generic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ZPI" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -279,10 +303,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.wiki" />
+        <item itemvalue="Python.generic" />
         <item itemvalue="Python.wiki1" />
         <item itemvalue="Python.touchofart" />
-        <item itemvalue="Python.generic" />
-        <item itemvalue="Python.wiki" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -302,16 +326,18 @@
       <workItem from="1559146057244" duration="13614000" />
       <workItem from="1559171377995" duration="7627000" />
       <workItem from="1559214513460" duration="302000" />
+      <workItem from="1559215045850" duration="1117000" />
+      <workItem from="1559381762634" duration="12413000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29111000" />
+    <option name="totallyTimeSpent" value="42641000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25746268" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33042896" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -325,7 +351,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4539545" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4539545" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -334,27 +360,27 @@
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="4" />
-      <window_info anchor="bottom" id="Python Console" order="5" />
-      <window_info anchor="bottom" id="Message" order="6" />
-      <window_info anchor="bottom" id="Find" order="7" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.32956153" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="right" id="Database" order="0" />
-      <window_info anchor="right" id="SciView" order="1" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.687974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997833" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.4539545" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,20 +418,30 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/images.jpg" />
-    <entry file="file://$PROJECT_DIR$/crawlers/generic.py">
+    <entry file="file://$PROJECT_DIR$/crawlers/touchofart.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="43" />
+        <state relative-caret-position="42">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawlers/touchofart.py">
+    <entry file="file://$PROJECT_DIR$/crawlers/magazyn_sztuki.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
+        <state relative-caret-position="1300">
+          <caret line="96" column="14" selection-start-line="94" selection-end-line="104" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/Painter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2142">
+          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -422,40 +458,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manager/Painter.py">
+    <entry file="file://$PROJECT_DIR$/crawlers/generic.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2142">
-          <caret line="126" column="8" selection-start-line="126" selection-start-column="8" selection-end-line="126" selection-end-column="8" />
+        <state relative-caret-position="569">
+          <caret line="105" column="32" lean-forward="true" selection-start-line="105" selection-start-column="32" selection-end-line="105" selection-end-column="32" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawlers/magazyn_sztuki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="96" column="14" selection-start-line="94" selection-end-line="104" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <marker date="1559394665510" expanded="true" signature="2323:2493" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/crawlers/wiki.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="26" selection-start-line="17" selection-start-column="26" selection-end-line="17" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawlers/wiki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2618">
-          <caret line="190" selection-start-line="190" selection-start-column="2" selection-end-line="190" selection-end-column="28" />
+        <state relative-caret-position="17">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>

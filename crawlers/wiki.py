@@ -41,12 +41,13 @@ def convert_phrase(phrase):
     phrase = phrase.replace('%C5%82','ł')
     phrase = phrase.replace('%C4%85','ą')
     phrase = phrase.replace('%C5%BC','ż')
-    phrase = phrase.replace('%C5%BA', 'ź')
-    phrase = phrase.replace('%C4%87', 'ć')
+    phrase = phrase.replace('%C5%BA','ź')
+    phrase = phrase.replace('%C4%87','ć')
     phrase = phrase.replace('%C5%84','ń')
-    phrase = phrase.replace('%C3%B3', 'ó')
-    phrase = phrase.replace('%C4%99', 'ę')
-    phrase = phrase.replace('%C5%9B', 'ś')
+    phrase = phrase.replace('%C3%B3','ó')
+    phrase = phrase.replace('%C4%99','ę')
+    phrase = phrase.replace('%C5%9B','ś')
+    phrase = phrase.replace('%C3%A9','é')
     return phrase
 
 def check_if_painter(url, dict):
@@ -59,7 +60,8 @@ def check_if_painter(url, dict):
 
             name = ""
             for n in url.replace("https://pl.wikipedia.org/wiki/","").split("_"):
-                name += convert_phrase(n)+" "
+                n = convert_phrase(n)
+                name +=n+" "
 
 
             name = name[:-1]
@@ -199,9 +201,12 @@ x = "Leonardo", "da Vinci"
 # x = "wojciech", "pukocz"
 # x = "Zofia Albinowska-Minkiewiczowa"
 
-manager = Manager("Edward", "Mesjasz")
-url = get_list("Edward Mesjasz").get("Edward Mesjasz")
-run(manager, url)
+# manager = Manager("Edward", "Mesjasz")
+# url = get_list("Edward Mesjasz").get("Edward Mesjasz")
+# run(manager, url)
+
+manager = Manager("test", "test")
+print(get_list("malarze Impresjoniści"))
 # # # print("=====================================")
 # # get_url("Leonardo", "da", "Vinci")
 # # # print("=====================================")
