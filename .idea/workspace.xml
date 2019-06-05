@@ -2,200 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9851bbf8-66ba-4aa3-bb6c-7408a18abc9e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/.vs/config/applicationhost.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/.vs/config/applicationhost.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/App_Start/BundleConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/App_Start/BundleConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/App_Start/RouteConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/App_Start/RouteConfig.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Bundle.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Bundle.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/Site.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/Site.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Content/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Default.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Default.aspx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Default.aspx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Default.aspx.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Default.aspx.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Default.aspx.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Details.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Details.aspx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Details.aspx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Details.aspx.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Details.aspx.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Details.aspx.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/DirectoryHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/DirectoryHelper.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Global.asax" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Global.asax" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Global.asax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Global.asax.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Properties/AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Properties/AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/DetailsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/DetailsView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/Focus.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/Focus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/GridView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/GridView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MenuStandards.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/MenuStandards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/SmartNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/SmartNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/TreeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/TreeView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/WebForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/WebForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/WebParts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/WebParts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/WebUIValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/WebForms/WebUIValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.intellisense.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.intellisense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/jquery-3.3.1.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/modernizr-2.8.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Scripts/modernizr-2.8.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/SearchResults.aspx" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/SearchResults.aspx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/SearchResults.aspx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/SearchResults.aspx.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/SearchResults.aspx.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/SearchResults.aspx.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Master" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Master" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Master.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Master.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Master.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Master.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Mobile.Master" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Mobile.Master" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Mobile.Master.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Mobile.Master.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Mobile.Master.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Site.Mobile.Master.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/ViewSwitcher.ascx" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/ViewSwitcher.ascx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/ViewSwitcher.ascx.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/ViewSwitcher.ascx.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/ViewSwitcher.ascx.designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/ViewSwitcher.ascx.designer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Web.Debug.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Web.Debug.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Web.Release.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Web.Release.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/Web.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/WebApplication3.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/WebApplication3.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/WebApplication3.csproj.user" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/WebApplication3.csproj.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/System.Web.Optimization.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/System.Web.Optimization.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/WebApplication3.dll.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/WebApplication3.dll.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/Microsoft.CSharp.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/Microsoft.CSharp.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/Microsoft.Managed.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/Microsoft.Managed.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/Microsoft.VisualBasic.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/Microsoft.VisualBasic.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/VBCSCompiler.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/VBCSCompiler.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csc.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csc.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csc.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csi.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csi.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csi.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/csi.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/vbc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/vbc.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/vbc.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/bin/roslyn/vbc.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/obj/Debug/WebApplication3.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/obj/Debug/WebApplication3.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/obj/Debug/WebApplication3.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/obj/Debug/WebApplication3.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/WebApplication3/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/WebApplication3/packages.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/App_Start/RouteConfig.cs.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/App_Start/RouteConfig.cs.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.cs.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.cs.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.designer.cs.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.designer.cs.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/Site.Mobile.Master.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.cs.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.cs.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.designer.cs.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.designer.cs.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.pp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/Content/ViewSwitcher.ascx.pp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.1.0.2/readme.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net40/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net40/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net40/pl/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net40/pl/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/pl/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.1.0.2/lib/net45/pl/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.pl.1.0.2/lib/net40/pl/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.pl.1.0.2/lib/net40/pl/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.pl.1.0.2/lib/net45/pl/Microsoft.AspNet.FriendlyUrls.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.FriendlyUrls.Core.pl.1.0.2/lib/net45/pl/Microsoft.AspNet.FriendlyUrls.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjax.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjax.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxApplicationServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxComponentModel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxCore.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxGlobalization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxHistory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxNetwork.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxSerialization.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxTimer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.MSAjax.5.0.0/content/Scripts/WebForms/MSAjax/MicrosoftAjaxWebServices.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/DetailsView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/DetailsView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/Focus.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/Focus.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/GridView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/GridView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/Menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/MenuStandards.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/MenuStandards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/SmartNav.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/SmartNav.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/TreeView.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/TreeView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebForms.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebForms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebParts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebParts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebUIValidation.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.ScriptManager.WebForms.5.0.0/content/Scripts/WebForms/WebUIValidation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.Web.Optimization.1.1.3/lib/net40/system.web.optimization.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/content/web.config.transform" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.AspNet.Web.Optimization.WebForms.1.1.3/content/web.config.transform" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.Extensions.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/build/net46/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/app.config.install.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/app.config.install.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/app.config.uninstall.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/app.config.uninstall.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/web.config.install.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/web.config.install.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/web.config.uninstall.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net45/web.config.uninstall.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/app.config.install.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/app.config.install.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/app.config.uninstall.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/app.config.uninstall.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/web.config.install.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/web.config.install.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/web.config.uninstall.xdt" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/content/net46/web.config.uninstall.xdt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CSharp.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.CSharp.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.VisualBasic.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/Microsoft.VisualBasic.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/VBCSCompiler.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/VBCSCompiler.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csc.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csi.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/csi.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/Roslyn45/vbc.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CSharp.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.CSharp.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.Managed.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.Managed.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/Microsoft.VisualBasic.Core.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/VBCSCompiler.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/VBCSCompiler.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csc.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/csi.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.exe.config" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.exe.config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.rsp" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/RoslynLatest/vbc.rsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/net45/install.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/net45/install.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/net45/uninstall.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.0/tools/net45/uninstall.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Content/Scripts/modernizr-2.8.3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Tools/common.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Tools/common.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Tools/install.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Tools/install.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Tools/uninstall.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Modernizr.2.8.3/Tools/uninstall.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/LICENSE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net20/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net20/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net35/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net35/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net40/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net40/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net45/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/net45/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/netstandard1.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/netstandard1.3/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/netstandard1.3/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/netstandard2.0/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/netstandard2.0/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/portable-net40%2Bsl5%2Bwin8%2Bwp8%2Bwpa81/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/portable-net40%2Bsl5%2Bwin8%2Bwp8%2Bwpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/portable-net45%2Bwin8%2Bwp8%2Bwpa81/Newtonsoft.Json.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/Newtonsoft.Json.11.0.1/lib/portable-net45%2Bwin8%2Bwp8%2Bwpa81/Newtonsoft.Json.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap-theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Content/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Scripts/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Scripts/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Scripts/bootstrap.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/Scripts/bootstrap.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/bootstrap.3.3.7/content/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1-vsdoc.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1-vsdoc.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.slim.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.slim.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.slim.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Content/Scripts/jquery-3.3.1.slim.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/common.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/common.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/install.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/install.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/jquery-3.3.1.intellisense.js" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/jquery-3.3.1.intellisense.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/uninstall.ps1" beforeDir="false" afterPath="$PROJECT_DIR$/Interfejs/packages/jQuery.3.3.1/Tools/uninstall.ps1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlers/magazyn_sztuki.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawlers/magazyn_sztuki.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawlers/wiki.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_stuff/Saver.py" beforeDir="false" afterPath="$PROJECT_DIR$/files_stuff/Saver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/files_stuff/result/result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/files_stuff/result/result.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/Manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/Manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manager/Painter.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager/Painter.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -215,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager/Manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
@@ -227,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manager/Painter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+            <state relative-caret-position="179">
+              <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -239,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+            <state relative-caret-position="315">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -251,7 +58,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawlers/wiki1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="170">
               <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
@@ -263,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawlers/generic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="43" />
+            <state relative-caret-position="187">
+              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -275,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/crawlers/magazyn_sztuki.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1428">
-              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            <state relative-caret-position="323">
+              <caret line="98" column="12" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="99" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -285,7 +92,7 @@
         <entry file="file://$PROJECT_DIR$/files_stuff/Saver.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+              <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -357,9 +164,9 @@
         <option value="$PROJECT_DIR$/crawlers/wiki1.py" />
         <option value="$PROJECT_DIR$/crawlers/magazyn_sztuki.py" />
         <option value="$PROJECT_DIR$/manager/Painter.py" />
-        <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/manager/Manager.py" />
         <option value="$PROJECT_DIR$/files_stuff/Saver.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -571,12 +378,12 @@
       <workItem from="1559214513460" duration="302000" />
       <workItem from="1559461547915" duration="1741000" />
       <workItem from="1559554698087" duration="4397000" />
-      <workItem from="1559720336312" duration="5221000" />
+      <workItem from="1559720336312" duration="7520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40470000" />
+    <option name="totallyTimeSpent" value="42769000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -643,30 +450,10 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawlers/generic.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/crawlers/touchofart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawlers/wiki1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -679,44 +466,64 @@
     <entry file="file://$PROJECT_DIR$/files_stuff/Loader.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawlers/magazyn_sztuki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manager/Manager.py">
+    <entry file="file://$PROJECT_DIR$/files_stuff/Saver.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/manager/Painter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="99" column="21" lean-forward="true" selection-start-line="99" selection-start-column="21" selection-end-line="99" selection-end-column="21" />
+        <state relative-caret-position="179">
+          <caret line="98" column="29" lean-forward="true" selection-start-line="98" selection-start-column="29" selection-end-line="98" selection-end-column="29" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/files_stuff/Saver.py">
+    <entry file="file://$PROJECT_DIR$/crawlers/magazyn_sztuki.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        <state relative-caret-position="323">
+          <caret line="98" column="12" lean-forward="true" selection-start-line="98" selection-start-column="12" selection-end-line="99" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawlers/wiki1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="35" column="79" selection-start-line="35" selection-start-column="79" selection-end-line="35" selection-end-column="79" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manager/Manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#37#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/crawlers/generic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
-          <caret line="42" column="9" selection-start-line="42" selection-start-column="9" selection-end-line="42" selection-end-column="9" />
+        <state relative-caret-position="315">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
