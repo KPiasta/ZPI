@@ -13,8 +13,8 @@ class Saver:
         line += newline
         return line
 
-    def save_final_file(self, data):
+    def save_final_file(self, data,path):
         cwd = os.getcwd()
-        file = open(cwd+"/files_stuff/result/result.txt", "w", encoding='utf-8')
+        file = open(path, "w", encoding='utf-8')
         file.write(data)
         file.close

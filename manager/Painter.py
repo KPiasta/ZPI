@@ -96,6 +96,10 @@ class Painter:
 
         return to_print
 
+    def text_dump_many(self):
+        to_print = ""
+        to_print += self.print_dictionary(self.name_dict)
+
     def text_dump_list(self):
         end_line = "\n"
 

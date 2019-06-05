@@ -26,9 +26,31 @@
             width: 23%;
         }
     </style>
+    <link rel="stylesheet" type="text/css" href="ColorThemes.css">
+    <script type="text/javascript">
+        function switchTheme() {
+            if (sessionStorage.getItem("theme") == "Light") {
+                sessionStorage.setItem("theme", "Dark");
+                document.documentElement.setAttribute("data-theme", "Dark");
+            }
+            else {
+                sessionStorage.setItem("theme", "Light");
+                document.documentElement.setAttribute("data-theme", "Light");
+            }
+        }
+        const currentTheme = sessionStorage.getItem('theme');
 
+
+        if (currentTheme) {
+            document.documentElement.setAttribute('data-theme', currentTheme);
+        }
+        else {
+            document.documentElement.setAttribute('data-theme', "Light");
+            sessionStorage.setItem("theme", "Light");
+        }
+    </script>
 </head>
-<body>
+<body style="background-color:var(--backgoundColor);color:var(--textColor)">
     <form runat="server">
 
         <div class="topside container">
@@ -46,9 +68,8 @@
                     </td>
                 </tr>
                 <tr>
-                    <td style="background-color:darkkhaki" class="auto-style2">
-                        <asp:Panel ID="Panel1" runat="server" Height="100%">
-                            <div>
+                    <td style="background-color:var(--primaryColor)" class="auto-style2">
+                        <asp:Panel ID="Panel1" runat="server" Height="100%" Width="100%">
                                 <asp:TextBox ID="TextBox1" runat="server" Width="70%" Style="margin-top:20px"></asp:TextBox>
                                 <asp:Button ID="Button1" runat="server" Text="Search" Width="25%" OnClick="Button1_Click" />
                                 <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="100%" Style="margin-top:50px;display:block">
@@ -68,10 +89,12 @@
                                     <asp:ListItem>Akwarele</asp:ListItem>
                                     <asp:ListItem>Akryl</asp:ListItem>
                                 </asp:DropDownList>
-                            </div>
+                                <br />
+                                
                         </asp:Panel>
+                        <button type="button" onclick="switchTheme()" style="position:relative;bottom:25px;left:0px">Switch color themes</button>
                     </td>
-                    <td style="vertical-align:top;background-color: #e4d7b2">
+                    <td style="vertical-align:top;background-color: var(--secondaryColor)">
             <asp:ContentPlaceHolder ID="MainContent" runat="server" >
 
             </asp:ContentPlaceHolder>
