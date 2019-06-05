@@ -90,31 +90,14 @@ class Painter:
         to_print += self.print_dictionary("[Education]:", self.education_dict)
 
         to_print += end_line + end_line
-        to_print += "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + end_line
-        to_print += "RAW TEXTS" + end_line
-        to_print += "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + end_line + end_line
 
         for crawler, text in self.raw_texts.items():
-            to_print += "~~~~~~~~~~~~~" + end_line
-            to_print += "SOURCE ["+crawler+"]"+end_line
-            to_print += "~~~~~~~~~~~~~" + end_line
+            to_print += end_line
+            to_print += "["+crawler+"]:"+end_line
             to_print += text
             to_print += end_line + end_line
 
-        to_print += "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" + end_line
-        to_print += self.print_dictionary("GALLERY:", self.link_dict)
-
-        return to_print
-
-    def text_dump_many(self):
-        to_print = ""
-        to_print += self.print_dictionary(self.name_dict)
-
-    def text_dump_list(self):
-        end_line = "\n"
-
-        to_print = self.print_dictionary("[Name]:", self.name_dict)
-        to_print += self.print_dictionary("GALLERY:", self.link_dict)
+        to_print += self.print_dictionary("[GALLERY]:", self.link_dict)
 
         return to_print
 
