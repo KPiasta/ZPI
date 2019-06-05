@@ -15,15 +15,15 @@ class Manager:
         self.saver = Saver()
         self.temp_painters_list = []
 
-    def run(self):
+    def run(self,path):
         self.merge_painters()
         self.main_painter.sort_dictionaries()
-        self.saver.save_final_file(self.main_painter.text_dump())
+        self.saver.save_final_file(self.main_painter.text_dump(),path)
 
-    def run_list(self):
+    def  run_list(self,path):
         self.merge_painters()
         self.main_painter.sort_dictionaries()
-        self.saver.save_final_file(self.main_painter.text_dump())
+        self.saver.save_final_file(self.main_painter.text_dump(),path)
 
     def add_temp_painter(self, painter):
         self.temp_painters_list.append(painter)
