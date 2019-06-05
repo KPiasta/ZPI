@@ -16,7 +16,9 @@ namespace WebApplication3
             Nieznane,
             Realizm,
             Surrealizm,
-            Romantyzm
+            Romantyzm,
+            Symbolizm,
+            Modernizm
         }
         enum Technique
         {
@@ -29,8 +31,15 @@ namespace WebApplication3
         {
             {"NIEZNANE",Category.Nieznane },
             {"REALIZM", Category.Realizm },
+            {"REALIŚCI",Category.Realizm },
             {"SURREALIZM", Category.Surrealizm },
-            {"ROMANTYZM",Category.Romantyzm }
+            {"SURREALIŚCI",Category.Surrealizm },
+            {"ROMANTYZM",Category.Romantyzm },
+            {"ROMANTYCY",Category.Romantyzm },
+            {"SYMBOLIZM", Category.Symbolizm},
+            {"SYMBOLIŚCI",Category.Symbolizm },
+            {"MODERNIZM",Category.Modernizm },
+            {"MALARZE WSPÓŁCZEŚNI",Category.Modernizm }
         };
         Dictionary<String, Technique> techniques = new Dictionary<string, Technique>
         {
