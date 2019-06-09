@@ -2,6 +2,10 @@
 .idea/workspace.xml
 /venv
 
+crawlers/__pycache__/
+manager/__pycache__/
+misc/__pycache__/
+files_stuff/__pycache__/
 files_stuff/__pycache__/Loader.cpython-37.pyc
 manager/__pycache__/Manager.cpython-37.pyc
 manager/__pycache__/Painter.cpython-37.pyc
