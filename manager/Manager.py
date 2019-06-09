@@ -1,7 +1,7 @@
 from files_stuff.Loader import Loader
 from files_stuff.Saver import Saver
 from manager.Painter import Painter
-
+from manager.Interpreter import Interpreter
 
 class Manager:
 
@@ -16,6 +16,7 @@ class Manager:
         self.temp_painters_list = []
 
     def run(self, path):
+        self.add_temp_painter(Interpreter.interpret(self.temp_painters_list))
         self.merge_painters()
         self.main_painter.sort_dictionaries()
         self.saver.save_final_file(self.main_painter.text_dump(), path)
