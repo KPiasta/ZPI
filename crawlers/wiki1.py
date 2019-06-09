@@ -27,15 +27,15 @@ category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści',
                        'Symboliści': 'Symboliści_(malarze)'}
 
 
-def get_list_kategory(category):
+def get_list_kategory(manager, category):
     painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/wiki/Kategoria:" + category_dictionary.get(category)
     get_list_by_hc_category_helper(url)
 
     for name in result_names:
         print(name)
-    # painter.new_crawler_data_list(result_names, "imie")
-    # manager.add_temp_painter(painter)
+    painter.new_crawler_data_list(result_names, "imie")
+    manager.add_temp_painter(painter)
 
 
 
@@ -60,8 +60,8 @@ def get_list_by_hc_category_helper(url):
             result_names.append(x['title'])
             print(x['title'])
 
-    print("URLS: ")
-    print(urls)
+    # print("URLS: ")
+    # print(urls)
 
     if (len(urls) > 0):
         url = urls[0]
