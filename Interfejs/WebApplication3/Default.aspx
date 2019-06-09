@@ -3,12 +3,6 @@
 <asp:Content ID="DefaultContent" ContentPlaceHolderID="MainContent" runat="server">
 
 
-<script type="text/javascript">
-    function loadGraphics() {
-        document.append('<img src="/path/to/image.jpg"
-       width="16" height="16" alt="Test Image" title="Test Image" />');
-    }
-</script>
 <style type="text/css">
     #gallery
     {

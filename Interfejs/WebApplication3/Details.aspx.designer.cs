@@ -121,6 +121,24 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.View Tab2;
         
         /// <summary>
+        /// Kontrolka Magazyn.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Magazyn;
+        
+        /// <summary>
+        /// Kontrolka Wiki.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label Wiki;
+        
+        /// <summary>
         /// Kontrolka Tab3.
         /// </summary>
         /// <remarks>

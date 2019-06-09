@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -9,30 +10,35 @@ namespace WebApplication3
 {
     public partial class _Default : Page
     {
-        List<MyImage> list;
         protected void Page_Load(object sender, EventArgs e)
         {
+            CrawlerManager.runCrawlers("", CrawlerManager.CrawlerMode.list);
             if (!IsPostBack)
-                BindList();
+                BindList(CrawlerManager.dest);
         }
 
-        private void BindList()
+        private void BindList(String file)
         {
-            list= new List<MyImage>
+            List<String> results = new List<String>();
+            using (StreamReader sr = new StreamReader(file))
             {
-                new MyImage (1,"Content/Images/abstract.jpg","tit"),
-                new MyImage(2, "Content/Images/unnamed.jpg", "tit2"),
-                new MyImage (3,"Content/Images/abstract.jpg","tit3"),
-                new MyImage(4, "Content/Images/unnamed.jpg", "tit4"),
-                new MyImage (5,"Content/Images/abstract.jpg","tit"),
-                new MyImage (6,"Content/Images/abstract.jpg","tit"),
-                new MyImage(7, "Content/Images/unnamed.jpg", "tit2"),
-                new MyImage (8,"Content/Images/abstract.jpg","tit3"),
-                new MyImage(9, "Content/Images/unnamed.jpg", "tit4")
-            };
+                sr.BaseStream.Position = 0;
+                sr.DiscardBufferedData();
+                String line = null;
+                while ((line = sr.ReadLine()) != null)
+                {
+                    results.Add(line);
+                }
+            }
+            List<MyImage> list = new List<MyImage>();
+            int i = 0;
+            foreach (String s in results)
+            {
+                list.Add(new MyImage(i++, "Content/Images/abstract.jpg", s));
+            }
             Repeater1.DataSource = list;
             Repeater1.DataBind();
-            
+
         }
 
 

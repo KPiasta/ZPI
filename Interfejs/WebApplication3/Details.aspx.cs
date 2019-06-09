@@ -11,54 +11,7 @@ namespace WebApplication3
 {
     public partial class Details : Page
     {
-        enum Category
-        {
-            Nieznane,
-            Realizm,
-            Surrealizm,
-            Romantyzm,
-            Symbolizm,
-            Modernizm
-        }
-        enum Technique
-        {
-            Nieznane,
-            Olej,
-            Akwarela,
-            Akryl
-        }
-        Dictionary<String, Category> categories = new Dictionary<string, Category>
-        {
-            {"NIEZNANE",Category.Nieznane },
-            {"REALIZM", Category.Realizm },
-            {"REALIŚCI",Category.Realizm },
-            {"SURREALIZM", Category.Surrealizm },
-            {"SURREALIŚCI",Category.Surrealizm },
-            {"ROMANTYZM",Category.Romantyzm },
-            {"ROMANTYCY",Category.Romantyzm },
-            {"SYMBOLIZM", Category.Symbolizm},
-            {"SYMBOLIŚCI",Category.Symbolizm },
-            {"MODERNIZM",Category.Modernizm },
-            {"MALARZE WSPÓŁCZEŚNI",Category.Modernizm }
-        };
-        Dictionary<String, Technique> techniques = new Dictionary<string, Technique>
-        {
-            {"NIEZNANE",Technique.Nieznane },
-            {"OLEJ", Technique.Olej },
-            {"AKWARELA", Technique.Akwarela },
-            {"Akryl",Technique.Akryl }
-        };
-        private Category getCategoryByName(String name)
-        {
-            Category cat;
-            return categories.TryGetValue(name.ToUpper(), out cat) ? cat : Category.Nieznane;
-        }
-        private Technique getTechniqueByName(String name)
-        {
-            Technique tech;
-            return techniques.TryGetValue(name.ToUpper(), out tech) ? tech : Technique.Nieznane;
-        }
-        private void LoadData(String dest)
+        private void LoadData()
         {
             String name = "Nieznane";
             String birth = "Nieznane";
@@ -67,10 +20,13 @@ namespace WebApplication3
             String deathPlace = "Nieznane";
             String museum = "Nieznane";
             String education = "Nieznane";
-            List<Category> cats = new List<Category>();
-            List<Technique> techs = new List<Technique>();
+            String wiki = "";
+            String magazyn = "";
+            List<CatTechManager.Category> cats = new List<CatTechManager.Category>();
+            List<CatTechManager.Technique> techs = new List<CatTechManager.Technique>();
             List<String> res = new List<String>();
             Regex rex = new Regex("(?<=<)(.*?)(?=>)");
+            Regex rex2 = new Regex(@"\[(.*?)\]");
             String findData(String dataTag, StreamReader sr)
             {
                 sr.BaseStream.Position = 0;
@@ -86,6 +42,26 @@ namespace WebApplication3
                     }
                 }
                 return line;
+            }
+            String findRawData(String dataTag, StreamReader sr)
+            {
+                sr.BaseStream.Position = 0;
+                sr.DiscardBufferedData();
+                String line = "";
+                String result = "";
+                while ((line = sr.ReadLine()) != null)
+                {
+                    if (line == dataTag)
+                    {
+                        result = dataTag + " ";
+                        while (((line = sr.ReadLine()) != null) && line!="")
+                        {
+                            result += line;
+                        }
+                        break;
+                    }
+                }
+                return result;
             }
             List<String> findAllData(String dataTag, StreamReader sr)
             {
@@ -109,8 +85,7 @@ namespace WebApplication3
             }
             try
             {
-                dest = AppDomain.CurrentDomain.BaseDirectory + "\\" + dest;
-                using (StreamReader sr = new StreamReader(dest))
+                using (StreamReader sr = new StreamReader(CrawlerManager.dest))
                 {
                     name = findData("[Name]:", sr);
                     birth = findData("[Birth Date]:", sr);
@@ -119,12 +94,14 @@ namespace WebApplication3
                     deathPlace = findData("[Death Place]:", sr);
                     res = findAllData("[Categories]:", sr);
                     foreach(String result in res)
-                        cats.Add(getCategoryByName(result));
+                        cats.Add(CatTechManager.getCategoryByName(result));
                     res = findAllData("[Techniques]:", sr);
                     foreach (String result in res)
-                        techs.Add(getTechniqueByName(result));
+                        techs.Add(CatTechManager.getTechniqueByName(result));
                     museum = findData("[Museum]:", sr);
                     education = findData("[Education]:", sr);
+                    wiki = findRawData("[wikipedia]:",sr);
+                    magazyn = findRawData("[magazyn_sztuki]:", sr);
                 }
             }
             catch (Exception ex)
@@ -135,17 +112,22 @@ namespace WebApplication3
             Birth.Text = "Urodzony: " + birth + " w " + birthPlace + " <br/>";
             Death.Text = "Zmarł: " + death + " w " + deathPlace +" <br/>";
             Style.Text = "Styl: ";
-            foreach (Category cat in cats)
-                Style.Text += Enum.GetName(typeof(Category), cat) + ", ";
+            foreach (CatTechManager.Category cat in cats)
+                Style.Text += Enum.GetName(typeof(CatTechManager.Category), cat) + ", ";
             Style.Text += "<br/>";
             Tech.Text = "Technika: ";
-            foreach (Technique tech in techs)
-                Tech.Text += Enum.GetName(typeof(Technique), tech) + ", ";
+            foreach (CatTechManager.Technique tech in techs)
+                Tech.Text += Enum.GetName(typeof(CatTechManager.Technique), tech) + ", ";
             Tech.Text += "<br/>";
+            Wiki.Text = wiki;
+            Magazyn.Text = magazyn;
         }
         protected void Page_Load(object sender, EventArgs e)
         {
-            LoadData("..\\..\\files_stuff\\result\\result.txt");
+            Uri myUri = new Uri(Request.Url.AbsoluteUri);
+            string param = HttpUtility.ParseQueryString(myUri.Query).Get("query");
+            CrawlerManager.runCrawlers(param, CrawlerManager.CrawlerMode.single);
+            LoadData();
         }
 
         protected void Menu1_MenuItemClick(object sender, MenuEventArgs e)

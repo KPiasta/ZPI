@@ -58,7 +58,7 @@
                                 <li>
                                     <div>
 
-                                        <a runat="server" href='<%# String.Format("Details.aspx?dest={0}", Eval("title")) %>' title='<%# Eval("title") %>'>
+                                        <a runat="server" href='<%# String.Format("Details.aspx?query={0}", Eval("title")) %>' title='<%# Eval("title") %>'>
                                             <div><img src='<%# Eval("src") %>' width="180" height="180" alt=""/></div>
                                             <div style="text-align:center">'<%# Eval("title") %>'</div>
                                         </a>

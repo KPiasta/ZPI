@@ -24,7 +24,9 @@
                     <asp:Label ID="Tech" runat="server"></asp:Label>
                 </asp:View>
                 <asp:View ID="Tab2" runat="server">
-                    <p>Kariera i edukacja!</p>
+                    <asp:Label ID="Magazyn" runat="server"></asp:Label>
+                    <br />
+                    <asp:Label ID="Wiki" runat="server"></asp:Label>
                 </asp:View>
                 <asp:View ID="Tab3" runat="server">
                     <p>Znane prace!</p>

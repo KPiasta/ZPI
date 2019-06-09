@@ -72,23 +72,14 @@
                         <asp:Panel ID="Panel1" runat="server" Height="100%" Width="100%">
                                 <asp:TextBox ID="TextBox1" runat="server" Width="70%" Style="margin-top:20px"></asp:TextBox>
                                 <asp:Button ID="Button1" runat="server" Text="Search" Width="25%" OnClick="Button1_Click" />
-                                <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="100%" Style="margin-top:50px;display:block">
-                                    <asp:ListItem>Wyszukaj wg Imienia</asp:ListItem>
+                                <asp:RadioButtonList ID="RadioButtonList1" runat="server" Width="100%" Style="margin-top:50px;display:block" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged">
+                                    <asp:ListItem Selected="True">Wyszukaj wg Imienia</asp:ListItem>
                                     <asp:ListItem>Wyszukaj wg Dzieła</asp:ListItem>
+                                    <asp:ListItem>Wyszukaj wg Stylu</asp:ListItem>
                                 </asp:RadioButtonList>
                                 <asp:DropDownList ID="DropDownList1" runat="server" Width="95%" Style="margin-top:50px">
-                                    <asp:ListItem>Każdy styl</asp:ListItem>
-                                    <asp:ListItem>Romantyzm</asp:ListItem>
-                                    <asp:ListItem>Klasycyzm</asp:ListItem>
-                                    <asp:ListItem>Impresjonizm</asp:ListItem>
                                 </asp:DropDownList>
                                 <br>
-                                <asp:DropDownList ID="DropDownList2" runat="server" Width="95%" Style="margin-top:50px">
-                                    <asp:ListItem>Każda technika</asp:ListItem>
-                                    <asp:ListItem>Olej na płótnie</asp:ListItem>
-                                    <asp:ListItem>Akwarele</asp:ListItem>
-                                    <asp:ListItem>Akryl</asp:ListItem>
-                                </asp:DropDownList>
                                 <br />
                                 
                         </asp:Panel>

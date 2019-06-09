@@ -121,10 +121,13 @@ class Painter:
         to_return = "\n" + header + "\n"
 
         if bool(dictionary) is False:
-            to_return += "<no data>" + "\n"
+            if dictionary == self.name_dict:
+                to_return += "<" + self.name_query + " " + self.surname_query + ">\n"
+            else:
+                to_return += "<NO DATA>" + "\n"
         else:
             for keys, values in dictionary.items():
-                to_return += str(values)+" rep(s): "+'<'+keys+">" + "\n"
+                to_return += str(values) + " rep(s): " + '<' + keys + ">" + "\n"
         return to_return
 
     def new_text(self, new_text):
