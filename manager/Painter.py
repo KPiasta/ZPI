@@ -1,5 +1,4 @@
 import operator
-import operator
 import collections
 
 class Painter:
