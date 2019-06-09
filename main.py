@@ -52,7 +52,7 @@ def main():
     elif param == '2':
 
         manager = Manager("", "")
-        ms.run_list_artists(manager, query)
+        ms.run_list_kategory(manager, query)
         wiki1.get_list_kategory(manager, query)
         manager.run_list(path)
 

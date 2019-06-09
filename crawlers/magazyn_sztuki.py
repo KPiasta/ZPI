@@ -34,6 +34,16 @@ def run_list_artists(manager, phrase):
     url = 'http://www.magazynsztuki.pl/page/1/?s=' + to_find
     check_pages_list(manager, url, phrase, pages, [], [])
 
+def run_list_kategory(manager,phrase):
+    to_find=phrase.replace(" ", "+")
+    to_find = unidecode(to_find)
+    phrase=unidecode(phrase)
+    phrase= phrase.lower()
+    pages = set()
+    url = 'http://www.magazynsztuki.pl/category/malarze/' + to_find
+    check_pages_kategory(manager,url,phrase,pages,[],[])
+
+
 
 def check_pages(manager, pageUrl, phrase, pages):
     html = urlopen(pageUrl)
@@ -98,6 +108,41 @@ def check_pages_list(manager, pageUrl, phrase, pages, l1, l2):
                 newPage = link.attrs['href']
                 pages.add(newPage)
                 check_pages_list(manager, newPage, phrase, pages, listLink, listNames)
+            else:
+                painter.new_crawler_data_list(listLink, "link")
+                painter.new_crawler_data_list(listNames, "imie")
+                manager.add_temp_painter(painter)
+                return
+    except:
+        painter.new_crawler_data_list(listLink, "link")
+        painter.new_crawler_data_list(listNames, "imie")
+        manager.add_temp_painter(painter)
+        return
+
+def check_pages_kategory(manager,pageUrl,phrase,pages,l1,l2):
+    html = urlopen(pageUrl)
+    bs = BeautifulSoup(html, 'html.parser')
+    posts = bs.find_all('h2')
+    listLink =l1
+    listNames = l2
+    for post in posts:
+        try:
+            if 'class' not in post.attrs:
+                listNames.append(post.text)
+
+                #manager.add_temp_painter(painter)
+
+        except:
+            continue
+
+    link = bs.find('a', {'class': 'nextpostslink'})
+
+    try:
+        if link != None:
+            if link.attrs['href'] not in pages:
+                newPage = link.attrs['href']
+                pages.add(newPage)
+                check_pages_kategory(manager,newPage, phrase, pages,listLink,listNames)
             else:
                 painter.new_crawler_data_list(listLink, "link")
                 painter.new_crawler_data_list(listNames, "imie")
