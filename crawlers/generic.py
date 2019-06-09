@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
-
+from manager.Painter import Painter
+from manager.Interpreter import Interpreter
 
 def get_urls(*names):
     query = ""
@@ -59,7 +60,7 @@ def get_urls(*names):
     return urls
 
 
-def get_raw(*names):
+def get_raw(manager, *names):
     urls = get_urls(*names)
 
     # urls = []
@@ -74,15 +75,22 @@ def get_raw(*names):
 
     print(urls)
 
+    temp_painter = Painter("generic")
+    texts = []
     for u in urls:
         try:
-            print("[SOURCE]   " + u)
+            text = ""
             source_code = requests.get(u).text
             soup = BeautifulSoup(source_code, features="html.parser")
             for p in soup.find_all('p' or 'span'):
-                print(p.getText())
+                text += p.getText()
+            texts.append(text)
         except requests.ssl.SSLCertVerificationError:
             print("=============================CERT.ERR=============================================================")
+
+    temp_painter = Interpreter.interpret(texts)
+    manager.add_temp_painter(temp_painter)
+
 
 
 # get_raw("Błażejewski","Piotr")
@@ -123,7 +131,7 @@ def get_raw(*names):
 # create_query("Szewczyk Anna")
 # create_query("Szpakowska Kujawska Anna")
 # create_query("Trybalski Paweł")
-get_raw("Twardowski Lech")
+# get_raw("Twardowski Lech")
 # create_query("Wałaszek Andrzej Krzysztof")
 # create_query("Wilk Urszula")
 # create_query("Wołczuk Marian")

@@ -1,15 +1,16 @@
 from manager.Manager import Manager
 from crawlers import magazyn_sztuki as ms
 from crawlers import wiki1
+from crawlers import generic
 import sys
 
 def main():
 
-    name = ""
-    surname = ""
-    param = 0
-    path =""
-    query=''
+    name = "Edvard"
+    surname = "Munch"
+    param = '0'
+    path ="D:\ZPI\\files_stuff\\result\\result.txt"
+    query= name + " " + surname
 
     if len(sys.argv)==4:
         query = sys.argv[1]
@@ -30,6 +31,7 @@ def main():
         manager = Manager(name, surname)
         ms.run_individual(manager, surname)
         wiki1.run(manager,query)
+        generic.get_raw(manager, query)
 
         manager.run(path)
 

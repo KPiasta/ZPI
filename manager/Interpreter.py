@@ -35,12 +35,11 @@ class Interpreter:
 
 
     @staticmethod
-    def interpret(painters_list):
+    def interpret(raw_text_list):
         new_data_painter = Painter("interpreted")
         acquired_list = []
 
-        for painter in painters_list:
-            raw_text = painter.temp_raw_text
+        for raw_text in raw_text_list:
             for key, value in Interpreter.categories_keywords.items():
                 found = True
                 lowered_text = raw_text.lower().strip() + " "
@@ -60,6 +59,6 @@ class Interpreter:
         for phrase in acquired_list:
             print("phrase: ["+phrase+"]\n")
 
-        painter.new_crawler_data_list(acquired_list, "kategoria")
-        return painter
+        new_data_painter.new_crawler_data_list(acquired_list, "kategoria")
+        return new_data_painter
 

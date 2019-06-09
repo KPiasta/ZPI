@@ -16,7 +16,11 @@ class Manager:
         self.temp_painters_list = []
 
     def run(self, path):
-        self.add_temp_painter(Interpreter.interpret(self.temp_painters_list))
+        raw_texts = []
+        for painter in self.temp_painters_list:
+            raw_texts.append(painter.temp_raw_text)
+        self.add_temp_painter(Interpreter.interpret(raw_texts))
+
         self.merge_painters()
         self.main_painter.sort_dictionaries()
         self.saver.save_final_file(self.main_painter.text_dump(), path)
