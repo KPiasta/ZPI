@@ -2,11 +2,76 @@ import requests
 from bs4 import BeautifulSoup
 from manager.Painter import Painter
 
-
-key_words =['Malarze', 'malarze']
+key_words = ['Malarze', 'malarze']
+urls = []
+result_names = []
 
 months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca',
                      'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia', 'ok.']
+
+category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści',
+                       'Impresjoniści': 'Impresjoniści_(malarze)',
+                       'Kubiści': 'Kubiści,',
+                       'Malarze baroku': 'Malarze_baroku',
+                       'Malarze figuratywizmu': 'Malarze_figuratywizmu',
+                       'Malarze gotyccy': 'Malarze_gotyccy',
+                       'Malarze klasycystyczni': 'Malarze_klasycystyczni',
+                       'Malarze orfizmu': 'Malarze_orfizmu',
+                       'Malarze pop-artu': 'Malarze_pop-artu',
+                       'Malarze renesansu': 'Malarze_renesansu',
+                       'Malarze rokoko': 'Malarze_rokoko',
+                       'Malarze romantyczni': 'Malarze_romantyczni',
+                       'Malarze secesyjni': 'Malarze_secesyjni',
+                       'Malarze wspólcześni': 'Malarze_wspólcześni',
+                       'Postimpresjoniści': "Postimpresjoniści",
+                       'Prymitywiści': 'Malarze_prymitywiści',
+                       'Realiści': 'Realiści_(malarze)',
+                       'Surrealiści': 'Surrealiści',
+                       'Symboliści': 'Symboliści'}
+
+
+def get_list_kategory(manager, category):
+    painter = Painter("wikipedia")
+    url = "https://pl.wikipedia.org/wiki/Kategoria:" + category_dictionary.get(category)
+    get_list_by_hc_category_helper(url)
+
+    for name in result_names:
+        print(name)
+    painter.new_crawler_data_list(result_names, "imie")
+    manager.add_temp_painter(painter)
+
+
+def get_list_by_hc_category_helper(url):
+
+
+    result_name_arr = []
+    wiki_category_prefix = 'https://pl.wikipedia.org'
+
+    source_code = requests.get(url).text
+    soup = BeautifulSoup(source_code, features="html.parser")
+
+    div = soup.find(id="mw-subcategories")
+
+    if div != None :
+        for x in div.find_all('a'):
+            urls.append(wiki_category_prefix+x['href'])
+
+
+    results = soup.find(id='mw-pages')
+
+    if results != None:
+        for x in results.find_all('a'):
+            result_name_arr.append(x['title'])
+            result_names.append(x['title'])
+            print(x['title'])
+
+    print("URLS: ")
+    print(urls)
+
+    if(len(urls) > 0):
+        url = urls[0]
+        urls.remove(url)
+        get_list_by_hc_category_helper(url)
 
 
 
@@ -34,27 +99,29 @@ def get_list(manager, names):
     manager.add_temp_painter(painter)
     return array
 
-def get_list_kategory(manager, name):
-    array = []
-    if name == '':
-        return array
 
-    painter = Painter("wikipedia")
-    url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
-    url += name+ "+"+"malarz"
-    url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
-    print(url)
+# def get_list_kategory(manager, name):
+#     array = []
+#     if name == '':
+#         return array
+#
+#     painter = Painter("wikipedia")
+#     url = "https://pl.wikipedia.org/w/index.php?title=Specjalna:Szukaj&limit=100&offset=0&profile=default&search="
+#     url += name + "+" + "malarz"
+#     url += "&title=Specjalna%3ASzukaj&profile=advanced&fulltext=1&advancedSearch-current=%7B%7D&ns0=1"
+#     print(url)
+#
+#     source_code = requests.get(url).text
+#     soup = BeautifulSoup(source_code, features="html.parser")
+#     component = soup.find_all('li', class_="mw-search-result")
+#     wiki_prefix = "https://pl.wikipedia.org"
+#     for c in component:
+#         x = wiki_prefix + c.find('a')['href']
+#         check_if_painter(x, array)
+#     painter.new_crawler_data_list(array, "imie")
+#     manager.add_temp_painter(painter)
+#     return array
 
-    source_code = requests.get(url).text
-    soup = BeautifulSoup(source_code, features="html.parser")
-    component = soup.find_all('li', class_="mw-search-result")
-    wiki_prefix = "https://pl.wikipedia.org"
-    for c in component:
-        x = wiki_prefix+c.find('a')['href']
-        check_if_painter(x, array)
-    painter.new_crawler_data_list(array, "imie")
-    manager.add_temp_painter(painter)
-    return array
 
 def check_if_category_contains_key_word(category):
     for key in key_words:
@@ -62,17 +129,18 @@ def check_if_category_contains_key_word(category):
             return True
     return False
 
+
 def convert_phrase(phrase):
-    phrase = phrase.replace('%C5%82','ł')
-    phrase = phrase.replace('%C4%85','ą')
-    phrase = phrase.replace('%C5%BC','ż')
+    phrase = phrase.replace('%C5%82', 'ł')
+    phrase = phrase.replace('%C4%85', 'ą')
+    phrase = phrase.replace('%C5%BC', 'ż')
     phrase = phrase.replace('%C5%BA', 'ź')
     phrase = phrase.replace('%C4%87', 'ć')
-    phrase = phrase.replace('%C5%84','ń')
+    phrase = phrase.replace('%C5%84', 'ń')
     phrase = phrase.replace('%C3%B3', 'ó')
     phrase = phrase.replace('%C4%99', 'ę')
     phrase = phrase.replace('%C5%9B', 'ś')
-    phrase = phrase.replace('%C3%A1','á')
+    phrase = phrase.replace('%C3%A1', 'á')
     phrase = phrase.replace('%C3%A9', 'é')
     phrase = phrase.replace('%C3%AD', 'í')
     phrase = phrase.replace('%C3%B1', 'ñ')
@@ -85,8 +153,8 @@ def convert_phrase(phrase):
 
     return phrase
 
-def check_if_painter(url, array):
 
+def check_if_painter(url, array):
     source_code = requests.get(url).text
     soup = BeautifulSoup(source_code, features="html.parser")
     div = soup.find(id="mw-normal-catlinks")
@@ -94,28 +162,25 @@ def check_if_painter(url, array):
         if check_if_category_contains_key_word(a.getText()):
 
             name = ""
-            for n in url.replace("https://pl.wikipedia.org/wiki/","").split("_"):
-                name += convert_phrase(n)+" "
-
+            for n in url.replace("https://pl.wikipedia.org/wiki/", "").split("_"):
+                name += convert_phrase(n) + " "
 
             name = name[:-1]
             if '(malarz)' in name:
-                name = name.replace(' (malarz)','')
+                name = name.replace(' (malarz)', '')
             array.append(name)
     return array
 
+
 def get_raw_text(soup):
-
-
     if soup is None:
         return ""
 
     raw_text = ""
     for component in soup.find_all('p' or 'h2' or 'h3'):
-        raw_text += component.getText()+"\n"
+        raw_text += component.getText() + "\n"
 
     return raw_text
-
 
 
 def extract_date(string):
@@ -181,15 +246,15 @@ def format(args):
     wiki_request_format = wiki_request_format[:-1]
     return wiki_request_format
 
+
 def set_up_url(name):
     painter = format(name)
     url = 'https://pl.wikipedia.org/wiki/' + painter
     source_code = requests.get(url).text
     return BeautifulSoup(source_code, features="html.parser")
 
+
 def run(manager, name):
-
-
     soup = set_up_url(name)
 
     painter = Painter("wikipedia")
@@ -222,17 +287,16 @@ def run(manager, name):
 
     painter.new_crawler_data_list(kategorie, "kategoria")
 
-
     muzea = []
     muzeum = find_by_key_word(soup, 'Muzeum artysty')
     if muzeum != "":
         muzea.append(muzeum)
 
-    painter.new_crawler_data_list(muzea,"muzeum")
+    painter.new_crawler_data_list(muzea, "muzeum")
 
     edukacja = []
     edu = find_by_key_word(soup, 'Alma Mater')
-    edu_1 = find_by_key_word(soup,"Uczelnia")
+    edu_1 = find_by_key_word(soup, "Uczelnia")
     if edu != "":
         edukacja.append(edu)
     if edu_1 != '':
@@ -242,11 +306,6 @@ def run(manager, name):
     print(painter.crawler_text_dump())
     manager.add_temp_painter(painter)
 
-
-
-
-
-#print(get_list_kategory(""))
+# print(get_list_kategory(""))
 #
-#run(manager, url)
-
+# run(manager, url)
