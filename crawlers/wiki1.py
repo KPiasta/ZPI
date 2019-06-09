@@ -9,13 +9,14 @@ result_names = []
 months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca',
                      'lipca', 'sierpnia', 'września', 'października', 'listopada', 'grudnia', 'ok.']
 
-category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści',
+category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści_(malarze)',
                        'Impresjoniści': 'Impresjoniści_(malarze)',
-                       'Kubiści': 'Kubiści,',
+                        'Ekspresjoniści': 'Ekspresjoniści_(malarze)',
+                       'Kubiści': 'Kubiści_(malarze)',
                        'Malarze baroku': 'Malarze_barokowi',
                        'Malarze gotyccy': 'Gotyccy malarze',
                        'Malarze klasycystyczni': 'Malarze_klasycyzmu‎ ',
-                       'Malarze renesansu': 'Malarze_romantyzmu',
+                       'Malarze renesansu': 'Malarze_renesansowi',
                        'Malarze rokoko': 'Malarze_rokoka',
                        'Malarze romantyczni': 'Malarze_romantyzmu',
                        'Malarze secesyjni': 'Secesjoniści_(malarze)‎',
@@ -24,18 +25,25 @@ category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści',
                        'Prymitywiści': 'Malarze_prymitywiści',
                        'Realiści': 'Realiści_(malarze)',
                        'Surrealiści': 'Surrealiści_(malarze)',
-                       'Symboliści': 'Symboliści_(malarze)'}
+                       'Symboliści': 'Symboliści_(malarze)',
+                       'Malarze współcześni': "Malarze_współcześni",
+                       'Postimpresjoniści' : 'Malarze_współcześni',
+                       'Dadaiści':'Dadaiści_(malarze)',
+                       'Futuryści': 'Futuryści_(malarze)',
+                       'Symboliści': 'Symboliści_(malarze)',
+                       'Surrealiści': 'Surrealiści_(malarze)'
+                       }
 
 
-def get_list_kategory(manager, category):
+def get_list_kategory(category):
     painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/wiki/Kategoria:" + category_dictionary.get(category)
     get_list_by_hc_category_helper(url)
 
     for name in result_names:
         print(name)
-    painter.new_crawler_data_list(result_names, "imie")
-    manager.add_temp_painter(painter)
+    # painter.new_crawler_data_list(result_names, "imie")
+    # manager.add_temp_painter(painter)
 
 
 
@@ -60,8 +68,6 @@ def get_list_by_hc_category_helper(url):
             result_names.append(x['title'])
             print(x['title'])
 
-    # print("URLS: ")
-    # print(urls)
 
     if (len(urls) > 0):
         url = urls[0]
@@ -304,7 +310,7 @@ def run(manager, name):
 # run(manager, url)
 # get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Impresjoniści')
-# get_list_kategory('Kubiści')
+get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Malarze baroku')
 # get_list_kategory('Malarze gotyccy')
 # get_list_kategory('Malarze klasycystyczni')
