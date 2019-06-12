@@ -11,11 +11,19 @@ def main():
     param = 0
     path = ""
     query = ''
-    
+    lower = 0
+    upper = 0
+
     if len(sys.argv)==4:
         query = sys.argv[1]
         path = sys.argv[2]
         param = sys.argv[3]
+    elif len(sys.argv)==6:
+        query = sys.argv[1]
+        path = sys.argv[2]
+        param = sys.argv[3]
+        lower = sys.argv[4]
+        upper = sys.argv[5]
 
 
     if param == '0':
@@ -57,6 +65,11 @@ def main():
         ms.run_list_kategory(manager, query)
         wiki1.get_list_kategory(manager, query)
         manager.run_list(path)
+
+    elif param == '3':
+
+        manager = Manager("", "")
+
 
     #print(name +" "+ surname)
 
