@@ -13,18 +13,19 @@ def main():
     query = ''
     lower = 0
     upper = 0
-    path_2 = 'ZPI\\files_stuff\\result\\images.txt'
+    path_2 = ""
 
     if len(sys.argv) == 4:
         query = sys.argv[1]
         path = sys.argv[2]
         param = sys.argv[3]
-    elif len(sys.argv) == 6:
+    elif len(sys.argv) == 7:
         query = sys.argv[1]
         path = sys.argv[2]
         param = sys.argv[3]
         lower = sys.argv[4]
         upper = sys.argv[5]
+        path_2  = sys.argv[6]
 
     if param == '0':
 
@@ -67,7 +68,7 @@ def main():
         manager.run_list(path)
 
     elif param == '3':
-        print("fdsfsdf")
+
         lower_int = int(lower)
         upper_int = int(upper)
         manager = Manager("", "")
