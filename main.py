@@ -6,12 +6,12 @@ import sys
 
 def main():
 
-    name = "Edvard"
-    surname = "Munch"
-    param = '0'
-    path ="D:\ZPI\\files_stuff\\result\\result.txt"
-    query= name + " " + surname
-
+    name = ""
+    surname = ""
+    param = 0
+    path = ""
+    query = ''
+    
     if len(sys.argv)==4:
         query = sys.argv[1]
         path = sys.argv[2]

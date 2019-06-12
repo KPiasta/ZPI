@@ -310,7 +310,7 @@ def run(manager, name):
 # run(manager, url)
 # get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Impresjoniści')
-get_list_kategory('Abstrakcjoniści')
+#get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Malarze baroku')
 # get_list_kategory('Malarze gotyccy')
 # get_list_kategory('Malarze klasycystyczni')

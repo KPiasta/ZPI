@@ -12,10 +12,10 @@ from urllib.parse import quote
 Saver = Saver()
 painter = Painter("magazyn_sztuki")
 
-
 # start method
 def run_individual(manager, phrase):
     to_find = phrase.replace(" ", "+")
+    phrase = phrase.replace(" ", "-")
     to_find = convert_phrase(to_find)
     phrase = unidecode(phrase)
     phrase = phrase.lower()
@@ -28,6 +28,7 @@ def run_individual(manager, phrase):
 def run_list_artists(manager, phrase):
     to_find = phrase.replace(" ", "+")
     to_find = convert_phrase(to_find)
+    phrase = phrase.replace(" ","-")
     phrase = unidecode(phrase)
     phrase = phrase.lower()
     pages = set()
@@ -57,9 +58,11 @@ def check_pages(manager, pageUrl, phrase, pages):
     for post in posts:
         try:
             if "malarze" in post.h5.a['href']:
+
                 if phrase in post.h4.a['href']:
                     get_image(post.h4.a['href'])
                     retrive_info(post.h4.a['href'])
+                    print(post.h4.a['href'])
                     get_category(post.h4.a['href'])
 
                     manager.add_temp_painter(painter)
