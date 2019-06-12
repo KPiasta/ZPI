@@ -51,7 +51,7 @@ def get_images_with_index(path_read,path_write, start_index, end_index):
     names = file.readlines()
     res_arr = []
     if end_index > len(names) - 1:
-        end_index = len(names) - 1
+        end_index = len(names)
 
     for index in range(start_index, end_index):
         res_arr.append(names[index])
@@ -381,5 +381,5 @@ def run(manager, name):
 #
 path_read = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\result.txt"
 path_write = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\images.txt"
-get_images_with_index(path_read, path_write, 1, 3)
+get_images_with_index(path_read, path_write, 1, 20)
 #get_images(arr)
