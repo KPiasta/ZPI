@@ -379,7 +379,7 @@ def run(manager, name):
 # 'Wiktor Borisow-Musatow',
 # 'Kuźma Pietrow-Wodkin']
 #
-path_read = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\result.txt"
-path_write = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\images.txt"
-get_images_with_index(path_read, path_write, 1, 20)
+# path_read = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\result.txt"
+# path_write = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\images.txt"
+# get_images_with_index(path_read, path_write, 1, 20)
 #get_images(arr)
