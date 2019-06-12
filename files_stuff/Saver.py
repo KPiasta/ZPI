@@ -2,19 +2,16 @@ import os
 
 class Saver:
 
-    def list_to_file_line(self, list):
-        line = ""
+    def save_list_to_file(self, list, path):
+        data = ""
         newline = "\n"
-        delimiter = ","
 
         for element in list:
-            line += element + delimiter
+            data += element + newline
 
-        line += newline
-        return line
+        self.save_final_file(data, path)
 
-    def save_final_file(self, data,path):
-        cwd = os.getcwd()
+    def save_final_file(self, data, path):
         file = open(path, "w", encoding='utf-8')
         file.write(data)
         file.close
