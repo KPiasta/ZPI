@@ -4,8 +4,8 @@ from crawlers import wiki1
 from crawlers import generic
 import sys
 
-def main():
 
+def main():
     name = ""
     surname = ""
     param = 0
@@ -14,17 +14,16 @@ def main():
     lower = 0
     upper = 0
 
-    if len(sys.argv)==4:
+    if len(sys.argv) == 4:
         query = sys.argv[1]
         path = sys.argv[2]
         param = sys.argv[3]
-    elif len(sys.argv)==6:
+    elif len(sys.argv) == 6:
         query = sys.argv[1]
         path = sys.argv[2]
         param = sys.argv[3]
         lower = sys.argv[4]
         upper = sys.argv[5]
-
 
     if param == '0':
 
@@ -38,7 +37,7 @@ def main():
                 surname = query
         manager = Manager(name, surname)
         ms.run_individual(manager, surname)
-        wiki1.run(manager,query)
+        wiki1.run(manager, query)
         generic.get_raw(manager, query)
 
         manager.run(path)
@@ -71,31 +70,28 @@ def main():
         manager = Manager("", "")
 
 
-    #print(name +" "+ surname)
+    # print(name +" "+ surname)
 
-    #wiki.run(manager, "Aleksander", "Fredro")
+    # wiki.run(manager, "Aleksander", "Fredro")
 
-    #wiki.run(manager, "Salvador", "Dali")
-    #wiki.run(manager, name_query, surname_query)
-    #iki.run(manager, "Salvador", "Dali")
-    #wiki.run(manager, name_query, surname_query)
-    #ms.find_painter_url(surname_query)
+    # wiki.run(manager, "Salvador", "Dali")
+    # wiki.run(manager, name_query, surname_query)
+    # iki.run(manager, "Salvador", "Dali")
+    # wiki.run(manager, name_query, surname_query)
+    # ms.find_painter_url(surname_query)
 
-    #wiki.run(manager, name, surname)
-    #ms.run_individual(manager, surname)
+    # wiki.run(manager, name, surname)
+    # ms.run_individual(manager, surname)
 
-    #manager.run()
+    # manager.run()
 
-   # ms.run_individual(manager,surname)
-    #wiki1.run(manager, name, surname)
-   # manager.run(path)
 
-    #print(wiki1.get_list_kategory("romantyzm"))
+# ms.run_individual(manager,surname)
+# wiki1.run(manager, name, surname)
+# manager.run(path)
+
+# print(wiki1.get_list_kategory("romantyzm"))
 
 
 if __name__ == "__main__":
     main()
-
-
-
-

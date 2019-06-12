@@ -45,15 +45,15 @@ def get_list_kategory(manager, category):
     painter.new_crawler_data_list(result_names, "imie")
     manager.add_temp_painter(painter)
 
-def get_images_with_index(path, start_index, end_index):
+def get_images_with_index(path_read,path_write, start_index, end_index):
     #path = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\result.txt"
-    file = open(path, 'r', encoding='utf-8')
-    arr = []
-    for index in range(start_index, end_index):
-        line = file.readline(index)
-        arr.append(line)
+    file = open(path_read, 'r', encoding='utf-8')
+    names = file.readlines()
+    res_arr = []
+    for index in (start_index, end_index):
+        res_arr.append(names[index])
 
-    get_images(arr)
+    get_images(path_write, res_arr)
 
 
 
@@ -376,5 +376,7 @@ def run(manager, name):
 # 'Wiktor Borisow-Musatow',
 # 'Kuźma Pietrow-Wodkin']
 #
-# get_images_with_index(0,2)
+path_read = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\result.txt"
+path_write = "C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\images.txt"
+get_images_with_index(path_read, path_write, 1, 3)
 #get_images(arr)
