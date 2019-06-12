@@ -6,6 +6,7 @@ using System.Text.RegularExpressions;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
+using System.Drawing;
 
 namespace WebApplication3
 {
@@ -95,9 +96,6 @@ namespace WebApplication3
                     res = findAllData("[Categories]:", sr);
                     foreach(String result in res)
                         cats.Add(CatTechManager.getCategoryByName(result));
-                    res = findAllData("[Techniques]:", sr);
-                    foreach (String result in res)
-                        techs.Add(CatTechManager.getTechniqueByName(result));
                     museum = findData("[Museum]:", sr);
                     education = findData("[Education]:", sr);
                     wiki = findRawData("[wikipedia]:",sr);
@@ -115,10 +113,6 @@ namespace WebApplication3
             foreach (CatTechManager.Category cat in cats)
                 Style.Text += Enum.GetName(typeof(CatTechManager.Category), cat) + ", ";
             Style.Text += "<br/>";
-            Tech.Text = "Technika: ";
-            foreach (CatTechManager.Technique tech in techs)
-                Tech.Text += Enum.GetName(typeof(CatTechManager.Technique), tech) + ", ";
-            Tech.Text += "<br/>";
             Wiki.Text = wiki;
             Magazyn.Text = magazyn;
         }
@@ -126,7 +120,7 @@ namespace WebApplication3
         {
             Uri myUri = new Uri(Request.Url.AbsoluteUri);
             string param = HttpUtility.ParseQueryString(myUri.Query).Get("query");
-            CrawlerManager.runCrawlers(param, CrawlerManager.CrawlerMode.single);
+            CrawlerManager.RunCrawlers(param, CrawlerManager.CrawlerMode.single);
             LoadData();
         }
 

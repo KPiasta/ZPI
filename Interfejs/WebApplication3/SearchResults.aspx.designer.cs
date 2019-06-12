@@ -13,6 +13,15 @@ namespace WebApplication3 {
     public partial class SearchResults {
         
         /// <summary>
+        /// Kontrolka Message.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl Message;
+        
+        /// <summary>
         /// Kontrolka Repeater1.
         /// </summary>
         /// <remarks>
@@ -20,5 +29,14 @@ namespace WebApplication3 {
         /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Repeater Repeater1;
+        
+        /// <summary>
+        /// Kontrolka pages.
+        /// </summary>
+        /// <remarks>
+        /// Pole generowane automatycznie.
+        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl pages;
     }
 }

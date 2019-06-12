@@ -3,8 +3,8 @@
     --secondaryColor: #e4d7b2;
     --textColor: #000000;
     --backgoundColor: #ede6d4;
-    --inactiveColor:#413a29;
-    --activeColor:#755d22;
+    --inactiveColor:#404c82;
+    --activeColor:#6a75a7;
 }
 
 [data-theme="Dark"] {
@@ -12,6 +12,6 @@
     --secondaryColor: #212240;
     --textColor: #a06a45;
     --backgoundColor: #4e4f6f;
-    --inactiveColor:#0c232a;
-    --activeColor:#0b3946;
+    --inactiveColor:#181542;
+    --activeColor:#33305b;
 }

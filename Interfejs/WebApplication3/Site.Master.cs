@@ -18,22 +18,26 @@ namespace WebApplication3
             }
         }
 
+
         protected void Button1_Click(object sender, EventArgs e)
         {
-            switch(RadioButtonList1.SelectedItem.Text)
+            if (TextBox1.Text != "")
             {
-                case "Wyszukaj wg Imienia":
-                    CrawlerManager.runCrawlers(TextBox1.Text, CrawlerManager.CrawlerMode.list);
-                    break;
-                case "Wyszukaj wg Dzieła":
-                    CrawlerManager.runCrawlers(TextBox1.Text, CrawlerManager.CrawlerMode.list);
-                    break;
-                case "Wyszukaj wg Stylu":
-                    CrawlerManager.runCrawlers(DropDownList1.Text, CrawlerManager.CrawlerMode.category);
-                    break;
+                switch (RadioButtonList1.SelectedItem.Text)
+                {
+                    case "Wyszukaj wg Imienia":
+                        CrawlerManager.RunCrawlers(TextBox1.Text, CrawlerManager.CrawlerMode.list);
+                        break;
+                    case "Wyszukaj wg Dzieła":
+                        CrawlerManager.RunCrawlers(TextBox1.Text, CrawlerManager.CrawlerMode.list);
+                        break;
+                    case "Wyszukaj wg Stylu":
+                        CrawlerManager.RunCrawlers(DropDownList1.Text, CrawlerManager.CrawlerMode.category);
+                        break;
+                }
+                CrawlerManager.RunCrawlers("", CrawlerManager.CrawlerMode.images, 0, 11);
+                Response.Redirect("SearchResults.aspx?page=1");
             }
-            
-            Response.Redirect("SearchResults.aspx");
         }
 
         protected void RadioButtonList1_SelectedIndexChanged(object sender, EventArgs e)

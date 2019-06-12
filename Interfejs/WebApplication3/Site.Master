@@ -25,6 +25,7 @@
             height: 100%;
             width: 23%;
         }
+
     </style>
     <link rel="stylesheet" type="text/css" href="ColorThemes.css">
     <script type="text/javascript">
@@ -37,9 +38,10 @@
                 sessionStorage.setItem("theme", "Light");
                 document.documentElement.setAttribute("data-theme", "Light");
             }
+            //sessionStorage.setItem("InactiveColor",var(--inactiveColor));
+            //sessionStorage.setItem("ActiveColor",var(--activeColor));
         }
         const currentTheme = sessionStorage.getItem('theme');
-
 
         if (currentTheme) {
             document.documentElement.setAttribute('data-theme', currentTheme);
@@ -59,7 +61,7 @@
             <table style="height:1000px; width:100%;border-collapse:collapse">
                 <tr style="height:300px">
                     <td class="auto-style1">
-                        <a href="Default.aspx">
+                        <a href="SearchResults.aspx?page=0">
                          <img src="Content/Images/unnamed.jpg" style="width:100%; height:300px;display:block"/>
                         </a>
                     </td>
@@ -81,14 +83,12 @@
                                 </asp:DropDownList>
                                 <br>
                                 <br />
-                                
                         </asp:Panel>
                         <button type="button" onclick="switchTheme()" style="position:relative;bottom:25px;left:0px">Switch color themes</button>
                     </td>
                     <td style="vertical-align:top;background-color: var(--secondaryColor)">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server" >
-
-            </asp:ContentPlaceHolder>
+                        <asp:ContentPlaceHolder ID="MainContent" runat="server" >
+                        </asp:ContentPlaceHolder>
                     </td>
                 </tr>
             </table>

@@ -58,7 +58,24 @@ def get_images_with_index(path_read,path_write, start_index, end_index):
     print(res_arr)
     get_images(path_write, res_arr)
 
+def get_images_individual(painter_name):
+    url = 'https://images.search.yahoo.com/search/images;_ylt=AwrExdzRxgBdHEIA2JuJzbkF;_ylu=X3oDMTBsZ29xY3ZzBHNlYwNzZWFyY2gEc2xrA2J1dHRvbg--;' \
+          '_ylc=X1MDOTYwNjI4NTcEX3IDMgRhY3RuA2NsawRjc3JjcHZpZANjNEh1TFRFd0xqSTJ6a19sVzdpNjlBTVVPREF1TWdBQUFBQVp2T1d2BGZyA3NmcARmcjIDc2EtZ3AEZ3ByaWQDLmU2TFpCQ1NRNmk3LlFwMTdFMWdFQQRuX3N1Z2cDMTAEb3JpZ2luA2ltYWdlcy5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDBHFzdHJsAzIxBHF1ZXJ5A2xlb25hcmRvJTIwZGElMjB2aW5jaQR0X3N0bXADMTU2MDMzMjE0MA--?p=' \
 
+    url += painter_name + '&fr=sfp&fr2=sb-top-images.search&ei=UTF-8&n=60&x=wrt'
+    source_code = requests.get(url).text
+    soup = BeautifulSoup(source_code, features="html.parser")
+    i=0
+    result_image =[]
+    for result_div in soup.find(id='sres'):
+        if result_div is None and i ==4:
+            print("ffffffffffffffffffffffffffffffffffffffff")
+            print(result_image)
+            return result_image
+        result_image.append(result_div.find('img')['data-src'])
+        print(result_div.find('img')['data-src'])
+        i = i+1
+    return result_image
 
 
 def get_images(path, painters_array):
@@ -348,6 +365,10 @@ def run(manager, name):
     edukacja = []
     edu = find_by_key_word(soup, 'Alma Mater')
     edu_1 = find_by_key_word(soup, "Uczelnia")
+    obrazki = []
+    obrazki = get_images_individual(name)
+    print(obrazki)
+    painter.new_crawler_data_list(obrazki,"link")
     if edu != "":
         edukacja.append(edu)
     if edu_1 != '':

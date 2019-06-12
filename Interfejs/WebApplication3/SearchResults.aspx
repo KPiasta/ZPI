@@ -44,11 +44,27 @@
     {
         color: #fff;
     }
+    #pages
+    {
+        width:70%;
+        
+        vertical-align:bottom;
+        list-style-type:none;
+        justify-content:space-between;
+        display:flex;
+    }
+    #pages li
+    {
+        display:inline-block;
+        list-style-type:none;
+        float:left;
+    }
+
 </style>
 
 
     <div >
-        <p style="text-align:center">Wyniki wyszukiwania</p>
+        <p id="Message" runat="server" style="text-align:center">Wyniki wyszukiwania</p>
         <div id="gallery">
             <asp:Repeater ID="Repeater1" runat="server">
                 <HeaderTemplate>
@@ -69,6 +85,20 @@
                     </ul>
                 </FooterTemplate>
             </asp:Repeater>
+        </div>
+        <div style="display:flex;justify-content:center;vertical-align:bottom">
+            <ul id="pages" runat="server">
+                    <li><a href="SearchResults.aspx?page=1">1</a></li>
+                    <li><a href="SearchResults.aspx?page=2">2</a></li>
+                    <li><a href="SearchResults.aspx?page=3">3</a></li>
+                    <li><a href="SearchResults.aspx?page=4">4</a></li>
+                    <li><a href="SearchResults.aspx?page=5">5</a></li>
+                    <li><a href="SearchResults.aspx?page=6">6</a></li>
+                    <li><a href="SearchResults.aspx?page=7">7</a></li>
+                    <li><a href="SearchResults.aspx?page=8">8</a></li>
+                    <li><a href="SearchResults.aspx?page=9">9</a></li>
+
+            </ul>
         </div>
     </div>
     

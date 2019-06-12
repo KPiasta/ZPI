@@ -103,15 +103,6 @@ namespace WebApplication3 {
         protected global::System.Web.UI.WebControls.Label Style;
         
         /// <summary>
-        /// Kontrolka Tech.
-        /// </summary>
-        /// <remarks>
-        /// Pole generowane automatycznie.
-        /// By zmodyfikować deklaracje pola przenieś ją z pliku projektanta do pliku codebehind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.Label Tech;
-        
-        /// <summary>
         /// Kontrolka Tab2.
         /// </summary>
         /// <remarks>
