@@ -14,7 +14,7 @@ def run_individual(manager,phrase):
     phrase= phrase.lower()
     pages = set()
 
-    url = 'https://zyciorysy.info/malarze/' + to_find
+    url = 'https://zyciorysy.info/' + to_find
     check_pages(manager, url, phrase, pages)
 
 
@@ -45,7 +45,7 @@ def run_list_artists(manager,phrase):
     phrase=unidecode(phrase)
     phrase= phrase.lower()
     pages = set()
-    url = 'https://zyciorysy.info/' + to_find
+    url = 'https://zyciorysy.info/malarze/' + to_find
 
 #
 # #rel = links[0].get('rel')
