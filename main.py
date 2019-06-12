@@ -13,6 +13,7 @@ def main():
     query = ''
     lower = 0
     upper = 0
+    path_2 = 'ZPI\\files_stuff\\result\\images.txt'
 
     if len(sys.argv) == 4:
         query = sys.argv[1]
@@ -70,7 +71,7 @@ def main():
         lower_int = int(lower)
         upper_int = int(upper)
         manager = Manager("", "")
-        wiki1.get_images_with_index(path,lower_int,upper_int)
+        wiki1.get_images_with_index(path, path_2, lower_int, upper_int)
 
     # print(name +" "+ surname)
 

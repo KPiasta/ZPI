@@ -51,6 +51,8 @@ def get_images_with_index(path_read,path_write, start_index, end_index):
     names = file.readlines()
     res_arr = []
     for index in (start_index, end_index):
+        if index > len(res_arr):
+            break
         res_arr.append(names[index])
 
     get_images(path_write, res_arr)
