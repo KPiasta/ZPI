@@ -11,7 +11,7 @@ months_and_syntax = ['stycznia', 'lutego', 'marca', 'kwietnia', 'maja', 'czerwca
 
 category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści_(malarze)',
                        'Impresjoniści': 'Impresjoniści_(malarze)',
-                        'Ekspresjoniści': 'Ekspresjoniści_(malarze)',
+                       'Ekspresjoniści': 'Ekspresjoniści_(malarze)',
                        'Kubiści': 'Kubiści_(malarze)',
                        'Malarze baroku': 'Malarze_barokowi',
                        'Malarze gotyccy': 'Gotyccy malarze',
@@ -27,15 +27,43 @@ category_dictionary = {'Abstrakcjoniści': 'Abstrakcjoniści_(malarze)',
                        'Surrealiści': 'Surrealiści_(malarze)',
                        'Symboliści': 'Symboliści_(malarze)',
                        'Malarze współcześni': "Malarze_współcześni",
-                       'Postimpresjoniści' : 'Malarze_współcześni',
-                       'Dadaiści':'Dadaiści_(malarze)',
+                       'Postimpresjoniści': 'Malarze_współcześni',
+                       'Dadaiści': 'Dadaiści_(malarze)',
                        'Futuryści': 'Futuryści_(malarze)',
                        'Symboliści': 'Symboliści_(malarze)',
                        'Surrealiści': 'Surrealiści_(malarze)'
                        }
 
 
-def get_list_kategory(manager, category):
+def get_images(path, painters_array):
+    # file = open("C:\\Users\\kpiasta\\Desktop\\ZPI\\files_stuff\\result\\images.txt", 'w', encoding='utf-8')
+    file = open(path, 'w', encoding='utf-8')
+    if painters_array is not None:
+        for painter in painters_array:
+            file.write(get_pic_and_pray_to_god_its_not_meme(painter))
+            file.write("\n")
+        file.close()
+
+
+def get_pic_and_pray_to_god_its_not_meme(painter_name):
+    url = 'https://images.search.yahoo.com/search/images;_ylt=AwrExdzRxgBdHEIA2JuJzbkF;_ylu=X3oDMTBsZ29xY3ZzBHNlYwNzZWFyY2gEc2xrA2J1dHRvbg--;' \
+          '_ylc=X1MDOTYwNjI4NTcEX3IDMgRhY3RuA2NsawRjc3JjcHZpZANjNEh1TFRFd0xqSTJ6a19sVzdpNjlBTVVPREF1TWdBQUFBQVp2T1d2BGZyA3NmcARmcjIDc2EtZ3AEZ3ByaWQDLmU2TFpCQ1NRNmk3LlFwMTdFMWdFQQRuX3N1Z2cDMTAEb3JpZ2luA2ltYWdlcy5zZWFyY2gueWFob28uY29tBHBvcwMwBHBxc3RyAwRwcXN0cmwDBHFzdHJsAzIxBHF1ZXJ5A2xlb25hcmRvJTIwZGElMjB2aW5jaQR0X3N0bXADMTU2MDMzMjE0MA--?p=' \
+ \
+    url += painter_name + '&fr=sfp&fr2=sb-top-images.search&ei=UTF-8&n=60&x=wrt'
+
+    source_code = requests.get(url).text
+    soup = BeautifulSoup(source_code, features="html.parser")
+    result_div = soup.find(id='sres')
+    if result_div is None:
+        return ""
+    result_image = result_div.find('img')
+    return result_image['data-src']
+
+
+get_pic_and_pray_to_god_its_not_meme("Leonardo da Vinci")
+
+
+def get_list_kategory(category):
     painter = Painter("wikipedia")
     url = "https://pl.wikipedia.org/wiki/Kategoria:" + category_dictionary.get(category)
     get_list_by_hc_category_helper(url)
@@ -43,8 +71,7 @@ def get_list_kategory(manager, category):
     for name in result_names:
         print(name)
     painter.new_crawler_data_list(result_names, "imie")
-    manager.add_temp_painter(painter)
-
+    # manager.add_temp_painter(painter)
 
 
 def get_list_by_hc_category_helper(url):
@@ -67,7 +94,6 @@ def get_list_by_hc_category_helper(url):
             result_name_arr.append(x['title'])
             result_names.append(x['title'])
             print(x['title'])
-
 
     if (len(urls) > 0):
         url = urls[0]
@@ -310,7 +336,7 @@ def run(manager, name):
 # run(manager, url)
 # get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Impresjoniści')
-get_list_kategory('Abstrakcjoniści')
+# get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Malarze baroku')
 # get_list_kategory('Malarze gotyccy')
 # get_list_kategory('Malarze klasycystyczni')
@@ -323,4 +349,8 @@ get_list_kategory('Abstrakcjoniści')
 # get_list_kategory('Prymitywiści')
 # get_list_kategory('Realiści')
 # get_list_kategory('Surrealiści')
-# get_list_kategory('Symboliści')
+# arr = ['Leonard da Vinci', 'Zdzisław Beksiński', 'Adolf Hitler', 'Witold Wojtkiewicz',
+# 'Wiktor Borisow-Musatow',
+# 'Kuźma Pietrow-Wodkin']
+#
+# get_images(arr)
