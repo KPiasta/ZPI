@@ -67,9 +67,11 @@ def main():
         manager.run_list(path)
 
     elif param == '3':
-
+        print("fdsfsdf")
+        lower_int = int(lower)
+        upper_int = int(upper)
         manager = Manager("", "")
-
+        wiki1.get_images_with_index(path,lower_int,upper_int)
 
     #print(name +" "+ surname)
 
