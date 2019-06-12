@@ -365,10 +365,12 @@ def run(manager, name):
     edukacja = []
     edu = find_by_key_word(soup, 'Alma Mater')
     edu_1 = find_by_key_word(soup, "Uczelnia")
-    obrazki = []
+    #obrazki = []
+    """
     obrazki = get_images_individual(name)
     print(obrazki)
     painter.new_crawler_data_list(obrazki,"link")
+    """
     if edu != "":
         edukacja.append(edu)
     if edu_1 != '':

@@ -55,7 +55,7 @@ namespace WebApplication3
                     if (line == dataTag)
                     {
                         result = dataTag + " ";
-                        while (((line = sr.ReadLine()) != null) && line!="")
+                        while (((line = sr.ReadLine()) != "[END]"))
                         {
                             result += line;
                         }
@@ -100,6 +100,7 @@ namespace WebApplication3
                     education = findData("[Education]:", sr);
                     wiki = findRawData("[wikipedia]:",sr);
                     magazyn = findRawData("[magazyn_sztuki]:", sr);
+					sr.Close();
                 }
             }
             catch (Exception ex)

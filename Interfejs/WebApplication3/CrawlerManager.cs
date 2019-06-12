@@ -24,7 +24,7 @@ namespace WebApplication3
             string strCmdText;
             if (mode == CrawlerMode.images)
             {
-                strCmdText = string.Format("/C python.exe  {0} \"{1}\" {2} {3} {4} {5}", main, querry,imgs, (int)mode, low, high);
+                strCmdText = string.Format("/C python.exe  {0} \"{1}\" {2} {3} {4} {5} {6} ", main, querry,dest, (int)mode, low, high,imgs);
             }
             else
             {

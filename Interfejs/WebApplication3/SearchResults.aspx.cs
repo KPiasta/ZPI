@@ -31,7 +31,6 @@ namespace WebApplication3
             if (page==0||!ok)
             {
                 Message.InnerText = "Witaj! Wyniki twojego wyszukiwania pojawią się tutaj...";
-                pages.Visible = false;
             }
             else
             {
@@ -57,12 +56,15 @@ namespace WebApplication3
             String line1 = null;
             String line2 = null;
             int i = low;
-            while ((line1 = sr1.ReadLine()) != null&&(line2 = sr2.ReadLine())!=null&&i++<high)
+
+			while ((line1 = sr1.ReadLine()) != null&&(line2 = sr2.ReadLine())!=null&&i++<high)
             {
                 list.Add(new MyImage(i, line2,line1));
             }
             Repeater1.DataSource = list;
             Repeater1.DataBind();
+			sr1.Close();
+			sr2.Close();
 
         }
 

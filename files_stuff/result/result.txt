@@ -1,5 +1,474 @@
-Jan Matejko
-Wojciech Gerson
-Artur Grottger
-Jacek Malczewski
-Stanisław Wyspiański
+[QUERY]:
+Leonardo da Vinci
+
+[Name]:
+<Leonardo da Vinci>
+
+[Birth Date]:
+1 rep(s): <15 kwietnia 1452>
+
+[Birth Place]:
+1 rep(s): <Anchiano, niedaleko Vinci>
+
+[Death Date]:
+1 rep(s): <2 maja 1519>
+
+[Death Place]:
+1 rep(s): <Clos Lucé>
+
+[Categories]:
+8 rep(s): <renesans>
+4 rep(s): <symboliści>
+3 rep(s): <współczesność>
+2 rep(s): <pop-art>
+2 rep(s): <realizm>
+1 rep(s): <Malarze renesansu>
+1 rep(s): <ekspresjonizm>
+1 rep(s): <klasycyzm>
+
+[Works]:
+<NO DATA>
+
+[Museum]:
+<NO DATA>
+
+[Education]:
+<NO DATA>
+
+
+
+[magazyn_sztuki]:
+
+[END]
+
+
+[wikipedia]:
+Leonardo da Vinci, właściwie Leonardo di ser Piero da Vinci[a] i (ur. 15 kwietnia 1452 w Anchiano, zm. 2 maja 1519 w Clos Lucé) – włoski renesansowy malarz, architekt, filozof, muzyk, pisarz, odkrywca, matematyk, mechanik, anatom, wynalazca, geolog, rzeźbiarz. W rozumieniu współczesnym nie miał nazwiska, człon „da Vinci” oznacza bowiem „z [miasta] Vinci”.
+
+Leonardo często był opisywany jako archetyp „człowieka renesansu”, którego, wydawałoby się, niespożytej ciekawości dorównywała tylko siła jego kreatywności. Szeroko uważa się go za jednego z największych malarzy wszech czasów i prawdopodobnie najwszechstronniej utalentowaną osobę w historii[b]. To właśnie talent malarski przysporzył Leonardowi największej popularności. Dwie z jego prac, Mona Lisa i Ostatnia Wieczerza, zajmują czołowe miejsca na listach najsławniejszych, najczęściej imitowanych i wspominanych portretów i dzieł malarstwa. Równie wielkie znaczenie w historii sztuki ma szkic Leonarda Człowiek witruwiański. W Polsce szczególnie znany jest obraz Dama z gronostajem, który znajduje się w zbiorach Muzeum Narodowego w Krakowie. Do czasów dzisiejszych przetrwało najprawdopodobniej 15 jego obrazów[c].
+
+Jako inżynier, Leonardo tworzył projekty wyprzedzające jego czas, opracowując koncepcje śmigłowca, czołgu, wykorzystania podstaw tektoniki płyt, podwójnego poszycia burt statku i wiele innych innowacji. Względnie mała liczba jego pomysłów została wcielona w życie za jego czasów. Niektóre z jego pomniejszych pomysłów, takie jak automatyczna nawijarka do szpul czy maszyna do sprawdzania wytrzymałości drutu na rozciąganie, weszły do świata techniki bez większego rozgłosu.
+
+Leonardo pracował na największych dworach Europy, m.in. dla rodów Sforzów i Medyceuszy. Doprowadził do znacznego wzrostu poziomu wiedzy o anatomii, budownictwie lądowym i hydrodynamice. Zaznaczył swoją obecność także w dziedzinie architektury, rzeźby, filozofii i pisarstwa, ale te zajęcia odgrywały mniejszą rolę w jego życiu. Do dziś przetrwało 7000 stron jego notatników z rysunkami, szkicami naukowymi i notatkami.
+
+Z wczesnym okresem życia Leonarda wiąże się wiele niejasności, gdyż zachowało się niewiele informacji na temat jego dzieciństwa i młodości. Nawet w jego życiorysach z XVI w. fakty mieszają się z legendami. Za powstanie wielu mitów o życiu Leonarda odpowiedzialny jest Giorgio Vasari, który spisał jego pierwszą biografię, zawierającą wiele przekłamań. Lata najbardziej wytężonej pracy w życiu Leonarda podzielone są na okresy: I florencki, I mediolański, II florencki, II mediolański i rzymski, mimo iż nazewnictwo to nie jest w pełni zgodne z faktycznym miejscem jego pobytu w tych okresach.
+
+Leonardo da Vinci urodził się 15 kwietnia 1452 r. o godzinie 22:30[d]. Był nieślubnym[e] dzieckiem przyszłego florenckiego prawnika i księgowego Piera da Vinci i dziewczyny o imieniu Caterina lub Catarina[f][g]. Leonardo da Vinci został ochrzczony 16 kwietnia w kościele Świętego Krzyża w Vinci. Sakramentu chrztu udzielił najbliższy sąsiad rodziny, ksiądz Piero di Bartolomeo Cecci. Na chrzcie było obecnych dziesięcioro rodziców chrzestnych – najbliższych sąsiadów, m.in.: Papino di Nanni Banti i Maria, córka Nanniego di Venzo. Gośćmi byli także Arrigo di Giovanni Tedesco oraz Monna Lisa di Domenico di Brettone.
+
+Wiadomo, że pierwsze 5 lat swojego życia Leonardo da Vinci spędził w osadzie Anchiano[h] w domu swojej matki, a od 1457 roku zamieszkał w miasteczku Vinci, w domu swojego ojca, w którym mieszkali jeszcze jego dziadkowie i wuj Francesco . Jego ojciec ożenił się z szesnastoletnią dziewczyną, Albierą Amadori, która opiekowała się Leonardo, ale umarła młodo[1] w 1465 roku nie pozostawiając swojemu mężowi dzieci. W 1466 r. ojciec zabrał Leonarda do Florencji, gdzie prowadził kancelarię adwokacką przy dzisiejszej ulicy Via dei Gondi.
+
+W roku 1468, gdy Leonardo skończył 16 lat, jego ojciec ożenił się ponownie z dwudziestoletnią Francescą Lanfredini, która również umarła bezdzietnie. Piero da Vinci dochował się pełnoprawnych potomków zawierając trzecie małżeństwo z Margheritą di Guglielmo (urodziła mu szóstkę dzieci o imionach[2]: Antonio, Giulian, Maddalena, Lorenzo, Violante i Domenico) oraz czwarte i ostatnie z Lucrezią Cortigiani, która urodziła mu kolejne sześcioro dzieci[3]: Margheritę, Benedetto, Pandolfo, Guglielmo, Bartolomeo i Giovanniego[4][5].
+
+Ostatecznie, Leonardo da Vinci miał dwanaścioro przyrodniego rodzeństwa i każde z nich było znacznie młodsze od niego. Ostatnie urodziło się, kiedy Leonardo był czterdziestoletnim mężczyzną, i z żadnym nie utrzymywał bliższych kontaktów. Po śmierci ojca wszedł z nimi w konflikt w kwestii prawa do spadku[6].
+
+Leonardo  otrzymał nieformalne wykształcenie w takich dziedzinach jak język łaciński, geometria i matematyka. W późniejszym okresie życia w swych notatkach wspomniał tylko dwa znaczące zdarzenia ze swojego dzieciństwa. Pierwsze, które uznał za omen, było związane z przelotem kani nad jego kołyską, która ogonem musnęła jego twarz[7]. Drugie było związane z wędrówkami po górach: odkrył jaskinię, do której bał się wejść, gdyż mógł tam przebywać jakiś przerażający potwór, ale z drugiej strony był zaciekawiony, co mógłby tam znaleźć[1].
+
+Wczesne lata życia Leonarda da Vinci są przedmiotem licznych domysłów historiografów[8]. Vasari, XVI wieczny biograf renesansowych malarzy, opowiada historię o pewnym rolniku, który wykonał dla siebie okrągłą tarczę i zamówił u ojca Leonarda namalowanie na niej obrazu. Leonardo zajął się tym, malując potwora ziejącego ogniem, który był tak przerażający, iż ser Piero postanowił sprzedać obraz florenckiemu marszandowi, a ten odsprzedał obraz władcy Mediolanu. W tym czasie ser Piero kupił inną tarczę z namalowanym sercem przebitym strzałą, którą dał rolnikowi[9].
+
+Pochodzenie uniemożliwiało Leonardowi zdobycie uniwersyteckiego wykształcenia, nad czym ubolewał:
+
+Leonardo zaczął pobierać nauki prawdopodobnie dzięki kontaktom zawodowym ojca. Ser Piero znał cenionego malarza i rzeźbiarza, Andreę del Verrocchia, któremu zaprezentował kilka prac syna. Ten bezzwłocznie przyjął go do swojej pracowni. Młodzieniec poznawał sztukę nie tylko w pracowni, ale także na ulicach, w kościołach i w mieście.
+
+Pracownia Verocchia mieściła się w parafii kościoła Sant’Ambrogio we Florencji. Przed przyjęciem Leonarda do pracowni Verrocchio spisał z jego ojcem umowę. Zobowiązywał się w niej nauczyć adepta zasad perspektywy i rysowania postaci, miał też zapewnić mu papier i dostarczać modeli, którymi były zazwyczaj rysunki malarza oraz przedmioty i ludzie.
+
+Papier był wówczas drogi, więc uczniowie ćwiczyli także na zagruntowanych drewnianych tabliczkach, używając rysików z metalową końcówką. Na najwcześniejszych rysunkach Leonarda na papierze widać że używał sztyftu z ołowianą lub srebrną końcówką, a potem wykonywał pociągnięcia piórkiem.
+
+Zanim Leonardo mógł przystąpić do nauki malowania, musiał zgłębić podstawy tego procesu: poznać właściwości różnych gatunków drewna (topoli, orzecha, gruszy, jarzębu) używanych na tak zwane podobrazie.
+
+Potem Leonardo posiadł umiejętność odlewania w brązie. Pracował w glinie i marmurze oraz malował. Nie wiadomo kiedy dokładnie przekroczył próg pracowni – najpóźniej od 1469 r. mieszkał i pracował u Verocchia. Uczniami byli tam także Lorenzo di Credi, Pietro Perugino i Agnolo di Polo. Najpierw Leonardo uczył się sporządzania farby, przygotowywania podkładów malarskich opartych na gipsie oraz modelowania w wosku i glinie. Rzeźba Dawid, wykonana prawdopodobnie w połowie lat 70. XV w. przez Verrocchia, przedstawia młodego Leonarda. Verrocchio był także muzykiem, więc nie da się wykluczyć, że pod jego pieczą Leonardo rozwinął swoje zdolności muzyczne.
+
+Poza powszechnym wówczas malowaniem temperą jajową zetknął się z techniką malarstwa olejnego. W pracowni Verocchia wszyscy współpracowali ze sobą, wymieniając się szkicami bądź rysunkami. Często jedno zlecenie wykonywała grupa artystów, przez co trudno ustalić autorstwo dzieł powstałych w kręgu Verrocchia. Na obrazie Tobiasz i anioł pies, ryba i włosy Tobiasza są dziełem Leonarda. W latach 1470–1473 Leonardo tworzył obraz Zwiastowanie, prawdopodobnie w asyście Dominika Ghirlandaio. Leonardo zarabiał w warsztacie Verrocchia 12 florenów rocznie. Do płacy podstawowej dochodziły zyski z prac wykonywanych na zamówienie.
+
+Odrestaurowana zagroda w Anchiano prawdopodobnie była miejscem narodzin Leonarda.
+
+W parafii kościoła Sant’ Ambrogio we Florencji mieściła się pracownia mistrza Leonarda, Andrei del Verrocchia
+
+Tobiasz i anioł – obraz Andrei del Verrocchia, wykonany przy uczestnictwie Leonarda
+
+1 lipca 1472 został członkiem florenckiego bractwa malarzy o nazwie Bractwo św. Łukasza, działającego niezależnie od cechu malarzy Arte dei Medici e Speziali, uzyskując status niezależnego artysty-malarza. Za wstąpienie do Bractwa zapłacił 32 soldy. Musiał także wpłacać roczną składkę członkowską w wysokości 16 soldów, uiszczaną w miesięcznych ratach, oraz kwotę 10 soldów na obchody Dnia św. Łukasza, przypadającego 18 października.
+
+Pozostając kilka lat w pracowni Verrocchia, stał się dla nauczyciela równorzędnym kolegą. Współcześni Leonardowi opisywali artystę jako pięknego mężczyznę o ujmującym charakterze, zawsze starannie ubranego. W tym okresie interesował się głównie malarstwem. W latach 1473–1475 namalował razem z nauczycielem obraz Chrzest Chrystusa. Dziełem Leonarda był anioł z pierwszego planu oraz krajobraz ponad nim. Verrocchio, nie czując się na siłach konkurować z Leonardem, porzucił malarstwo i zajmował się już tylko rzeźbiarstwem.
+
+W 1476 młody Leonardo obok 3 innych zamożnych Florentyńczyków został oskarżony o ‘niemoralne’ kontakty z młodzieńcem oferującym usługi męskiej prostytucji – Jacopo Saltarelli[11]. Oskarżenie było złożone anonimowo i skutkiem wpływów już popularnego artysty i jego kategorycznej odmowie przyznania się do winy, po dwumiesięcznym śledztwie oskarżenie wycofano. Organ florenckiej ‘policji moralności’ (Ufficiali di Nota e dei Monaster), nie określając ‘winy’, ograniczył się jedynie do ostrzeżenia i oficjalnej reprymendy wobec oskarżonych. Niewątpliwie ten fragment wczesnej biografii Leonarda miał duży wpływ na jego późniejszą ostrożność i dyskrecję wobec własnego życia prywatnego.
+
+Z czasem Leonardo stał się znany i książęta włoscy zaczęli zabiegać o to, aby dla nich malował. W okresie rozkwitu olejnego malarstwa realistycznego Leonardo także stał się przedstawicielem tego stylu. Najwcześniej datowana praca Leonarda pochodzi z 5 sierpnia 1473 i przedstawia Rysunek krajobrazu. Czasem, oprócz malowania, modelował w gipsie kobiece i dziecięce głowy, ćwiczył grę na lutni oraz śpiew. Dziełem z wczesnego okresu pobytu we Florencji jest Portret Ginevry Benci. Legenda głosi, iż zakochał się w modelce, lecz jest to mało prawdopodobne. W 1478 Leonardo sporządził notatkę, iż rozpoczął wykonywanie dwóch obrazów Madonny. Pierwszy z nich to Madonna Benois. Co do drugiego natomiast nie ma pewności i z tej racji Leonardowi przypisuje się autorstwo wielu obrazów przedstawiających Madonnę, np.: Madonna z Dzieciątkiem i kotkiem, po którym pozostał tylko szkic. W tym samym roku, 10 stycznia Leonardo założył własną pracownię. Wówczas dostał pierwsze zlecenie na wykonanie obrazu Wizje świętego Bernarda. W latach 1479–1481 Leonardo tworzył obraz Święty Hieronim na pustyni, lecz nie ukończył go. Jego autorstwo jest trudne do stwierdzenia ze względu na zły stan, w jakim się zachował.
+
+W marcu 1481 podpisał z klasztorem San Donato w Scopeto umowę na wykonanie obrazu ołtarzowego Pokłon Trzech Króli w ciągu 30 miesięcy. Praca nie została ukończona, prawdopodobnie dlatego, że autor miał świadomość, iż nie jest w stanie zrealizować wszystkich stawianych sobie celów. Niedokańczanie dzieł zdarzało się Leonardowi także później.
+
+Z I okresu florenckiego pochodzi duża liczba rysunków technicznych przedstawiających najróżniejsze mechanizmy, najczęściej wojenne. Leonardo wykazywał także zainteresowanie przyrodą. Dziwiąc swoim zachowaniem otoczenie, z sympatii do zwierząt prowadził wegetariański tryb życia. Miał też w zwyczaju kupowanie ptaków tylko po to, aby je uwolnić[12]. Po kilkumiesięcznej pracy nad Pokłonem Trzech Króli zdecydował o przeprowadzce. Tuż przed wyjazdem wykonał listę prac stworzonych we Florencji.
+
+Verrocchio stworzył z pomocą Leonarda obraz Chrzest Chrystusa
+
+Święty Hieronim na pustyni
+
+Madonna Benois
+
+Madonna z Dzieciątkiem i kotkiem
+
+W 1482 Leonardo zamknął warsztat we Florencji i udał się do Mediolanu wraz ze swoimi pomocnikami Tommasem di Giovanni Masinim i Atalantem Migliorottim. Okres ten rozpoczął się wraz z pracą na dworze Sforzów, dla Ludwika Sforzy. Książę zapraszał artystów i uczonych nie tylko dla rozrywki, ale także po to, by rozsławić swoją dynastię. Jedna z biografii Leonarda z XVI w. podaje, iż Leonardo początkowo przybył na dwór jako muzyk. Podarował władcy srebrną, samodzielnie zaprojektowaną lutnię w formie końskiej czaszki, ze srebrnym pudłem rezonansowym. Przedstawił się jako doskonały wynalazca machin wojennych, budowniczy mostów i urządzeń fortyfikacyjnych, mimo iż jego doświadczenie w tej dziedzinie było nikłe. Dodał, że w okresie pokoju może tworzyć obrazy bądź wykonywać rzeźby na poziomie dorównującym innym artystom. Został przyjęty jednak głównie dzięki dobrym manierom, talentowi muzycznemu i umiejętności organizacji przyjęć. Początkowo mieszkał w Mediolanie, u malarzy, braci Evangelisty i Ambrogia de Predis, prowadzących warsztat przy bramie Porta Ticinese. Książę zlecał mu różnorodne zadania.
+
+Z czasem artysta przeprowadził się na dwór, zyskał zabezpieczenie materialne i możliwość rozwijania zdolności w różnych dziedzinach. Otrzymał tytuł nadwornego malarza i inżyniera. Początkowo da Vinci koncentrował się na posągu konnym z brązu i kopułach pałacu. Powstał wtedy portret Cecylii Gallerani, Dama z gronostajem oraz obraz Madonna w grocie.
+
+Leonardo ułożył zbiór zagadek do popularnej wówczas gry stanowiącej rozrywkę dla dworzan i innych zamożnych obywateli. Dobór słów w łamigłówkach świadczy o obsesji związanej z narodzinami i sposobem, w jaki został wychowany. Jedna z zagadek rozpoczynała się słowami:
+
+Odpowiedź brzmiała: Orzechy włoskie, żołędzie i oliwki.
+Inna zagadka to:
+
+Rozwiązanie to: „Osły”. Inny przykład to:
+
+Rozwiązanie tej zagadki brzmi: Drzewa, które wykorzystują swoje soki, aby wyżywić doszczepione gałęzie. Najbardziej wymowna jest zagadka o treści:
+
+Wtedy należało odpowiedzieć: Koźlęta.
+
+W czerwcu 1490 zarząd katedry w Pawii zwrócił się do architekta i inżyniera Francesca di Giorgio Martiniego, przebywającego wówczas w Mediolanie, o pomoc w jej przebudowie. Za namową Sforzy da Vinci udał się tam razem z Martinim. 18 czerwca wyruszyli konno w towarzystwie współpracowników Martiniego i uczniów Leonarda. Po przyjeździe zatrzymali się w gospodzie Saracen. Rachunek uregulował 21 czerwca zarząd katedry. Leonarda zainspirował posąg jeźdźca Regisole, podsuwając mu nowy pomysł na stworzenie Pomnika konnego Sforzy. W bibliotece zamkowej starego zamku Viscontich Leonardo odnalazł rękopis polskiego matematyka, Witelona, traktujący o perspektywie. Później Leonardo próbował go ponownie odnaleźć, lecz bezskutecznie, gdyż zaginął on w czasie francuskiej okupacji w 1500. W notatkach Leonarda po pobycie w Pawii pozostał także plan domu rozpusty. Prawdopodobnie Leonardo szukał tam modeli do swoich dzieł.
+
+W połowie lipca 1490 r. Leonardo wrócił do Mediolanu. Ludwik oddał mu do dyspozycji swoją starą rezydencję, Corte Vecchia. Artysta urządził tam pracownię malarską, a także budował wynalazki techniczne. Zatrudnił w warsztacie pomocników i uczniów. Byli wśród nich Marco d'Oggiono, Giovanni Antonio Boltraffio i Giacomo Caprotti, którzy w swojej twórczości przejęli styl malarski, a niekiedy zasady kompozycji od mistrza. 16 lipca 1493 Leonarda odwiedziła Caterina i zamieszkała z nim aż do śmierci w Corte Vecchia. W 1495 Leonardo wyprawił jej pogrzeb, na który wydał 123 soldy.
+
+Ludwik zaczynał tracić popularność. W 1494 zlecił Leonardowi zaprojektowanie jego propagandowego emblematu politycznego. W latach 1495–1498 Leonardo tworzył malowidło ścienne Ostatnia Wieczerza w refektarzu klasztoru przy kościele Santa Maria delle Grazie. Projektował także dekoracje na uroczystości i elementy scenografii. Rysował rebusy i alegorie. Sprawiało mu to wiele przyjemności, gdyż lubił wszelkie zagadki, tajemnice i żarty. W styczniu 1497 w czasie porodu zmarła małżonka Sforzy. Przygnębiony władca postanowił z mieszczącej się na parterze wieży północnej Sali Deskowej w swoim zamku zrobić prywatne ustronie. W październiku 1498 Leonardo skończył dekorować Czarne Salki na zamku i przystąpił do nowego projektu.
+
+W sierpniu 1497 Ludwik podarował Leonardowi ziemię z winnicą położoną za Porta Vercellina, między konwentem Santa Maria delle Grazie a kościołem San Vittore. Działka zajmowała powierzchnię ok. 1 ha. Leonardo szacował wartość ziemi na 4 soldy. Zarządcą został Giacomo Caprotti. Część domu wynajął za 100 lirów rocznie, a kilka izb zachował, by mogła tam zamieszkać jego owdowiała matka. W 1498 poszerzono drogę łączącą kościół San Vittore z Santa Maria delle Grazie, co podniosło wartość posiadłości. Do tego projektu odnosiły się niektóre notatki artysty. Nieopodal mieszkał Galaezzo Sanseverino, właściciel licznych stajni. Leonardo wykonywał projekty w związku z planami ich odnowienia. Sąsiadami Leonarda da Vinci byli także Evangelista de Predis i Marialo de' Guiscardi. Ziemia była własnością Leonarda aż do śmierci.
+
+Oprócz zadań artystycznych podejmował się także innych projektów, m.in. projektował studnie, urządzenia grzejne i pawilony ogrodowe. Utrzymywał kontakty z rzemieślnikami, aby dowiedzieć się jak najwięcej o budowie kanałów i wznoszeniu murów. Badał urządzenia systemu kanałów w otoczeniu miasta, konstruował machiny wojenne. Studiował podstawy mechaniki i zgłębiał naturę wody. W Mediolanie spotkał wybitne osobistości. Wymieniał się poglądami i pomysłami z artystami i uczonymi, uzyskując dzięki tym kontaktom wiele inspiracji. Za sprawą znajomości z architektem Donato Bramante rozwinął zdolność sztuki budowlanej. Razem z matematykiem Lucą Piaciolim studiował geometrię i w 1498 wykonywał ilustracje do jego książki o teorii proporcji zatytułowanej: O boskiej proporcji. Leonardo zaczął studiować podstawy geometrii, kanony proporcji i harmonii. Samodzielnie zgłębiał język łaciński, aby móc studiować starożytne dzieła, uznawane wówczas za podstawę wiedzy. Przy natłoku innych prac zdarzało mu się nie znajdować czasu na malowanie. W tym okresie proponował także swoje usługi hrabiemu Ligny.
+
+Na początku 1499 do Lombardii dotarły wieści, że Francuzi szykują najazd. Wobec tego Leonardo, spodziewając się nieuchronnej klęski swojego mecenasa, przystąpił do porządkowania swoich spraw. Podliczał pieniądze, rozdysponowywał je i przeprowadzał generalne porządki w swojej pracowni. Oddał także wykonaną z Ambrogiem kopię Madonny w grocie.
+
+6 września Francuzi pod wodzą Ludwika XII Walezjusza zajęli Lombardię i wkroczyli do Mediolanu. Po ucieczce swojego protektora Leonardo nawiązał kontakt z Francuzami. Dostał zlecenie sporządzenia raportu o warunkach panujących we Florencji. Niepewna sytuacja polityczna w Mediolanie skłoniła artystę do opuszczenia miasta w grudniu 1499. Przyspieszyły to także pogłoski o bliskim powrocie Ludwika.
+
+Leonardo mieszkał u malarzy Evangelisty i Ambrogia de Predis, prowadzących warsztat przy Porta Ticinese w Mediolanie
+
+Dama z gronostajem
+
+Madonna w grocie – I wersja
+
+Leonardo stworzył fresk Ostatnia Wieczerza w refektarzu klasztoru przy kościele Santa Maria delle Grazie w Mediolanie.
+
+Leonardo udał się wraz z Lucą Piacolim do Mantui, gdzie został serdecznie przyjęty na dworze Isabelli d’Este, szwagierki Ludovica Sforzy. Dzienniki księżnej dowodzą, że była zakochana w artyście. Niektórzy badacze twierdzą, iż miał z nią romans, ale nie istnieją na to wystarczające dowody. Księżna ceniła jego malarstwo i zleciła mu wykonanie swego portretu. Wykonał tylko karton do obrazu i opuścił miasto.
+
+Leonardo wyjechał w lutym 1500 r. z Mantui. W połowie marca przybył do Wenecji, gdzie spotkał się z artystami, Giovannim Bellinim i Giorgionem. Zajmował się planami zabezpieczenia wschodniej granicy Republiki Weneckiej przed najazdem tureckim. Sporządził dla weneckiego senatu raport w sprawie możliwości ufortyfikowania rzeki Isonzo. Odwiedził te tereny w połowie marca, by dokonać pomiarów, badań, oraz rozmawiać z miejscową ludnością. Po powrocie do Wenecji zainteresował się techniką drukarską. Zlecił wyrycie i wydrukowanie emblematu swojej szkoły. Mimo tych udogodnień Leonardo trwał w przekonaniu o wyższości obrazu nad drukiem:
+
+W kwietniu 1500 r. na dłużej przybył do Florencji. W czasie jego nieobecności nastąpiła tu diametralna zmiana stosunków politycznych[i]. Leonardo stanął przed koniecznością odnalezienia się w nowej rzeczywistości. Florentyńczycy postrzegali artystę jako dziwacznego i kapryśnego:
+
+Jednakże artysta, który zyskał uznanie dzięki dziełu Ostatnia Wieczerza, nie narzekał na brak zamówień.
+
+Leonardo zajął pomieszczenia w klasztorze serwitów i otrzymał zlecenie na wykonanie obrazu ołtarzowego Święta Anna Samotrzeć (właściwa nazwa obrazu: Dziewica z Dzieciątkiem i Św. Anną)[j]. Prace nad nim wywoływały powszechne zainteresowanie. Do mieszczącej się w klasztorze pracowni Leonarda ściągały tłumy, by móc zobaczyć chociaż karton do dzieła. Podejmował także inne prace, ale niczego nie doprowadzał do końca. Zajmował się też studiami geometrycznymi.
+
+Latem 1500 r. wyjechał poza miasto na wakacje. Sporządził wówczas rysunek willi florenckiego kupca Angela del Tovaglia. 11 sierpnia przesłał rysunek markizowi Mantui, Francescowi Gonzaga, w podziękowaniu za gościnę. W tym samym roku Leonardo prowadził konsultacje inżynierskie. W wyniku osunięcia się wzgórza pod kościołem San Salvatore została naruszona konstrukcja budowli. Leonardo zalecił remont systemu odwadniającego i kanałów wodnych. Planiści podjęli 22 marca 1501 r. decyzję o wprowadzeniu pomysłu w życie. Potem Leonardo udał się w krótką podróż do Rzymu. Zwiedził wówczas ruiny willi Hadriana w Tivoli oraz Zamek św. Anioła. Sporządził serię szkiców antycznych budynków i rzeźb[k]. Wówczas spotkał się także z Bramantem.
+
+Na początku kwietnia 1501 r. Leonardo wrócił do Florencji. Spotkał się z wikariuszem generalnym zakonu karmelitów Pietrem Novellarą, który przekazał mu prośby Isabelli d’Este. 29 marca wysłała ona list do duchownego, by ten nakłonił Leonarda do wykonania dla niej obrazu Madonny. Prosiła także o przysłanie drugiego szkicu jej portretu. 3 kwietnia zakonnik odpisał, iż artysta jest pochłonięty studiowaniem geometrii i niewiele czasu poświęca malarstwu. Kolejny list od duchownego z 14 kwietnia zawierał informacje, iż Leonardo ustosunkował się przychylnie do pomysłu Isabelli. Obiecał wykonać dzieło zaraz po ukończeniu wykonywanego wówczas dla Roberta Florimonda obrazu Madonna z kądzielą. W lipcu markiza napisała jeszcze jeden list do Leonarda, wymuszając na artyście rozpoczęcie prac nad zleconym dziełem. Tym razem jej posłańcem był Manfredo de'Manfredi. W odpowiedzi z 31 lipca wysłannik stwierdził, że ze słów Leonarda wynika, iż rozpoczął już prace. W maju 1502 r. Leonardo wyceniał antyczne wazy na życzenie Izabelli.
+
+Potem pracował przez 10 miesięcy dla księcia Romanii, Cezara Borgii, jako architekt i inżynier wojskowy. Dla Florentyńczyków natomiast był ich „szpiegiem” na dworze Borgii. Podróżował po strefie wpływów Borgii. Początkowo wyjechał do Piombino, małego miasta nad Morzem Śródziemnym, gdzie sporządzał notatki na temat fortyfikacji i portu. Następnie udał się do Urbino, do którego dotarł 30 marca 1502 r. Spotkał tam ponownie Ludovica Sforzę. Kolejne podróże odbył do Pesaro (1 sierpnia), Rimini (8 sierpnia) i Ceseny (10 sierpnia). Tam Leonardo rozważał wykorzystanie nieznanych jeszcze we Włoszech wiatraków, ze względu na płaskie ukształtowanie terenu. 18 sierpnia wystawiono w Pawii dokument zapewniający Leonardowi swobodę podróżowania po włościach Borgii oraz pokrycie wydatków jego i pomocników. 6 września Leonardo wykonał szkic zatoki i kanału w Porte Cesenatico nad Adriatykiem, potrzebny do projektów fortyfikacyjnych, w które się angażował. 11 października był obecny przy zdobyciu Fossombrone przez Borgię. Podczas tych podróży przekonał się o tragizmie zjawiska wojny, co odcisnęło piętno na jego komentarzach w notatkach.
+
+Pod koniec lata Leonardo przeniósł się do Imoli, gdzie mieszkał w twierdzy u osiadłego tam tymczasowo Il Valentino. 7 października przybył tam Niccolò Machiavelli, wysłany na pertraktacje z księciem. W czasie jego trzymiesięcznego pobytu między politykiem a artystą nawiązały się serdeczne stosunki. Leonardo sporządzał szczegółowe plany fortecy Imoli. Jego liczne podróże owocowały ogromną liczbą map, m.in.: mapy doliny Val di Chiana z lotu ptaka, czy też dróg i strumieni w okolicy Castiglione i Montecchio. Na początku 1503 r. da Vinci udał się z Borgiem do Sieny, którą władca zajął. Artysta, starając się odwieść myśli od spraw politycznych, podziwiał uroki architektury miasta.
+
+W 1952 r. w Archiwum Państwowym w Muzeum Topkapı w Stambule znaleziono dokument podpisany:
+
+Założono, że był to da Vinci. Autor listu oferuje swoje usługi inżynierskie sułtanowi Bajazydowi II. Kopista zaznaczył, że korespondencja została napisana 3 lipca, ale nie podaje roku, jednakże list datuje się na 1503 r. Za autorstwem Leonarda przemawia także styl pisarski, podobny do listu przesłanego do Sforzy.
+
+W 1503 r. spotkał Michała Anioła. Leonardo miał już na swoim koncie wiele sukcesów, natomiast młody Michał Anioł był początkującym artystą. Później do grona dołączył Rafael Santi, którego twórczość zyskała wiele ze strony Leonarda, jak i Michała. Łagodny Rafael był daleki od angażowania się w konflikty, natomiast między pozostałymi artystami często dochodziło do starć, nawet na ulicy zdarzyła się między nimi ostra wymiana zdań. Michał twierdził, że rzeźba jest najdoskonalszą dziedziną w sztuce, a Leonardo wypowiadał się o niej lekceważąco.
+
+Na początku marca wrócił do Florencji. Jego oszczędności malały z dnia na dzień. Nie mógł już mieszkać u zakonników, gdyż nie dostarczył im zamówionego dzieła. Stał się wówczas doradcą rządu Republiki. Uczestniczył w projekcie zmiany biegu rzeki Arno. W rzeczywistości chodziło o dwa osobne projekty: pierwszy miał na celu zmianę koryta w dolnym odcinku rzeki, by odciąć wrogiemu miastu Pizie dostęp do morza, drugi natomiast zakładał regulację rzeki na zachód od Florencji, by stała się tam możliwa żegluga. Gdy przedsięwzięcie nie powiodło się, sporządził projekt wykorzystania wody jako źródła energii i do nawadniania pól, jednakże pomysł ten nigdy nie został zrealizowany.
+
+W 1503 r. między obydwoma artystami miało miejsce współzawodnictwo. Rząd republiki zlecił im ozdobienie malowidłami ściennymi Sali Narad w Pałacu Vecchio. Leonardo dostał to zlecenie za sprawą znajomości z Niccolem Machiavellim. Tematyką malowideł miały być wydarzenia z historii miasta. Ani Leonardo (Bitwa pod Anghiari), ani Michał Anioł (Bitwa pod Casciną) nie ukończyli malowideł ze względu na inne zobowiązania.
+
+Święta Anna Samotrzeć, właśc. Dziewica z Dzieciątkiem i Św. Anną
+
+Widok Val di Chiana z lotu ptaka
+
+Plan twierdzy Imoli
+
+Szkic twarzy wojownika do obrazu Bitwa pod Anghiari
+
+Katedra Santa Maria del Fiore
+
+Z tego okresu pochodzi także obraz Mona Lisa (1503 r.). 25 stycznia 1504 r. zarząd katedry Santa Maria del Fiore zorganizował zebranie w sprawie podjęcia decyzji o umiejscowieniu posągu Dawid autorstwa Michała Anioła. Jednym z członków komisji był da Vinci. Sugerował, by umieścić posąg w Loggi dei Lanzi, naprzeciw pałacu Vecchio. Zdania Leonarda nie wzięto pod uwagę. W maju posąg stanął przed głównym wejściem do pałacu Vecchio. Leonardo był wówczas nieprzychylny Michałowi Aniołowi i jego rzeźbie. Wskazuje na to m.in. jedna z relacji naocznego świadka:
+
+Buonarroti niejednokrotnie szydził z Leonarda da Vinci. Inne anonimowe źródło podaje, iż Michał Anioł chcąc dopiec florentczykowi zadał mu pytanie:
+
+Przed wyjazdem z Florencji Leonardo sporządził spis swoich książek. Były to dwie listy zapisane na podwójnej stronie Kodeksu Madryckiego. Dłuższa lista została podpisana: Spis książek, które zostawiam w dużej skrzyni, a krótsza: W skrzyni w klasztorze (prawdopodobnie kościół Santa Maria Novella). Leonardo wymienił, iż posiadał wówczas 116 książek. Podzielił 50 tomów według rozmiarów i typów na:
+
+Druga lista dotyczy rękopisów. Możliwe, że jest to spis manuskryptów i notatników autorstwa artysty. Owe listy dostarczają także informacji o zainteresowaniach Leonarda da Vinci i wpływach, jakim ulegał. Część z pozycji nie jest wymieniona w spisie z 1492 r. w Kodeksie Atlantyckim:
+
+Wzrósł także jego zbiór literatury popularnej:
+
+Po wyjeździe z Florencji Leonardo udał się do Vinci z powodu śmierci swego ojca. 12 sierpnia wuj Francesco sporządził testament, w którym przekazywał mu część nieruchomości w Vinci. Uczynił to w reakcji na wydziedziczenie Leonarda przez ojca. Czyn ten naruszył umowę z ser Pierem, według której majątek Francesca po jego śmierci miał przypaść ser Pierowi i jego prawowitym potomkom. Podczas pobytu w Vinci Leonardo sporządził szkic wzgórz Mont'Albano oraz rysunek tłoczni oliwy.
+
+Następnie wyjechał do Piombino, gdzie rządził wówczas książę Jacopo d'Appiano. 20 października Leonardo zamieszkał na jego zamku. Pod koniec listopada da Vinci wrócił do Florencji. Studiował wówczas zagadnienia matematyczne.
+
+Pod wpływem nalegań Ludwika XII rząd Florencji wyraził zgodę na wyjazd Leonarda do Mediolanu. W poświadczonym notarialnie dokumencie z 30 maja Leonardo zobowiązał się do powrotu pod groźbą grzywny. Poręczycielem Leonarda da Vinci był Leonardo Bonafé, dyrektor banku, w którym Leonardo trzymał oszczędności. Leonardo miał tu zostać tylko 3 miesiące, gdyż rajcowie z Florencji domagali się ukończenia Bitwy pod Anghiari, jednak nie wywiązał się z umowy.
+Pretekstem do wyjazdu były nieustanne spory związane z Madonną wśród skał. Leonardowi i Ambrogiowi de Predis po oddaniu dzieła nie wypłacono całej należnej kwoty honorarium. Złożyli nawet skargę do Ludwika XII, lecz wszczęta w tej sprawie rozprawa zakończyła się dla nich niekorzystnie. Obraz uznano za niedokończony i nakazano Leonardowi jego ukończenie w ciągu 2 lat.
+
+Kościół Santa Maria Novella we Florencji
+
+Frontyspis Starożytności rzymskie w perspektywie
+
+Pałac Vecchio
+
+Karton do obrazu Portret Isabelli d’Este
+
+W 1506 r. przeniósł się do Mediolanu[l], gdzie został przyjaźnie powitany przez namiestnika. Karol Amboise darzył artystę wielkim podziwem:
+
+Leonardo był honorowym gościem na zamku. Jednakże w napisanym później liście wysuwał prośbę o kwaterę w mieście, co wskazuje, iż potrzebował odrobiny swobody.
+
+Leonardo nie chciał powrócić do Florencji. 18 lipca Karol Amboise napisał list do Signorii z prośbą o możliwość przedłużenia pobytu Leonarda da Vinci w Mediolanie pod pretekstem ukończenia rozpoczętych dla niego prac nad zbudowaniem letniej willi. Prośbę wsparł oficjalny list wicekanclerza Gefroi Carlesa, który prosił o przedłużenie urlopu artysty o miesiąc i zobowiązywał się, iż powróci on w wyznaczonym terminie. Signoria w liście z 28 sierpnia przystała na warunki, jednakże Leonardo nie wyjechał pod koniec września do Florencji. 9 października gonfalonier Piero Soderini napisał do namiestnika list ze skargą. D’Amboise odpisał dopiero 16 grudnia, przyrzekając, iż nie zatrzyma Leonarda w Mediolanie, przy czym skarcił Soderiniego za nieumiejętność zapewnienia artyście optymalnych warunków dla rozwoju jego talentu. Niebawem ambasador Francesco Pandolfini otrzymał od króla Francji, Ludwika XII, wiadomość, iż zachwycił go obraz Madonna z kądzielą i pragnie, by artysta stworzył dla niego jakieś dzieło. W wysłanym 14 stycznia 1507 r. liście do Signorii jego zachcianka przybrała formę żądania. W odpowiedzi z 22 stycznia władze wyraziły zgodę na pozostanie Leonarda w Mediolanie.
+
+W lutym da Vinci towarzyszył namiestnikowi w czasie zdobywania Baiedo. Tworzył wówczas pierwsze projekty kościoła Santa Maria della Fontana. 20 kwietnia Karol Amboise podarował Leonardowi list do skarbników księstwa, który przywracał mu na własność winnicę, zagarniętą po wkroczeniu wojsk francuskich do Mediolanu w 1500 r. Pod koniec kwietnia do Mediolanu przybył król Ludwik XII. Leonardo przygotował plastyczną oprawę uroczystości jego wjazdu do miasta. Król zachwycony kreatywnością artysty w nagrodę przyznał mu dożywotnio dochody z opłat wnoszonych przez użytkowników Naviglio di San Cristofano, odcinka kanałów miejskich.
+
+Latem 1507 roku Ambrogio i Leonardo mieli przystąpić do ukończenia Madonny wśród skał, jednak doszło między nimi do konfliktu na tle podziału wypłaty. Poprosili o rozstrzygnięcie sporu dominikanina Giovanniego de Pagnanis, jednakże do tego czasu doszli do porozumienia i ukończyli obraz, a 26 sierpnia zleceniodawcy wypłacili im połowę honorarium. Odebrał ją Amborgio, gdyż da Vinci przebywał wówczas we Florencji na kolejnym rozstrzygnięciu sporu z przyrodnimi braćmi.
+
+Krótko po tym wydarzeniu Leonardo poznał Francesca Melzi, który stał się początkowo jego uczniem, a następnie kompanem do ostatnich dni jego życia. Następnie artysta wielokrotnie wyjeżdżał do Florencji w celu uregulowania sporów majątkowych z przyrodnimi braćmi. Pierwszy wyjazd miał miejsce w połowie 1507 r. Po śmierci wuja Francesca w sądzie toczył się spór o jego majątek. Prawowici potomkowie ser Piera da Vinci starali się podważyć testament stryja na podstawie naruszonej umowy z ich ojcem. 26 lipca król Francji wysłał list z prośbą o interwencję na korzyść artysty, natomiast 15 sierpnia Charles d’ Amboise wysłał list do Florencji z prośbą do władz o przyspieszenie procesu oraz zapowiedzią szybkiego przybycia Leonarda w celu uregulowania sprawy. Rozpatrzeniem sprawy zajął się ser Rafaello Hieronim. 18 lipca da Vinci napisał do Soderiniego, by wymógł od Rafaella zakończenie procesu do 1 listopada, jednakże nie nastąpiło to tak szybko. Leonardo po przybyciu do Florencji z Salaiem zatrzymał się w Palazzo Martelli mecenasa sztuki Piera di Braccia Martellego przy Via Larga. Tam poznał bliżej i zapałał sympatią do Giovanniego Francesca Rusticiego. Owocem ich znajomości była rzeźba grupowa Św. Jan nawracający lewitę i faryzeusza. Od 22 marca w przerwach między rozprawami da Vinci zaczął porządkowanie swoich notatek, jednakże przysporzyło mu to wiele trudności. Ostatecznie Leonardowi przypadł w udziale majątek Il Botro, znajdujący się w odległości 4 mil od Vinci.
+
+Następnie Leonardo przeprowadził się do pracowni przy Via Varga. Wykonywał wówczas zadania artystyczne, ale niewiele wiadomo o jego twórczości z tego okresu. Prowadził nadal prace nad Mona Lisą oraz kontynuował doradzanie Rusticiemu przy pracy nad grupową rzeźbą. Szczodre wynagrodzenia od zleceniodawców umożliwiały mu rozwijanie zainteresowań. Prowadził badania anatomiczne. Wykonywał sekcje zwłok we florenckim szpitalu. Coraz bardziej interesował się tajemnicami ludzkiego ciała, pasjonowała go też geologia. W celach badawczych wiele podróżował.
+
+Przed Wielkanocą wrócił do Mediolanu. Zamieszkał w parafii kościoła Santa Babila przy ulicy Porta Orientale i otworzył tam pracownię. Leonardo dopracowywał wówczas dzieła Święta Anna Samotrzeć i Mona Lisa oraz stworzył obraz Leda z łabędziem, skupił się także na tworzeniu nagrobnego Pomnika konnego Giangiacoma Trivulzia. W międzyczasie oddawał się studiom nad hydrologią, optyką, geometrią, geologią oraz zagadnieniem wzroku. Zajmował się także przygotowywaniem dekoracji na przedstawienia teatralne, festyny i inne widowiska, sporządził również trzy emblematy. Pod koniec 1509 r. Leonardo wyjechał w towarzystwie sześciu uczniów do Pawii na wykłady z anatomii, prowadzone przez Marcationa della Torre. Między badaczami nawiązała się trwała współpraca. Swoje badania anatomiczne opierali na wykonywanych wspólnie sekcjach zwłok. Znajomość przerwała nagła śmierć della Torre w 1511 r.
+
+Tego samego roku 10 marca zmarł protektor artysty, Karol Amboise. Leonardo dalej otrzymywał pensję z królewskiej kasy, ale nie dostawał już hojnych darów od Charlesa. Wówczas artysta wyjechał na pewien czas z miasta w góry w rejonie La Brianza, najprawdopodobniej z zadaniem o charakterze militarnym. 16 grudnia szwajcarscy żołnierze w służbie Świętej Ligi ostrzelali miasteczko Desio. Leonardo utrwalił to wydarzenie na rysunku.
+
+W stoczonej między Francuzami a Świętą Ligą 11 kwietnia 1512 r. bitwie pod Rawenną zginął namiestnik Mediolanu Gaston de Foix. Pomimo zwycięstwa Francuzów, ich władza w Lombardii mocno osłabła, a pod koniec roku Sforzowie znów przejęli władzę w Mediolanie. 29 grudnia Massimiliano Sforza i Cesare[m] wjechali tryumfalnie do miasta. Leonardo uciekł z Mediolanu. Większość tego okresu spędził w Villa Melzi, wiejskim domu Girolama Melziego[n] w pobliżu wsi Vaprio d’Adda. Wówczas Leonardo poświęcił się studiowaniu hydrologii i anatomii, zajął się także upiększeniem domu. Nie odnalazł tam upragnionego spokoju, gdyż 5 stycznia 1513 położony kilka kilometrów dalej zamek z Trezzo został ostrzelany przez Wenecjan. Leonardo sporządził rysunek tego zdarzenia.
+
+Na początku 1513 r. Leonardo przybył do Mediolanu, gdzie zamieszkał u Prevostina Violi. Latem artysta otrzymał zaproszenie do Rzymu i ofertę ponownej współpracy z rodem Medicich[o]. 24 września artysta wyjechał z Mediolanu wraz z pięcioma uczniami. Wyruszyli na południowy wschód drogą Via Emilia – przez Lodi, Piacenzę, Parmę, Regio Emilia, Modenę i Bolonię i skierowali się na południe, podróżując przez Apeniny. Zatrzymali się na krótko we Florencji, Leonardo odwiedził wówczas Alessandra Amadoriego[p].
+
+W październiku 1513 r. Leonardo przybył do Rzymu. Papieski architekt Giuliano Leno na zlecenie Giuliana de’Medici[q] przygotowywał dla artysty pomieszczenia w Pałacu Belwederskim w Watykanie i co miesiąc wypłacał mu pensję. Da Vinci stworzył dla Giuliana emblemat opisany przez Paola Giovia jako pniak Medicich. W tym okresie przybywali tam także Bramante, Michał Anioł i Rafael oraz pomocnik Leonarda, Atalante Migliorotti. W grudniu da Vinci zajął jedno z pomieszczeń w Pałacu Belwederskim.
+
+Leonardo w swoich notatkach wspominał o poprawie kontaktów z rodziną. Wówczas przebywał w Rzymie jego przyrodni brat Giuliano da Vinci, który przyjechał do miasta w sprawach majątkowych. Odnowienie kontaktów miało na celu uzyskanie wstawiennictwa Leonarda u papieża, jednakże starania artysty były daremne.
+
+Leonardo coraz rzadziej zajmował się malarstwem. Przeprowadzał eksperymenty, do których z dystansem odnosili się mu współcześni. Gdy papieżowi doniesiono o prowadzonych przez Leonarda sekcjach zwłok w szpitalu Santo Spirito, Da Vinci popadł z nim w konflikt[r], kontynuował więc studia anatomii, badając zwierzęta. Zajmował się zagadnieniami grawitacji i kwadratury koła oraz badaniem skamielin, a także zjawisk burzy, wiatru i potopu.
+
+Jego pomysły niejednokrotnie wywoływały w jego gościach więcej przerażenia niż podziwu, np. trzymanie w pudełku oswojonej szarańczy. Trzymał też w pudełku jaszczurkę, której przyprawił skrzydła, rogi i brodę, by przerażać znajomych.
+
+Współcześni postrzegali go jako nieprzystającego do ich epoki. Artysta przechodził osobisty kryzys w wyniku odkrycia, że są rzeczy, których nie jest w stanie dokonać, czy też pojąć. Pogłębiały go także przejawy ludzkiej zazdrości i zawiści, z którymi coraz częściej się spotykał. Zapełniał strony swoich notatek komentarzami o zawiści. Potępiał kłamstwo, niewdzięczność, przemoc i pijaństwo, które ze względu na swoją wrażliwość z trudem tolerował. Chwilami jego notatki trąciły brakiem realizmu, gdy przedstawiał człowieka jako istotę, która jest naczyniem grubiaństwa.
+
+Latem 1515 r., kiedy w Rzymie panował ogromny upał, Leonardo podupadł na zdrowiu. 8 października wstąpił do florenckiego Bractwa św. Jana[s] na wniosek Gaiacqo, który za niego poręczył. Artysta został przyjęty większością głosów[t], jednakże utracił członkostwo z powodu nieuiszczenia opłaty za wpisowe.
+
+Wyjechał wówczas razem z papieską świtą do Florencji i Bolonii. Celem było spotkanie papieża z nowym francuskim władcą, Franciszkiem I[u]. Najpierw przybyli do portu Civitavecchia, a 30 listopada wjechali do Florencji. Powitało ich około pięćdziesięciu najbardziej wpływowych obywateli miasta i przejechali pod specjalnie dla nich wzniesionym łukiem triumfalnym. Papież zorganizował spotkanie najwybitniejszych artystów, aby wymienili się poglądami odnośnie tego, co należy uczynić, by przywrócić Florencji dawną świetność. Rozprawiano głównie nad odnowieniem Palazzo Medici i kościoła San Lorenzo, w którym znajdowała się kaplica Medyceuszy.
+
+7 grudnia papieski orszak wyruszył do Bolonii. Tam papież prowadził rozmowy z Franciszkiem I, a Leonardo poznał swojego przyszłego mecenasa. Król bardzo cenił artystę dzięki jego dziełu Ostatnia Wieczerza, które widział w Mediolanie[v]. Na dworze francuskim w Bolonii znajdował się Artur Boissif, którego portret Leonardo wykonał 14 grudnia przy użyciu sangwiny. 17 grudnia papież wyjechał z Bolonii. Gdy protektor Leonarda zm. 17 marca 1516 r., artysta nie widział sensu pozostania w Rzymie. W sierpniu dokonał pomiarów w bazylice San Paolo Fouri le Maura i wyruszył do Francji.
+
+Następnie Leonardo zamieszkał razem z Francescem Melzim w posiadłości Clos Lucé (Cloux), w pobliżu królewskiej rezydencji w zamku Amboise, którą król oddał do dyspozycji artysty, obdarzywszy go sowitym wynagrodzeniem[w]. Władca dał Leonardowi całkowitą swobodę i zapewnił wszelkie wygody. Otrzymał on do dyspozycji gosposię i kucharkę Mathurine. Choć Leonardo nosił tytuł królewskiego inżyniera, malarza i architekta, nie był obarczony licznymi obowiązkami. Król chciał mieć tylko możność rozmowy z artystą o dowolnej porze dnia i nocy. Pokój nad jadalnią służył artyście za pracownię. Artysta tworzył już raczej okazyjnie projekty kostiumów bądź szkice architektoniczne, gdyż jego prawa ręka była sparaliżowana w wyniku przebytego udaru mózgu. Mógł jeszcze rysować lewą, malowanie natomiast zostawiał Melziemu. Zachowały się kostiumy przeznaczone na bale maskowe i wizerunki jeźdźców, świadczące o powrocie do marzenia o stworzeniu posągu konnego. Ostatnim projektem architektonicznym był zamek w Romorantin. Leonardo zajmował się już głównie porządkowaniem notatek. Melzi sporządził listę książek, które mistrz pragnął jeszcze przeczytać. Były wśród nich:
+
+W pogodne dni Leonardo spacerował niekiedy po mieście i nad Loarą, a czasem szkicował jej nurty.
+
+W październiku 1517 r. Leonarda odwiedził kardynał Luigi d'Aragon ze swą świtą. Po poczęstunku przygotowanym przez Mathurine i krótkim przedstawieniu w kaplicy, gości wprowadzono do pracowni Leonarda. Artysta przedstawił im pokrótce dzieła, tj.: Mona Lisa, Święta Anna Samotrzeć, Jan Chrzciciel, które zachował w posiadaniu do końca życia. Zaprezentował im także swoje szkice anatomiczne. Następnego dnia goście wyruszyli do zamku Blois.
+Na wiosnę w 1518 r. Leonardo ciężko zachorował. Ostatnim jego projektem były dekoracje na chrzest Henryka, syna Franciszka I, i ślub Madeleine de Tour d'Auverge z Lorenzem de’Medici. Do ostatnich rysunków artysty należy Dama wskazująca. 19 czerwca w ogrodach w Cloux wydano przyjęcie na cześć króla. Wystawiono wówczas przedstawienie Raj, które było powtórzeniem inscenizacji z 1490 r. zaprezentowanej w zamku Sforzesco.
+
+23 kwietnia Leonardo w obecności notariusza królewskiego i świadków: Francesca Melziego, Battisty de Villanis, dwóch francuskich księży i trzech franciszkanów sporządził testament.
+
+Leonardo zmarł 2 maja 1519 r. w zamku Cloux. Według Vasariego, na łożu śmierci prosił o Najświętszy Sakrament i odprawienie namaszczenia chorych zgodnie z obrządkiem Kościoła katolickiego, a w chwili śmierci w ramionach miał trzymać go król[21]. Według historyka sztuki, profesora Karola Estreichera podana informacja na temat obecności króla w chwili śmierci Leonarda da Vinci jest wątpliwa; Francesco Melzi powiadamiając listownie rodzinę o śmierci mistrza nic nie wspominał o obecności króla[22].
+
+W maju został dokonany prowizoryczny pochówek, a wymarzony pogrzeb Leonarda odbył się 12 sierpnia. Artysta został pochowany w kościele kolegialnym Saint Florentin, w zamku Amboise, zgodnie z ostatnią wolą. Zażyczył sobie, by w pogrzebie uczestniczyło sześćdziesięciu biedaków, z których każdy miał nieść świecę i otrzymać za to zapłatę. Leonardo zapisał w testamencie prawa do dochodów z Naviglio di San Cristofano, meble oraz sprzęty kuchenne w Cloux swemu służącemu, Battiście de Villanis, natomiast Salai otrzymał od niego dom z winnicą nieopodal Mediolanu, którym zarządzał. Francesco Melzi dostał wszystkie notatki, narzędzia, szaty z Cloux i obrazy mistrza oraz dożywotnią pensję i możność pobrania wszystkich niewypłaconych Leonardowi pieniędzy jako swoich. Służącej Mathurine Leonardo zapisał płaszcz z czarnego sukna, sztukę materiału i 2 dukaty, a bracia artysty otrzymali od niego kwotę 400 skudów.
+
+Kościół Saint Florentin został zniszczony w czasie rewolucji francuskiej. W 1802 r. uznano, że nie da się go uratować i podjęto decyzję o jego zburzeniu. Podobno kościelny ogrodnik Goujon zebrał porozrzucane kości i pochował je w kącie. W 1863 r. poeta i leonardysta Arsène Houssaye przekopał teren dawnej kolegiaty i znalazł kawałki płyty z grobowca z literami: EO...DUS VINC i prawie cały szkielet z czaszką sporych rozmiarów. Uznał, iż są to szczątki Leonarda. Odkryte kości znajdują się obecnie w kaplicy św. Huberta na terenie zamku.
+
+W pierwszym wydaniu Żywotów najsławniejszych malarzy, rzeźbiarzy i architektów Giorgio Vasari napisał:
+
+Ów pogląd wyrażony w pierwszym wydaniu, Vasari zweryfikował osiemnaście lat później, w drugim wydaniu Żywotów.... Pominął wówczas wszystkie wzmianki o heretyckich spekulacjach i dodatkowo dodał informacje o rzekomym „gorliwym zwróceniu się ku wierze katolickiej i ku prawdom świętej religii chrześcijańskiej”[25] Prawdopodobnie swoją opinie zmienił pod wpływem Francesca Melziego, towarzysza i ucznia Leonarda, którego poznał w 1566 roku[26].
+
+Według XIX-wiecznego angielskiego historyka sztuki Edwarda McCurdy'ego, Leonardo nie przykładał wagi do teologicznych dogmatów i nie podchodził entuzjastycznie do żywotów chrześcijańskich świętych[27]. Do podobnych konkluzji w 1920 roku doszedł M. Jourdain, która zwrócił uwagę, że stosunek Leonarda mógł być wyraźnie pogardliwy wobec dogmatów wiary oraz (mógł on) pogardzać ułomnościami i praktykami duchowieństwa[28][x]. O sprzeciwie Leonarda wobec działań duchownych, m.in. Girolama Savonarolego i jego nakazie zniszczenia wszystkich książek, obrazów i drogich tkaniń, wspomina uznana, XIX-wieczna historyk sztuki[29] Mary Heaton. Jak twierdzi w świetle takiej postawy, człowiek o takich poglądach jak Leonardo był w swoich czasach postrzegany jako heretyk, a nawet ateista[30].
+
+Pod koniec XX wieku opinia na temat religijności Leonarda uległa zmianom. Czołowy znawca biografii artysty i okresu renesansu, Luke Syson, w 2011 roku twierdził, że chrześcijańskie przekonania Leonarda były „zasadniczo prawowierne” a jego studia naukowe pogłębiły tylko jego przekonania religijne[26]. Zdaniem Martina Kempa, Leonardo był przekonany, iż funkcjonowanie praw przyrody może być wyjaśnione fizycznie bez odnoszenia się do jakichkolwiek sił boskich i nadprzyrodzonych, jednakże w ustanowieniu tych doskonałych praw miał udział najwyższy stwórca[31]. Kempa zwraca również uwagę, że Leonardo wykonujący bezpośrednie badania anatomii człowieka zachęcał do „wysławiania pierwszego budowniczego takiej maszyny” i zwracał jednocześnie uwagę, że ciało człowieka „w niczym nie dorównuje ono duszy, która zamieszkuje owo ciało”[32]. Według Leonarda, zagłębianie tajemnic natury było tylko aktem uwielbienia Boga a nie herezją [33]. Niewątpliwie zachowane pisma Leonarda mają antyklerykalne inklinacje; negował w nich sens istnienia zakonów religijnych a zakonników nazywał zadufanymi w sobie hipokrytami. Nie przeszkadzało mu to jednak by z owymi zakonnikami współpracować o czym świadczą w niczym nie zakłócone prace przy powstawaniu Ostatniej Wieczerzy w Santa Maria delle Grazie[33].
+
+W piętnastotomowej New Catholic Encyclopedia Leonardo da Vinci wzmiankowany jest m.in. w haśle Empiricism poświęconemu stanowisku, że jedynie nauki przyrodnicze są źródłem prawdziwej wiedzy. Jest on wymieniany jako kluczowy reprezentant tego poglądu z okresu renesansu. Podkreśla się znaczenie racjonalności i eksperymentów naukowych dla Leonarda[34].
+
+Antonio da Vinci (starszy) – ur. 1372, zm. ok. 1465 r., syn ser Piera (starszego), mąż Lucii, ojciec ser Piera (młodszego), Giuliana, Violante i Francesca. Jako jedyny z rodu da Vinci nie wykonywał zawodu notariusza, zamiast tego wybrał życie ziemianina.
+
+Lucia da Vinci – ur. w 1392 r. córka notariusza z rodziny Toia di Bacchereto, żona Antonia (starszego), matka ser Piera (młodszego), Giuliana, Violante i Francesca.
+
+Caterina (lub Catarina) – ur. ok. 1427 r. matka Leonarda, Piery, Marii, Lisabetty, Francesca i Sandry. Nie wiadomo kim była, wieśniaczką czy córką drwala. W 1453 r. wzięła za męża Antonia di Piero Buti del Vacca. Było to małżeństwo z rozsądku, do którego nakłonili ją Vinci, dając w wianie sporą ilość pieniędzy.
+
+ser Piero da Vinci (młodszy) – ur. 19 kwietnia 1426 r., zm. 9 lipca 1504 r. we wtorek o godzinie siódmej, syn Antonia (starszego) i Lucii, ojciec Guglielma, Leonarda i Antonia (młodszego), florencki prawnik i księgowy. Należał do klasy średniej. W 1452 r. ożenił się z Albierą di Giovani Amadori. Rok po śmierci Albiery (1464 r.) ożenił się z Francescą. W 1467 r. zyskał tytuł notariusza i prawo wykonywania zawodu. W 1475 r. ożenił się po raz trzeci.
+
+Leonardo, dążąc do tworzenia rzeczy doskonałych, prowadził bardzo szczegółowe notatki, zapisując nie tylko spostrzeżenia naukowe i artystyczne, ale także osobiste przemyślenia, rozliczenia i listy. Sporządzał je pismem lustrzanym. Być może czynił tak, bo chciał je zachować w tajemnicy, jednak bardziej prawdopodobnym jest, iż wynikało to z jego leworęczności – dzięki takiemu sposobowi pisania nie rozmazywał atramentu.
+
+Podkreślał, że pragnie, by jego notatki kiedyś opublikowano. Możliwe, że sam zamierzał to uczynić, jednakże utrudnieniem była jego skłonność do przeskakiwania z tematu na temat. Nigdy nie zredagował notatek w takiej formie, by nadawały się do druku, jednak w związku z uczuciem nadchodzącej śmierci starał się porządkować swoje zapisy. W momencie jego śmierci większość notatek była powiązana tasiemkami, a reszta zebrana w oprawione w skórę zeszyty i notatniki.
+
+Po śmierci mistrza Melzi zabrał jego notatki do swojej rodowej posiadłości z zamiarem ich skatalogowania, jednak zadanie to przekraczało jego możliwości, mimo iż zatrudnił do pomocy dwóch pisarzy. Udało mu się tylko przygotować niekompletny wolumin poświęcony malarstwu, nazwany potem Traktatem o malarstwie.
+
+Po śmierci Melziego w 1570 r. zbiór odziedziczył jego syn Orazio, który jednak nie wykazywał żadnego nim zainteresowania. Pozbierał wszystkie papiery ojca, by zrobić w domu więcej miejsca, i schował wszystko w kredensie.
+
+Nauczyciel Orazio, Lelio Gavardi, bez trudu przekonał go, by oddał mu trzynaście woluminów notatek, które sprzedał księciu Toskanii. Po kilku latach mediolański mnich Mazenta przekonał księcia, by notatki wróciły w ręce rodziny Melzich. Gdy mnich przybył do domu Orazia, ten polecił, by mnich je zatrzymał, gdyż twierdził, że sam ma ich pod dostatkiem.
+
+Z czasem rozeszły się wieści o kolekcji Orazio. W jego domu zjawiali się liczni poszukiwacze skarbów i każdy wyjeżdżał z przynajmniej kilkoma stronicami wydartymi z notatników. W ten sposób zbiory rozproszyły się po świecie. Cześć znalazła się w zbiorach rodziny królewskiej w Windsorze, inne, przechodząc przez ręce szlachty i duchowieństwa, znalazły się w bibliotekach we Włoszech, Hiszpanii i Francji. Wiele zaginęło lub uległo zniszczeniu.
+
+Dziś wiadomo o istnieniu ok. 7000 stron notatek. Większość znajduje się w publicznych zbiorach, część należy do prywatnych kolekcji. Najbardziej znaną pozycją jest Kodeks Leicester, którego nazwę w 1980 roku zmieniono na Kodeks Hammera, kupiony w 1994 r. przez Billa Gatesa za 30 800 000 $. Ze źródeł o niepodważalnie wysokim stopniu pewności wynika, że na pewno istniało jeszcze ok. 6000 stron, jednakże niektórzy uczeni, w tym Martin Kemp, przypuszczają, że 80% notatek Leonarda zaginęło.
+
+Notatki Leonarda zawierały liczne opisy eksperymentów i wynikających z nich odkryć. Za życia Leonarda były znane tylko małej grupie artystów i kolekcjonerów sztuki, z których żaden nie miał pojęcia o nauce. Nikt nie znał koncepcji Leonarda aż do czasu, gdy Isaac Newton, Gottfried Wilhelm Leibniz, Pierre de Fermat i Christiaan Huygens odkryli je na nowo.
+
+W pracowni Verrocchia Leonardo da Vinci zapoznał się z zasadami perspektywy. Doskonale obrazuje to studium perspektywiczne do tła Pokłonu Trzech Króli. Pokazuje liczne linie pomocnicze, prowadzące z punktów położonych przy dolnej krawędzi obrazu do punktu zbieżnego. Im dalej od obserwatora znajdują się przedmioty, tym wydają się mniejsze.
+
+Niektórzy malarze ułatwiali sobie pracę przy konstruowaniu perspektywy, używając spektrografu, który został naszkicowany przez Leonarda. Rysownik spoglądał przez szklaną szybkę na odwzorowany obiekt i umieszczał jego kontury na szkle. Leonardo polecał także podobną pomoc przy wykonywaniu rysunków aktów. Potem w jego dziełach coraz większą rolę odgrywały perspektywa barwna i powietrzna.
+
+Malarz od początku miał świadomość, iż przestrzenne rozmieszczenie przedmiotów można uzyskać dzięki odpowiedniemu rozłożeniu świateł i cieni. Zdefiniował różne rodzaje źródeł światła (np.: światło pochodne, światło odbite) i jego odmiany, m.in.: aria restretta – światło wpadające przez okno i lumo libero – światło rozproszone w plenerze. Modelowanie ciał przy użyciu ciemnych i jasnych punktów badał w swoich szkicach, a doprowadzał do perfekcji w malarstwie.
+
+Artysta był także propagatorem techniki malarskiej zwanej sfumato. Leonardo stosował tę technikę, by pokazać powietrze znajdujące się między przedmiotami. W zapiskach o malarstwie podkreśla, że światło i cień muszą przechodzić w siebie bez tworzenia granic. W dziele Święta Anna Samotrzeć w pełni zrealizował te zasady.
+
+Farby, których używał, powstały z roślin, kory, ziemi i minerałów wymagających zmielenia i roztarcia na proszek, by otrzymać nadający się do użytku pigment. By ułatwić tę czynność, Leonardo skonstruował maszynę do ucierania farb.
+
+Uważał, że malarstwo jest ukoronowaniem sztuki, gdyż daje możność przekazywania form i bogactwa świata. Mówiono o nim, że jak nikt inny potrafi napełnić swoje postacie wewnętrznym życiem. Znakiem rozpoznawczym postaci w jego malarstwie stał się lekki, ledwo zaznaczony uśmiech, ukazany m.in. na sławnym dziele Mona Lisa. Leonardo twierdził, że powinno się malować zarazem człowieka i jego wnętrze duchowe.
+
+Leonardo wyszedł poza tradycyjny repertuar gestów malarstwa i poszukiwał nowych ruchów. Dążył do tego, by ciało w pełni wyrażało emocje. Jest to widoczne w Ostatniej Wieczerzy, gdzie każdy apostoł wykonuje inny gest, oddający jego stan uczuciowy. Leonardo stosował także kontrapost jako sposób wprowadzania dynamicznych napięć w kompozycji postaci.
+
+Rysunek krajobrazu, wykonany w 1473 r. przez Leonarda, jest jednym z pierwszych czystych przedstawień pejzażu. Od XV w. krajobrazy przedstawiane w tle obrazów religijnych czy portretów były żywe i bliskie przyrodzie. Leonardo opanował sztukę ukazania krajobrazu jako jednolitej, zwartej przestrzeni, która posiada głębię. Malarz uważał, iż krajobraz ma w sobie właściwość przekazywania nastrojów.
+
+W opinii Leonarda najwznioślejszą ze sztuk pięknych było malarstwo. Gdy zajmował się rzeźbieniem, wybierał miękkie tworzywa, jak glina czy wosk, które umożliwiały stopniowe modelowanie figury. Spośród wielkich projektów rzeźbiarskich żaden nie doczekał się realizacji, natomiast mniejszym pracom ciężko przypisać autorstwo Leonarda z całkowitą pewnością. Bazując na szkicach i notatkach artysty oraz dziełach z jego otoczenia można jednak uzyskać wyobrażenie o jego pracach rzeźbiarskich. W pracowni Verrocchia otrzymał fundamentalne wykształcenie w tej dziedzinie. W okresie młodości modelował głowy kobiet i śmiejących się dzieci. Możliwe, iż te dzieła były studiami do obrazów, gdyż w epoce renesansu często wykorzystywano figury plastyczne lub gipsowe odlewy jako środki pomocnicze w malarstwie. Ułatwiało to prowadzenie studiów nad rozłożeniem światła i cienia, proporcjami i pozycjami ciała. Przypisuje mu się wykonanie głowy z terakoty do rzeźby Młody Chrystus.
+Na pewno jednym z jego pierwszych zleceń rzeźbiarskich był Pomnik konny Francesca Sforzy. Leonardo wspominał w notatkach o obrazie Bitwa pod Anghiari o małych figurach z wosku, które stanowiły pomoc przy przedstawieniu koni i jeźdźców. Posąg konny wykonany w szkole Leonarda pozwala na wyobrażenie sobie, jak mogły wyglądać takie postaci. Być może Leonardo wykonał własnoręcznie rzeźbę. Dynamicznie wymodelowany efekt ruchu konia stającego dęba przypomina projekty artysty tworzone do pomników konnych. Zachowały się także niewielkie grupy rzeźb z pracowni florentyńskiego rzeźbiarza, Giana Francesca Rusticiego, które są prawdopodobnie związane z Bitwą pod Anghiari. Jest to tym bardziej prawdopodobne, że zimą 1507 r. Leonardo mieszkał w tym samym domu co Rustici i radził rzeźbiarzowi podczas pracy nad grupą w brązie, związaną z postacią świętego Jana.
+
+Potem w Mediolanie dowódca wojskowy, Gian Giacomo Trivulzio zlecił Leonardowi wykonanie pomnika konnego na nagrobek. Dla artysty była to kolejna sposobność do zajęcia się pomysłami pomnika konnego. Pomnik miał być ustawiony wewnątrz kaplicy, dlatego też został zaprojektowany w naturalnej wielkości. Artysta tworzył różne koncepcje pomnika, dodając bogato zdobiony postument architektoniczny. W końcowym projekcie prócz postaci jeźdźca były inne liczne rzeźby i płaskorzeźby. Gdy w 1512 r. Mediolan dostał się w ręce Allessandra Sforzy, Trivulzio stracił władzę i odsunięto na bok myśl o realizacji pomnika. Leonardo prawdopodobnie planował jeszcze pomnik konny dla Franciszka I. Żaden z projektów nie został zrealizowany z przyczyn technicznych. W projektach oryginalne jak na epokę było przedstawienie konia i dynamiczna koncepcja grupy tworzącej pomnik. Jedną z najbardziej kontrowersyjnych prac plastycznych z otoczenia Leonarda jest Popiersie Flory. Trwają spory, czy jest t dobrze odrestaurowany oryginał, czy też falsyfikat z XIX w.
+
+W czasie pobytu Leonarda w Mediolanie dyskutowane było zakończenie budowy katedry, nad którą prace zaczęły się 100 lat wcześniej. Wzniesienie wieńczącej kopuły przysparzało wielu kłopotów. Zarząd budowy szukał rad inżynierów z kraju i z zagranicy. Leonardo zainteresował się tym pomysłem. Mimo braku doświadczenia w pracy architekta, szybko przyswoił sobie informacje o siłach poziomych i obciążeniu łuku. Z pomocą cieśli Bernarda skonstruował drewniany model. Od lipca 1487 r. do stycznia 1488 r. otrzymywał od zarządu budowy niewielkie kwoty na związane z tym wydatki. Leonardo zaprojektował system przypór z myślą o poszerzeniu podstawy bębna kopuły. Sprawę budowy kopuły odłożono, powracając do niej po 3 latach. W międzyczasie Leonardo stracił zainteresowanie pomysłem.
+
+Leonardo da Vinci wykonywał także dla Ludovica Sforzy plany pawilonów ogrodowych. W 1489 r. sporządził rysunek elewacji i rzut poziomy niewielkiej budowli z kopułą. Budynek swoją formą przypominał świątynię. Prawdopodobnie projekt budowy pawilonu wiązał się z zaślubinami księcia Mediolanu z Izabelą Aragońską w lutym 1489 r. Na zagubionej karcie rękopisu Manuskryptu paryskiego B widniała inna wersja projektu. Budynek miał mieć ściany z różowego marmuru. W wyposażeniu zaprojektowano białe wanny, mozaiki z boginią Dianą i kurki w kształcie łebków węgorzy. Projekt ten został zrealizowany.
+
+Leonardo stworzył dla władcy projekt stutrzydziestometrowej wieży dla zamku Sforzów. Preferował centralne, symetryczne budowle, które we wszystkich częściach mają odniesienia do punktu środkowego. Artysta, mający skłonność do utopijnych projektów, stworzył w 1487 r. wizję idealnego miasta. W swoim zamyśle dążył do połączenia wymagań praktycznych i estetycznych. W tym okresie Leonardo zaprojektował także dom publiczny. Nie wiadomo, czy pomysł zrealizowano. W 1503 r. wpadł na pomysł zbudowania mostu w Konstantynopolu dla sułtana Bajazyda II. Pomysł oferty wysłał władcy w liście. Z czasem realizacja projektu doszła do skutku.
+
+W 1506 r. prowadził pertraktacje z Charlesem d’ Amboise na temat zbudowania dla niego letniej rezydencji nieopodal Porta Venezia. Willa miała stanąć na parceli między rzekami Nirone i Fontelunga. Leonardo dążył do dostosowania wszystkich elementów do zaleceń i wygody namiestnika. Zaprojektował portyki, loggie i przestronne pokoje wychodzące na park. W ogrodzie miały się znajdować pomarańczowe i cytrynowe drzewa, altana pokryta miedzianą siatką oraz liczne strumyki. Miał się tam także znajdować mały młyn ze skrzydłami, przypominający fontannę. W związku z projektem Leonardo planował także stworzenie świątyni Wenus. W lutym 1507 r. zaczął tworzyć projekty kościoła Santa Maria della Fontana. Miał on powstać na przedmieściach Mediolanu, gdzie biło źródło, któremu przypisywano cudowną moc. Rozpoczęto budowę kościoła, ale nigdy jej nie ukończono.
+
+W czasie pobytu w Villa Melzi w 1512 r. Leonardo zajął się jej upiększeniem. Sporządził ogólny plan jej wnętrz i najbliższego otoczenia. Zaprojektował pasaż ogrodowy i ogród tarasowy z widokiem na rzekę Addę. Zbudowano kopuły do narożnych wież i łukowej ściany oporowej od strony rzeki. W 1515 r. Leonardo współpracował z innymi artystami przy projekcie odnowienia kościoła San Lorenzo. Na swoich rysunkach planował wydłużenie placu koło kościoła. Na szkicu przedstawił rząd wyburzonych domów przed kościołem i plac sięgający Via Larga z boczną ścianą Palazzo Medici przekształconą w fasadę, stojącą frontem do placu. Ostatnim projektem architektonicznym był zamek w Romorantin, nie został on jednak zrealizowany.
+
+Projekt Pomnika konnego Francesca Sforzy
+
+Projekt pawilonu ogrodowego
+
+Projekt idealnego miasta
+
+Podczas obserwacji przyrody Leonardo sporządził liczne rysunki kwiatów. Wśród nich znalazło się m.in. Studium lilii, które wykonał do obrazu Zwiastowanie. Leonardo sporządzał też studia roślin do obrazu Madonna w grocie. Starał się dokładnie odtworzyć wszystkie cechy specyficzne danego gatunku. Wędrując po górach wykonywał badania drzew, roślin kwiatowych i traw pod względem rozwojowym. Zbierał liście i robił ich woskowe odlewy, co umożliwiało mu studiowanie zachodzących zmian. Jako pierwszy opisał systemy ulistnienia roślin.
+
+Zwierzęta odgrywały mniejszą rolę w twórczości artysty. Niekiedy tylko dla przyjemności tworzył szkice zwierząt. Przykładem jest rysunek ze Studiami kotów i smoka. W rozprawie O locie ptaków opisał ze szczegółami ruchy piór i skrzydeł ptaków podczas lotu, co potwierdzono dopiero kilka wieków później, gdy wynaleziono technikę filmowania w zwolnionym tempie.
+
+Studium lilii
+
+Studia kotów i smoka
+
+Studium o locie ptaków.
+
+Zainteresowanie Leonarda anatomią ciała człowieka wiązało się ze studiami do malarstwa. Artysta dążył do wiernego przedstawienia ludzkich ruchów. W 1489 r. planował napisanie traktatu na temat anatomii. Zgłębiał znajomość ludzkiej czaszki i twarzy. Narysował 8 szkiców – profile, przekroje i widoki z góry. Potem zajmował się systemem ścięgien i mięśni.
+
+Następnie Leonardo zajmował się badaniem proporcji ludzkiego ciała i matematycznych stosunków między jego częściami. Artystę zainspirował ku temu Witruwiusz, rzymski architekt i inżynier, który opisywał teorię i praktykę harmonijnych proporcji. Owocem tych prac jest szkic Człowiek witruwiański. Przedstawia on figurę nagiego mężczyzny w dwóch nałożonych na siebie pozycjach, wpisaną w okrąg i kwadrat.
+
+Po 1506 r. współpracował z profesorem anatomii, Marcantionem della Torre. Przeprowadzał zabronione wówczas sekcje zwłok, co wymagało przełamania jego wewnętrznych oporów. Przy wykonywaniu rysunków Leonardo dążył do uporządkowania oglądanych organów. Ktoś jednakże doniósł papieżowi o badaniach Leonarda. Gdy papież zakazał mu wykonywania sekcji zwłok, Leonardo korzystał z serc byków, by badać układ krwionośny.
+Artysta w szczególności interesował się powstaniem życia. W tym celu badał zjawisko ciąży. By sporządzić rysunek embrionu w łonie matki nie wykonywał sekcji, lecz zanalizował cielną krowę i przeniósł wyniki na człowieka. Było to pierwsze dokładne przedstawienie płodu w łonie matki. Opisał też dość szczegółowo układ kostny. Badał działanie układu oddechowego. Wykonał odlewy ludzkiego mózgu i komór serca.
+
+Embrion w łonie matki
+
+Studia szkieletu
+
+Człowiek witruwiański – studium proporcji ludzkiego ciała
+
+Temat wody był częsty w twórczości Leonarda. W malowanych przez niego krajobrazach przeważnie pojawiała się woda. Na jego pierwszym zachowanym szkicu, Rysunek krajobrazu, widać wodę spływającą w wodospadach. Sporządzał setki szkiców, w których skupiał się na zagadnieniach związanych z przepływem wody. Wykonywał eksperymenty, by zaobserwować w jaki sposób przepływająca woda reaguje na napotkane przeszkody oraz jak tworzą się wiry i odmęty.
+
+Leonarda fascynowały także destrukcyjne właściwości wody. Niejednokrotnie widział, jak rzeka Arno występowała z brzegów, pustosząc okolicę powodziami. Potem dramatycznie przedstawił w swoich tekstach powodzie przypominające biblijny potop. Na szkicach potopu nadał swoim wyobrażeniom fantastyczną formę. Pomysły ujarzmienia wody znalazły odzwierciedlenie w planach budowy kanałów i osuszania bagien.
+
+Wizja potopu
+
+Notatki o naturze wody
+
+Swych wynalazków Leonardo da Vinci dokonywał, gdy nie było jeszcze patentów, nie można zatem z całą pewnością stwierdzić, jak wiele z nich weszło do użytku, wywierając wpływ na życie wielu ludzi. Niektóre z nich to automatyczna nawijarka czy też maszyna do testowania wytrzymałości drutu na rozciąganie.
+
+Z ostatnio przeprowadzonych badań wynika, iż Leonardo jest także wynalazcą zamka kołowego, nad którym zaczął pracować w 1493 r., zaś historyk Claude Blair odkrył, iż prowincji Friuli w północnych Włoszech zaczęto wytwarzać zamki kołowe najpóźniej w 1510 r., a Leonardo pracował tam przez pewien czas, wykonując pomiary związane z fortyfikacjami na miejscowym zamku.
+
+Studia Leonarda nad ruchem wody zainspirowały go do zaprojektowania maszyn, które wykorzystywały jej siłę. Większość prac z dziedziny hydrauliki wykonał dla Ludwika Sforzy.
+
+Leonardo, przebywając we Francji, rozważając możliwości skanalizowania błotnistych terenów koło zamku Romorantin wpadł na pomysł wykonania aparatu do czerpania wód podziemnych. Urządzenie pompowało wodę za pomocą śruby obracającej się wewnątrz cylindra[35].
+
+W notatnikach Leonarda znajduje się szereg maszyn wojennych, m.in. czołg miotający małe kamienie, wprawiany w ruch przez dwóch mężczyzn napędzających wał korbowy. Mimo iż rysunek wyglądał na całkiem skończony, mechanika najwyraźniej nie była do końca dopracowana. Model zbudowany według projektu z 1484 r. mógł zaledwie z dużym wysiłkiem obracać się w miejscu, ale nigdy nie poruszał się prosto.
+
+Kolejna maszyna miała z przodu cztery kosy przymocowane do mechanizmu obracającego. Siłę napędową stanowiły konie.
+
+W notatkach Leonarda można też znaleźć działa, które były opisywane jako:
+
+Zaprojektował także wielką kuszę, jej szczegółowy projekt został wykorzystany przez brytyjską armię, jednak z broni nie udało się wystrzelić.
+
+Według Michaela Mosleya, producenta filmu dokumentalnego Leonardo dla stacji BBC, mogą być dwa powody dla których projekty maszyn wojennych zrekonstruowane przez współczesnych inżynierów okazały się wadliwe. Pierwszym z nich mogła być ochrona w pełni funkcjonalnych wynalazków przed skopiowaniem, drugi mógł odnosić się do światopoglądu Leonarda da Vinci, który w gruncie rzeczy był pacyfistą i celowo wprowadził błędy do swoich projektów, aby przywódcy wojskowi dla których pracował nie mogli użyć ich w walce[36].
+
+W niemowlęctwie nad kołyską Leonarda przeleciał jastrząb. Wspominając to wydarzenie, da Vinci uważał je za prorocze[37].
+
+Im głębsza była jego wiedza o prawach fizyki, rządzących ciężarem ciała, siłą i ruchem, tym bliższe zdawało się rozwiązanie. Jego późniejsze dzienniki zawierają szczegółowe opisy badań nad lotem ptaków i kilka różnych projektów skrzydeł bazujących na strukturze skrzydeł nietoperzy, które opisał jako lżejsze dzięki niezgłębionej tajemnicy ich błony. W celu sprawdzenia skuteczności działania swoich pomysłów wykonywał modele z papieru i wosku. Nie ma pewności co do tego, czy Leonardo osobiście wykonywał próby lotów.
+
+Jeden z jego projektów ukazuje helikopter podnoszony przez wirnik, wprawiany w ruch przez czterech mężczyzn. Leonardo nie ograniczał się tylko do projektowania latających maszyn z mechanicznymi skrzydłami, zaprojektował także spadochron. Lotnik miał się go trzymać za pomocą rąk. Projekt został pomyślnie przetestowany 26 czerwca 2000 przez brytyjskiego skoczka spadochronowego, Adriana Nicholasa[38].
+
+Wpadł również na pomysł lekkiej lotni. Projekt powstał w latach 1478–1480. Skrzydła były rozpięte na szkielecie siatkowym. Jej ogon był rozpostarty w wachlarz jak u ptaka.
+
+Różne urządzenia hydrauliczne.
+
+Projekt gigantycznej kuszy.
+
+Projekt czołgu.
+
+Projekt helikoptera.
+
+Projekt latającej maszyny ze skrzydłami, strukturą przypominającymi skrzydła nietoperza.
+
+Rekonstrukcja maszyny latającej ze skrzydłami.
+
+Spadochron.
+
+Leonardo był także pisarzem. Swoje literackie zamiłowania odkrył dzięki poecie, Antoniemu Cammelliemu, którego poznał w czasie pobytu w 1477 w Pistoi. Najwięcej utworów zawarł w rękopisie Kodeks Atlantycki. Jego styl był oszczędny, potoczny i nieoszlifowany. W swojej twórczości ukazywał m.in. szczególny stosunek do przyrody. Pisał także bajki, które na język polski przetłumaczył Leopold Staff[39]:
+
+Bernardo Belicioni przygotował przedstawienie kostiumowe Il Paradiso (Raj) z okazji ślubu księcia Gian Galeazza Sforzy z Izabellą Aragońską. Leonardo zajął się przygotowaniem scenografii i kostiumów. Wystawiony 13 stycznia 1490 r. spektakl był pierwszym przedsięwzięciem teatralnym, w które zaangażował się artysta z Florencji. Ściany sali były pokryte jedwabiem, ozdobionym girlandami z liści. W jednym końcu, ponad podium dla muzyków, znajdowała się dwunastometrowa pochyła scena wyłożona dywanami. Na drugim końcu był „raj” z siedmioma planetami, ukryty za jedwabną kurtyną. Kurtynę odsłonięto o północy. „Raj” miał kształt jaja z pozłacanym wnętrzem, licznymi światłami i wnękami, w których na różnych wysokościach, zgodnie z położeniem na niebie, znajdowało się 7 obracających się w koło planet, które przedstawiali mężczyźni w kostiumach przypominających każdą z nich. Planety miały stanowić wyraz hołdu dla Izabelli. Górną krawędź półkuli okalało 12 znaków zodiaku, podświetlonych zza szkieł. Wówczas wystąpił chłopiec przebrany za anioła, rozpoczynając spektakl. Po przedstawieniu pozostało niewiele śladów w notatkach Leonarda da Vinci. Zachowały się szkice tkaniny w biało-niebieską kratę do nieba na scenie oraz lista wydatków, w tym: na złoto i klej do jego przytwierdzenia oraz 25 funtów wosku na gwiazdy.
+
+W 1490 r. Leonardo zajął się oprawą połączonych ślubów Ludovica Sforzy z Beatrice d’Este i Anny Sforzy z Alfonsem d’Este. Jedną z imprez był turniej zorganizowany przez Galeazza Sanseverina. Giermkowie i słudzy Sanseverina byli przebrani w zwierzęce skóry, liście i korę, naśladując barbarzyńców i wymachując maczugami. Dzierżący złotą tarczę i noszący na głowie złoty hełm z krętymi rogami, zakończony smokiem z ogonem sięgającym zadu konia, Sanseverino odgrywał rolę ich władcy.
+
+Na początku lat 90. XV w. Leonardo zaprojektował kostiumy na festyn organizowany przez Sforzów. Przykładem jest czarno-biały szkic, na którym uczestnik spektaklu ma na sobie łeb słonia ze sterczącą trąbą. Leonardo zaprojektował także 2 maski psów. Po odwróceniu o 180° mordy mopsa zmienia się ona w pysk nietoperza. Przyczepione do masek uzdy wskazują, iż były one zaprojektowane z myślą o sługach ciągnących rydwan lub platformę.
+
+Leonardo zajmował się także dekoracją letniego pałacu Sforzy w Vigevano – Sforzesco. Rozpoczął prace 2 lutego 1494 r. W kosztorysie wymienił prace nad dekoracją schodów, sklepień, okien i 24 obrazy z historii Rzymu. Do pracy użył m.in. błękitu, złota i pilastrów. W kwietniu 1507 r. zaprojektował plastyczną oprawę uroczystości wjazdu Ludwika XII do Mediolanu. Król przejechał z ulicy Duomo do zamku przez Via Dante, udekorowaną łukami triumfalnymi z roślin, z herbami Francji i Bretanii, wizerunkami Chrystusa i świętych, rydwanem z alegoriami cnót kardynalnych oraz bogiem Marsem ze strzałą w jednej ręce i gałązką palmową w drugiej. Całości dopełniały maskarada i tańce.
+
+W latach 1508–1509 artysta zajmował się m.in. oprawą dworskich przedstawień. Zajmował się pracą nad operą Orfeusz. Wśród jego szkiców scenograficznych zachowały się rysunki pasm górskich z grotą pośrodku. Obok znajdował się rysunek mechanizmu złożonego z wielokrążków i przeciwwag, który poruszał zza kulis dekorację. W efekcie góra miała się otwierać i odsłaniać sadybę Hadesa. Grota miała być obrazem piekła z diabłami, Furiami, Cerberem i mnóstwem nagich płaczących dzieci. W rzeczywistości była to powtórka widowiska dla dworu Karol Amboise, które artysta wystawił najprawdopodobniej w 1490 r. w Mantui. Brał w nim udział jego pomocnik Atalante Migliorotti. W czasie przedstawienia każdej postaci towarzyszył akompaniament różnych instrumentów – Orfeuszowi wiole basowe, Eurydyce wiole sopranowe, Hadesowi puzony, a Charonowi gitary. W 1998 wśród rycin i rysunków z kolekcji Stefana della Bella odkryto szkic piórkiem będący pozostałością po tym przedstawieniu, przedstawiający Orfeusza napadniętego przez Furie.
+
+W 1509 r. Leonardo przygotował oprawę tryumfalnej parady na cześć Ludwika XII, która miała miejsce 1 lipca. Została urządzona z okazji powrotu króla do Mediolanu po zwycięstwie nad Republiką Wenecką pod Agnadello w połowie maja. W czasie uroczystości przedstawiono m.in.: walkę smoka (symbol Francji) z lwem (symbol Wenecji), a na Piazza del Castello znalazła się płaskorzeźba konia z figurą na grzbiecie. W 1518 r. zaprojektował na rysunku kostium dla pikiniera z powiewającymi rękawami.
+
+Ostatnim jego projektem były dekoracje na chrzest Henryka, syna Franciszka I, i ślub Madeleine de Tour d'Auverge z Lorenzem de’Medici. Na placu na północ od zamku Cloux wzniesiono łuk triumfalny. Znajdowała się na nim naga figura z wyrzeźbionymi liliami w jednej ręce i delfinem z drugiej[z]. Z jednej strony łuk zdobiła salamandra z mottem Franciszka I: Nutrisco et extinguo (Żywię i gaszę), a z drugiej strony widniało hasło: Potius mori quam foedari (Lepiej umrzeć, niż się skalać).
+
+Artysta uważał, że człowiek ma prawie nieograniczone możliwości, jednakże nie jest w stanie niczego osiągnąć bez większego wysiłku. Uznawał, że za pomocą techniki i sztuki człowiek może podporządkować sobie świat. Technika daje możliwość władania nad siłami przyrody, sztuka natomiast odtwarza i poszerza piękno świata. Dzielił ludzi na:
+
+Doradzał umiar i nieprzywiązywanie się do rzeczy materialnych. Radził, abyśmy wszystko, co chcemy wiedzieć, rozpatrywali z potrójnej perspektywy. Podkreślał, że należy nieustannie doskonalić zmysły, a w szczególności zmysł wzroku, by pogłębiać procesy doświadczenia.
+
+Uważał, że należy dążyć do zjednoczenia ciała i umysłu, poprzez kultywowanie sprawności fizycznej i umysłowej. Leonardo rozumiał dynamiczne, a często paradoksalne relacje zachodzące między przeciwieństwami. Opinię na ten temat wyraził m.in.: w komentarzu do Alegorii przykrości i rozkoszy.
+
+Da Vinci postrzegał przyrodę w sposób empiryczny i naukowy, w przeciwieństwie do innych uczonych z jego epoki. Uważał, że prawda, nawet gdy dotyczy drobnostek, przeistacza niepewne poglądy w najbardziej wzniosłe zagadnienia. Tym poglądem Leonardo odwoływał się do stanowiska Wilhelma Ockhama.
+
+Z notatek artysty wynika, że interesował się także metafizyką. Na jednym ze studiów czaszki, wyznaczającym proporcje, napisał:
+
+Ten punkt zbiegu zmysłów to opisywany przez Arystotelesa zmysł wspólny – sensus communis – część mózgu koordynująca i interpretująca wrażenia zmysłowe. Leonardo uznawał, iż jest to siedziba intelektu, wyobraźni, a nawet duszy. Także w sensie arystotelesowskim Leonardo określił światło jako jedną z sił duchowych – jako energię pozbawioną masy.
+
+Postać, życie i twórczość Leonarda da Vinci są motywem przewodnim wielu dzieł literackich, wytworów sztuki, filmów i twórczości muzycznej. Nazwisko Leonarda jest chętnie wykorzystywane w nazewnictwie.
+
+Włoski architekt Cesare Cesariano w tłumaczeniu dzieła O architekturze ksiąg dziesięć Witruwiusza zamieścił rycinę Człowieka witruwiańskiego z członkiem w stanie wzwodu. Włoski artysta Donato Bramante nadał postaci Heraklita z Efezu z obrazu Zbrojni wygląd Leonarda da Vinci. Później Paulo Lomazzo stworzył obraz o podobnej tematyce, w którym również nadał Heraklitowi wygląd Leonarda, wzorując się na słynnym autoportrecie starca z długą brodą.
+
+Obraz powszechnie uznany za portret Leonarda da Vinci z pewnością został wykonany przez niego samego, jednak nie ma powszechnej pewności co do tego, czy przedstawia właśnie jego, z uwagi na wiek sportretowanej osoby, która robi wrażenie starszej od Leonarda. Niektórzy uważają, że jest to portret ojca lub dziadka artysty. Pojawiło się także inne wytłumaczenie, postulujące, że Leonardo specjalnie narysował siebie w podeszłym wieku, aby Rafael mógł wykorzystać obraz dla odzwierciedlenia jego osoby w Szkole Ateńskiej jako Platona. Rysunek ten był także podstawą dla wielu innych obrazów przedstawiających Leonarda da Vinci.
+
+W roku 1818 francuski malarz Jean-Auguste-Dominique Ingres przedstawił scenę śmierci Leonarda, mającą miejsce w domu „Clos Luce” udostępnionym mu przez króla Francji Franciszka I Walezjusza. Na obrazie – według opisu Giorgio Vasariego – król podtrzymuje głowę Leonarda w chwili jego śmierci.
+
+W 1999 roku w Mediolanie odsłonięto wysoki na 24 stopy posąg konia, który został odtworzony według rysunków Leonarda przez Charlesa Denta, a następnie odlany z brązu przez Ninę Akamu.
+
+Przed 1495 r. powstała książka o tytule Starożytności rzymskie w perspektywie, zadedykowana Leonardowi:
+
+Anonimowy autor omawia w nim starożytne zabytki Rzymu i zaprasza Leonarda da Vinci do wspólnego zwiedzania.
+
+Giorgio Vasari opisał życie Leonarda da Vinci w swojej historii sztuki Żywoty najsławniejszych malarzy, rzeźbiarzy i architektów, gdzie stwierdził, że co tylko da Vinci stworzył, było tak wspaniałe, iż trudno powiedzieć, czy to nie jest zrobione „z ręki Boga”.
+
+W 1998 roku Micheal J. Gelb stworzył poradnik o tytule: Jak myśleć jak Leonardo da Vinci, w którym analizuje geniusz artysty i odkrywa siedem zasad, stanowiących fundament egzystencji Leonarda.
+
+Powieść Kod Leonarda da Vinci autorstwa Dana Browna wzbudziła kontrowersje dotyczące dokładności przedstawienia w niej chrześcijaństwa i osoby artysty. Bestseller z roku 2003 został w 2006 także zekranizowany. Akcja książki bazuje na konspiracji związanej z częściami obrazu „Ostatnia Wieczerza” i innych prac Leonarda. Wstęp do książki podaje, że przedstawione w niej prace artystyczne, tajemne społeczności i rytuały są autentyczne. Z tego powodu duża część treści książki została przyjęta przez czytelników jako miarodajna. Z uwagi na to, że akcja powieści zakłada konspirację w strukturach Kościoła katolickiego z czasów Jezusa i sugestię, jakoby Kościół ukrył fakt małżeńskiego życia Jezusa, książka wywołała silne reakcje przeciwników zakładanych przez nią tez oraz powstanie dużych ilości materiału badawczego, obalającego przedstawiane przez nią założenia. Autor książki podaje w niej, że w latach 1510–1519 Leonardo da Vinci był Wielkim Mistrzem tajemnej społeczności o nazwie Zakon Syjonu. Książka wykorzystywała też wariację na temat pisma odręcznego Leonarda, które pisane „od tyłu” kryło tajemną informację na obwolucie amerykańskiej książki.
+
+Martin Kemp napisał wiele opracowań o życiu i twórczości mistrza, między innymi książkę Leonardo: A Very Short Introduction (Leonardo: Krótkie wprowadzenie), wydaną w 2004 roku.
+
+Postać genialnego wynalazcy i artysty, Leonarda z Quirmu, wzorowana na obiegowych opiniach o Leonardzie da Vinci, występuje w kilku powieściach z cyklu Świat Dysku autorstwa Terry’ego Pratchetta.
+
+Imię Leonarda da Vinci noszą między innymi położony 30 km od centrum Rzymu międzynarodowy port lotniczy w Fiumicino i zaprojektowany przez Vebjørna Sanda most Leonarda nad autostradą łączącą Norwegię i Szwecję. Przedsięwzięcie, które od 1994 r. kształtuje tzw. europejską przestrzeń edukacyjną w ramach Unii Europejskiej, zostało nazwane Programem Leonardo da Vinci.
+
+Już w 1490 liczni artyści naśladowali styl twórczości Leonarda. Naśladowcy przejmowali charakterystyczne dla niego środki artystyczne, m.in.: rozpylenie konturu w świetle, czy znane uśmiechy. Byli to głównie uczniowie Leonarda i leonardianie. Malowanym przez nich postaciom często brak jednak było witalności, bogactwa psychologicznego oraz połączenia nauki ze sztuką, stanowiącego podstawę artystycznych dokonań Leonarda.
+
+Rafael Santi dzięki zetknięciu się z Leonardem i Michałem Aniołem porównującymi swe zdolności przy pracy nad tematem bitew, oraz zapoznaniu się z doświadczeniami tych artystów, dokonał ogromnego przekształcenia swojego stylu ukształtowanego pod wpływem Pietro Perugina. Znaczący wpływ na Rafaela wywarł Karton do obrazu świętej Anny Samotrzeć, ukazujący artyście nowe środki wyrazu i organizacji formalnej.
+
+Wpływy Leonarda w Lombardii były bardzo silne w pierwszych dziesięcioleciach XVI w. Bernardino de Conti trzymał się archaicznych i sztywnych reguł quattrocenta. Bernardino Luini akcentował prostotę i w naiwny sposób oddawał psychologiczny wyraz postaci. Również Cesare da Sesto często naśladował Leonarda.
+
+Piero di Cosimo dostrzegał w malarstwie Leonarda i artystów północnych nowe wzory naturalizmu. Unikał idealizacji nawet w klasycznych scenach. Andrea del Sarto, Jacopo Pontormo i Fiorentino Rosso jako jedni z pierwszych uchwycili zachodzące historyczne przemiany w sztuce.
+
+Leonardo wywarł głęboki wpływ na twórczość późniejszych epok, mimo iż często przy pierwszym zetknięciu wydaje się ona zaczerpnięta z dzieł Rafaela czy Michała Anioła. Formy Leonarda były podstawą dzieł Cesare Magniego, wpłynęły na styl i szkołę Gerolama, Giovanniego Figina i Giovanniego Lomazza.
+
+Różnorakie kopie i ryciny dzieł Leonarda z XVI i XVII w. świadczą o przejęciu form widocznych w kompozycjach i zasadach proporcji. U Hansa Holbeina wpływy Leonarda widoczne są w przedstawieniu półfigur kobiecych. Wydźwięk Leonarda u artystów takich jak Peter Paul Rubens i Rembrandt uważa się za następstwo teoretycznych osiągnięć artysty.
+
+
+[END]
+
+
+[GALLERY]:
+<NO DATA>
