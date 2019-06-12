@@ -91,10 +91,11 @@ class Painter:
         to_print += end_line + end_line
 
         for crawler, text in self.raw_texts.items():
-            to_print += end_line
-            to_print += "["+crawler+"]:"+end_line
-            to_print += text
-            to_print += end_line + end_line
+            if crawler is not "interpreted":
+                to_print += end_line
+                to_print += "["+crawler+"]:"+end_line
+                to_print += text + end_line + "[END]"
+                to_print += end_line + end_line
 
         to_print += self.print_dictionary("[GALLERY]:", self.link_dict)
 
